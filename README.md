@@ -1,3 +1,3 @@
 # LanguageCops
-A text-based game project 
-/n For Orbital 2022
+A text-based game project \n
+For Orbital 2022
