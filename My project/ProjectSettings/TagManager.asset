@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2516516001
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Items layer
+    uniqueID: 1397552379
+    locked: 0
+  - name: Character layer
+    uniqueID: 3773667797
+    locked: 0
+  - name: Textbox layer
+    uniqueID: 1482276791
     locked: 0
