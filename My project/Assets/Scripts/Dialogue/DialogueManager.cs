@@ -25,11 +25,7 @@ public class DialogueManager : MonoBehaviour
 
 
     // Start is called before the first frame update
-    public void Button()
-    { 
-        Debug.Log("Button is pressed");
-    }
-    
+   
     void Start()
     {
         //initiate an instance "sentence" using the constructor 
