@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PhoneButtonUI : MonoBehaviour
 {
-    public Object phone;
-    public void LoadPhone()
+    public Object NextScene;
+    public void LoadNextScene()
     {
-        SceneManager.LoadScene(phone.name);
+        SceneManager.LoadScene(NextScene.name);
     }
     
 }

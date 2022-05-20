@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  phone: {fileID: 102900000, guid: 12440f873ed812244aba2a3e20c408b9, type: 3}
+  NextScene: {fileID: 102900000, guid: 12440f873ed812244aba2a3e20c408b9, type: 3}
 --- !u!114 &1527551527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,8 +577,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1527551526}
-        m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: LoadPhone
+        m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
+        m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
