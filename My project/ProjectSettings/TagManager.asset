@@ -44,6 +44,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
   - name: Items layer
     uniqueID: 1397552379
     locked: 0
@@ -52,4 +53,20 @@ TagManager:
     locked: 0
   - name: Textbox layer
     uniqueID: 1482276791
+=======
+  - name: Background
+    uniqueID: 2009291211
+    locked: 0
+  - name: 'Character '
+    uniqueID: 1608782405
+    locked: 0
+  - name: 'Dialogue Box '
+    uniqueID: 177702769
+    locked: 0
+  - name: Text
+    uniqueID: 1417526209
+    locked: 0
+  - name: UI
+    uniqueID: 1325188301
+>>>>>>> dialogue-and-control
     locked: 0
