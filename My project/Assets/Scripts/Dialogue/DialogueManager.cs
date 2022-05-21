@@ -23,6 +23,12 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject image;
 
+    public GameObject popUp;
+
+    public string nameWithGrammar;
+
+    private bool specialDialogue;
+
 
     // Start is called before the first frame update
    
@@ -37,6 +43,8 @@ public class DialogueManager : MonoBehaviour
         textBox.SetActive(false);
         ContinueButton.SetActive(false);
         image.SetActive(false);
+        popUp.SetActive(false);
+        specialDialogue = false;
         
     }
 
@@ -47,6 +55,7 @@ public class DialogueManager : MonoBehaviour
         textBox.SetActive(true);
         ContinueButton.SetActive(true);
         image.SetActive(true);
+        popUp.SetActive(false);
         
         
         nameText.text = dialogue.name;
@@ -79,6 +88,8 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = sentence;
      }
 
+     
+    
      void EndDialogue() 
      {
         nameBox.SetActive(false);
@@ -86,6 +97,17 @@ public class DialogueManager : MonoBehaviour
         textBox.SetActive(false);
         ContinueButton.SetActive(false);
         image.SetActive(false);
+        if (specialDialogue)
+        {
+            popUp.SetActive(true);
+        }
+        specialDialogue = false;
+     }
+
+     public void SpecialDialogue()
+     {
+            specialDialogue = true;
+        
      }
 
     
