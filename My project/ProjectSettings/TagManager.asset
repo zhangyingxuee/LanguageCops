@@ -39,34 +39,20 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Background
-    uniqueID: 2516516001
+    uniqueID: 1042147579
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
-  - name: Items layer
-    uniqueID: 1397552379
+  - name: Items
+    uniqueID: 3213387357
     locked: 0
-  - name: Character layer
-    uniqueID: 3773667797
-    locked: 0
-  - name: Textbox layer
-    uniqueID: 1482276791
-=======
-  - name: Background
-    uniqueID: 2009291211
-    locked: 0
-  - name: 'Character '
-    uniqueID: 1608782405
-    locked: 0
-  - name: 'Dialogue Box '
-    uniqueID: 177702769
-    locked: 0
-  - name: Text
-    uniqueID: 1417526209
+  - name: Player
+    uniqueID: 3944887961
     locked: 0
   - name: UI
-    uniqueID: 1325188301
->>>>>>> dialogue-and-control
+    uniqueID: 3355239649
+    locked: 0
+  - name: Dialogue
+    uniqueID: 2250161971
     locked: 0

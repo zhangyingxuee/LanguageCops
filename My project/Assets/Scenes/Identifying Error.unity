@@ -494,7 +494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 347.5, y: 195.4}
+  m_AnchoredPosition: {x: 427.00003, y: 195.4}
   m_SizeDelta: {x: 694.99994, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &388766159
@@ -866,7 +866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 347.49997, y: 195.4}
+  m_AnchoredPosition: {x: 427, y: 195.4}
   m_SizeDelta: {x: 694.99994, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &977185513
@@ -1114,7 +1114,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.718084
+  orthographic size: 7.292297
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1146,7 +1146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115654047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -0.83, z: -10}
+  m_LocalPosition: {x: 0.08, y: -0.95, z: -10}
   m_LocalScale: {x: 2.7590625, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1209,7 +1209,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1778451295
+  m_SortingLayerID: 1042147579
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d970a39e643fd68429ee2699fe5bae7e, type: 3}
@@ -1556,6 +1556,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1115654048}
+    - target: {fileID: 3925195675468921208, guid: 62f0d4c71d52d5e4cbf9256718121a4d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1081579939
+      objectReference: {fileID: 0}
     - target: {fileID: 4153660066296470782, guid: 62f0d4c71d52d5e4cbf9256718121a4d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 467.55
@@ -1889,6 +1893,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1115654048}
+    - target: {fileID: 8648039077276195262, guid: 07dbf29fd5e8fdf48b834af2f3f375bd, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1081579939
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07dbf29fd5e8fdf48b834af2f3f375bd, type: 3}
 --- !u!1 &1690647942
@@ -1989,7 +1997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 347.5, y: 195.4}
+  m_AnchoredPosition: {x: 433, y: 197}
   m_SizeDelta: {x: 694.99994, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1743854556 stripped
@@ -2608,7 +2616,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 1397552379
+  m_SortingLayerID: -1081579939
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &2076676306
