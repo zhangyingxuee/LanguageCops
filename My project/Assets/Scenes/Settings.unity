@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: {fileID: 102900000, guid: 4a0e7c74b7410b54f9593134c42fe17a, type: 3}
+  Phone: {fileID: 0}
 --- !u!114 &1913085195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: {fileID: 102900000, guid: 12440f873ed812244aba2a3e20c408b9, type: 3}
+  Phone: {fileID: 0}
 --- !u!114 &1981886091
 MonoBehaviour:
   m_ObjectHideFlags: 0

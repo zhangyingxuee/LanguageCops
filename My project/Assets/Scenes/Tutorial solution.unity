@@ -449,7 +449,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 2
+  Phone: {fileID: 0}
+  Phone_main: {fileID: 0}
+  Phone_setting: {fileID: 0}
+  Phone_solving: {fileID: 0}
 --- !u!114 &541228641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,7 +970,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1165936757
 GameObject:
@@ -1067,7 +1070,7 @@ RectTransform:
   - {fileID: 1742404632}
   - {fileID: 541228639}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1388,7 +1391,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767526090
 GameObject:
@@ -1472,7 +1475,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2012149613
 GameObject:

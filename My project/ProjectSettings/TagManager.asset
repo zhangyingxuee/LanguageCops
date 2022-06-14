@@ -38,21 +38,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: Cafe-Background
     uniqueID: 1042147579
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Items
+  - name: Cafe-Items
     uniqueID: 3213387357
     locked: 0
-  - name: Player
+  - name: Cafe-Player
     uniqueID: 3944887961
     locked: 0
-  - name: UI
+  - name: Cafe-UI
     uniqueID: 3355239649
     locked: 0
-  - name: Dialogue
+  - name: Cafe-Dialogue
     uniqueID: 2250161971
+    locked: 0
+  - name: Phone-background
+    uniqueID: 3754413071
+    locked: 0
+  - name: Phonr-UI
+    uniqueID: 2679712047
     locked: 0

@@ -9,6 +9,11 @@ public class OptionButton : MonoBehaviour
     public GameObject Current;
     private void Start()
     {
+        GameEvents.current.onCloseCafe += OnCloseCafe;
+
+    }
+    private void OnCloseCafe()
+    {
         Current.SetActive(true);
         Incorrect.SetActive(false);
         Correct.SetActive(false);
