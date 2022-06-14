@@ -2625,7 +2625,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103858675
 GameObject:
@@ -3564,8 +3564,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1042147579
-  m_SortingLayer: -1
+  m_SortingLayerID: -540554225
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d970a39e643fd68429ee2699fe5bae7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3585,13 +3585,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334524257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0802, y: -0.8423, z: 0}
   m_LocalScale: {x: 0.6563601, y: 0.6424009, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1336536543
 GameObject:
@@ -4142,6 +4142,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1115654048}
+    - target: {fileID: 4292879533102368557, guid: 62f0d4c71d52d5e4cbf9256718121a4d, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4292879533102368557, guid: 62f0d4c71d52d5e4cbf9256718121a4d, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6854007200221501766, guid: 62f0d4c71d52d5e4cbf9256718121a4d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4429,8 +4437,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3302286231248829032, guid: 07dbf29fd5e8fdf48b834af2f3f375bd, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302286231248829032, guid: 07dbf29fd5e8fdf48b834af2f3f375bd, type: 3}
       propertyPath: m_UiScaleMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4613329992810500008, guid: 07dbf29fd5e8fdf48b834af2f3f375bd, type: 3}
       propertyPath: m_IsActive
@@ -5105,7 +5117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1782052877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5135,9 +5147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 2.5
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0

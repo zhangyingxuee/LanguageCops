@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3112633201487142420}
   - component: {fileID: 6130856566003653403}
   - component: {fileID: 5824504790134977231}
-  - component: {fileID: 1384438023}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -123,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1384438023}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
         m_MethodName: LoadNextScene
         m_Mode: 1
@@ -135,19 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1384438023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366151077758648820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextScene: {fileID: 102900000, guid: 7c181abc790744b41b8751dced653d0f, type: 3}
 --- !u!1 &4326744161078797946
 GameObject:
   m_ObjectHideFlags: 0
