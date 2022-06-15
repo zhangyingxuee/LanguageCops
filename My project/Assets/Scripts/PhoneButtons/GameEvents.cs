@@ -19,4 +19,14 @@ public class GameEvents : MonoBehaviour
             onCloseCafe();
         }
     }
+
+    public event Action<int> onAddingItem;
+    public void AddingItem(int count)
+    {
+        if (onAddingItem != null)
+        {
+            onAddingItem(count);
+        }
+    }
+
 }

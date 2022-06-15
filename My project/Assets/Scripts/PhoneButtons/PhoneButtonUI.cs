@@ -11,10 +11,12 @@ public class PhoneButtonUI : MonoBehaviour
     public GameObject Phone_main;
     public GameObject Phone_setting;
     public GameObject Phone_solving;
+    public GameObject Phone_notes;
     private bool state = false;
     private bool state_main = false;
     private bool state_setting = false;
     private bool state_solving = false;
+    private bool state_notes = false;
 
     public void OpenPhone()
     {
@@ -24,6 +26,7 @@ public class PhoneButtonUI : MonoBehaviour
 
         state_main = !state_main;
         Phone_main.SetActive(state_main);
+
 
     }
     public void OpenPhoneSetting()
@@ -40,6 +43,15 @@ public class PhoneButtonUI : MonoBehaviour
         state_main = !state_main;
         Phone_main.SetActive(state_main);
         Phone_solving.SetActive(state_solving);
+
+    }
+
+    public void OpenPhoneNotes()
+    {
+        state_notes = !state_notes;
+        state_main = !state_main;
+        Phone_main.SetActive(state_main);
+        Phone_notes.SetActive(state_notes);
 
     }
 

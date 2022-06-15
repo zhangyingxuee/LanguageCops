@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public int progress = 0;
+    public int itemCount;
     //public bool[] items = new bool[5];
 
     public void SavePlayer()
@@ -17,6 +18,7 @@ public class PlayerInfo : MonoBehaviour
         PlayerData data = SaveSystem.LoadPlayer();
 
         progress = data.progress;
+        itemCount = data.itemCount;
 
         Vector2 position;
         position.x = data.position[0];
