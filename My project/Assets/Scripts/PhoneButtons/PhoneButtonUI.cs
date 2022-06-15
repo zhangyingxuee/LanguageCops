@@ -12,7 +12,7 @@ public class PhoneButtonUI : MonoBehaviour
     public GameObject Phone_setting;
     public GameObject Phone_solving;
     private bool state = false;
-    private bool state_main = true;
+    private bool state_main = false;
     private bool state_setting = false;
     private bool state_solving = false;
 
@@ -21,6 +21,10 @@ public class PhoneButtonUI : MonoBehaviour
         state = !state;
         Phone.SetActive(state);
         GameEvents.current.CloseCafe();
+
+        state_main = !state_main;
+        Phone_main.SetActive(state_main);
+
     }
     public void OpenPhoneSetting()
     {
