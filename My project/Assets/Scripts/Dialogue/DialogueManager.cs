@@ -19,8 +19,6 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject dialogueBox;
 
-    public GameObject ContinueButton; 
-
     public GameObject image;
 
     public GameObject popUp;
@@ -41,7 +39,6 @@ public class DialogueManager : MonoBehaviour
         nameBox.SetActive(false);
         dialogueBox.SetActive(false);
         textBox.SetActive(false);
-        ContinueButton.SetActive(false);
         image.SetActive(false);
         popUp.SetActive(false);
         specialDialogue = false;
@@ -53,7 +50,6 @@ public class DialogueManager : MonoBehaviour
         nameBox.SetActive(true);
         dialogueBox.SetActive(true);
         textBox.SetActive(true);
-        ContinueButton.SetActive(true);
         image.SetActive(true);
         popUp.SetActive(false);
         
@@ -80,7 +76,7 @@ public class DialogueManager : MonoBehaviour
      {
         if (sentences.Count == 0)
         { 
-            EndDialogue();
+            StartCoroutine(EndDialogue());
             return;
         }
         string sentence = sentences.Dequeue();
@@ -90,18 +86,20 @@ public class DialogueManager : MonoBehaviour
 
      
     
-     void EndDialogue() 
+     private IEnumerator EndDialogue() 
      {
         nameBox.SetActive(false);
         dialogueBox.SetActive(false);
         textBox.SetActive(false);
-        ContinueButton.SetActive(false);
         image.SetActive(false);
         if (specialDialogue)
         {
             popUp.SetActive(true);
         }
         specialDialogue = false;
+        
+        yield return new WaitForSeconds(2f);
+        GameEvents.current.StartDialogue();
      }
 
      public void SpecialDialogue()

@@ -20,6 +20,16 @@ public class GameEvents : MonoBehaviour
         }
     }
 
+        public event Action onStartDialogue;
+
+    public void StartDialogue()
+    {
+        if (onStartDialogue != null)
+        {
+            onStartDialogue();
+        }
+    }
+
     public event Action<int> onAddingItem;
     public void AddingItem(int count)
     {
