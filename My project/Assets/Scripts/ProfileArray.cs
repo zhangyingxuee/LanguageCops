@@ -10,7 +10,7 @@ public class ProfileArray : MonoBehaviour
 
     public Texture[] heads = new Texture[3];
 
-    public int[] names = {0, 1, 2};
+    private int[] names = {0, 1, 2};
 
     public void GetImage(int index)
     { 
