@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class ClickToContinue : MonoBehaviour
 {   
+    [SerializeField] private GameObject choiceButton;
     
     // Update is called once per frame
     void Update()
     {   
-           if (Input.GetMouseButtonDown(0))
+           if (Input.GetMouseButtonDown(0) && choiceButton.activeSelf == false)
             {
-                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+
+                FindObjectOfType<DialogueManagerInk>().ContinueStory();
             }
              
     }

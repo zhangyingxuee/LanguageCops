@@ -18,7 +18,8 @@ public class DialogueManagerInk : MonoBehaviour
 
    [SerializeField] private GameObject spriteProfile;
 
-   [SerializeField] private GameObject continueButton;
+   [SerializeField] private GameObject[] converInitialisor;
+
 
    [Header("Choices UI")]
    [SerializeField] private GameObject[] choices;
@@ -52,7 +53,12 @@ public class DialogueManagerInk : MonoBehaviour
         textBox.SetActive(false);
         nameBox.SetActive(false);
         spriteProfile.SetActive(false);
-        continueButton.SetActive(false);
+        foreach (GameObject converButton in converInitialisor)
+        {
+            converButton.SetActive(true);
+        }
+        
+
 
         foreach (GameObject choice in choices)
         { 
@@ -89,13 +95,15 @@ public class DialogueManagerInk : MonoBehaviour
         // make the inkJSON file into a story 
         currentStory = new Story(inkJSON.text);
         nameTextDisplay.text = currentStory.TagsForContentAtPath("main")[0];
-        continueButton.SetActive(true);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         textBox.SetActive(true);
         nameBox.SetActive(true);
         spriteProfile.SetActive(true);
-        continueButton.SetActive(true);
+        foreach (GameObject converButton in converInitialisor)
+        {
+            converButton.SetActive(false);
+        }
         
         
         ContinueStory();
@@ -109,8 +117,11 @@ public class DialogueManagerInk : MonoBehaviour
             textBox.SetActive(false);
             nameBox.SetActive(false);
             spriteProfile.SetActive(false);
-            continueButton.SetActive(false);
             dialogueTextDisplay.text = "";
+            foreach (GameObject converButton in converInitialisor)
+            {
+                converButton.SetActive(true);
+            }
 
         }
 
@@ -135,7 +146,7 @@ public class DialogueManagerInk : MonoBehaviour
 
     private void DisplayChoices()
     { 
-        continueButton.SetActive(false);
+
         List<Choice> currentChoices = currentStory.currentChoices; // list of choices in the script
         if (currentChoices.Count > choices.Length) 
         {
@@ -173,7 +184,6 @@ public class DialogueManagerInk : MonoBehaviour
     
     public void MakeChoice(int choiceIndex)
     {
-        continueButton.SetActive(true);
         Debug.Log(choiceIndex);
         // to allow the ink script to continue after you make the choice
         currentStory.ChooseChoiceIndex(choiceIndex); 

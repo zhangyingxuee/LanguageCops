@@ -9,14 +9,14 @@ do you wanna play
 # friend
 hello this is Mike!
 What do you want!
-    + [coffee] 
-        ++ [really]
+    + [* coffee] 
+        ++ [* really]
             you want to pee
             -> DONE
-        ++[no you dont]
+        ++[* no you dont]
             yea you dont 
             -> DONE
-    + [tea]
+    + [* tea]
         you want to pee
         -> DONE
 
