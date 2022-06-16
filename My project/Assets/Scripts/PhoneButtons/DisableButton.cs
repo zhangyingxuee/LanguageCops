@@ -13,7 +13,7 @@ public class DisableButton : MonoBehaviour
     private bool state = false;
     private void OnCloseCafe()
     {
-        GetComponent<Button>().enabled = state;
+        GetComponent<Button>().interactable = state;
        // Debug.Log(state);
         state = !state;
     }

@@ -28,5 +28,12 @@ public class GameEvents : MonoBehaviour
             onAddingItem(count);
         }
     }
-
+    public event Action<int> onCheckpoint;
+    public void Checkpoint(int progress)
+    {
+        if (onCheckpoint != null)
+        {
+            onCheckpoint(progress);
+        }
+    }
 }

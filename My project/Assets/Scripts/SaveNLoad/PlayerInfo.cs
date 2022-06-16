@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour
 {
-    public int progress = 0;
+    public int progress;
     public int itemCount;
     //public bool[] items = new bool[5];
 
+    private void Start()
+    {
+        GameEvents.current.onAddingItem += OnAddingItem;
+    }
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
@@ -25,4 +29,14 @@ public class PlayerInfo : MonoBehaviour
         position.y = data.position[1];
         transform.position = position;
     }
+
+    private void OnAddingItem(int count)
+    {
+        itemCount = count;
+    }
+    private void OnDestroy()
+    {
+        GameEvents.current.onAddingItem -= OnAddingItem;
+    }
+
 }

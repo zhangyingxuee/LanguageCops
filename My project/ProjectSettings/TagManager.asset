@@ -56,6 +56,9 @@ TagManager:
   - name: Cafe-Dialogue
     uniqueID: 2250161971
     locked: 0
+  - name: Phone-screen
+    uniqueID: 3151669591
+    locked: 0
   - name: Phone-background
     uniqueID: 3754413071
     locked: 0
