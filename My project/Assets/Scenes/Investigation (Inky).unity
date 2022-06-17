@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &25700449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25700451}
+  - component: {fileID: 25700450}
+  m_Layer: 0
+  m_Name: 'EventSystemScript '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &25700450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25700449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fabbffd93f617ed468ad3af2b7d48732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &25700451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25700449}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72897039
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +261,7 @@ RectTransform:
   m_Children:
   - {fileID: 285487836}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -309,7 +353,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 2
+  Phone: {fileID: 0}
+  Phone_main: {fileID: 0}
+  Phone_setting: {fileID: 0}
+  Phone_solving: {fileID: 0}
+  Phone_notes: {fileID: 0}
 --- !u!114 &285487838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,7 +771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 715313011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c34527cdb33a4464eb8304661cc0a2ea, type: 3}
+  m_Script: {fileID: 11500000, guid: be479425dab683f48b1f01a49f2ea101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   choiceButton: {fileID: 1070930849}
@@ -1229,7 +1277,7 @@ RectTransform:
   m_Children:
   - {fileID: 1341615508}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1599,7 +1647,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3bcb197db30840ac272e99a5e14b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  Phone: {fileID: 0}
+  Phone_main: {fileID: 0}
+  Phone_setting: {fileID: 0}
+  Phone_solving: {fileID: 0}
+  Phone_notes: {fileID: 0}
 --- !u!114 &1184797841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,6 +2623,8 @@ GameObject:
   - component: {fileID: 1869738252}
   - component: {fileID: 1869738250}
   - component: {fileID: 1869738255}
+  - component: {fileID: 1869738256}
+  - component: {fileID: 1869738257}
   m_Layer: 5
   m_Name: ConverFriend
   m_TagString: Untagged
@@ -2683,6 +2737,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1869738257}
+        m_TargetAssemblyTypeName: DialogueNumber, Assembly-CSharp
+        m_MethodName: ClickNumber
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1869738253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2734,6 +2800,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 7bcb7ae6975588842bce4c8c1f81362a, type: 3}
+--- !u!114 &1869738256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869738248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be479425dab683f48b1f01a49f2ea101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choiceButton: {fileID: 1070930849}
+--- !u!114 &1869738257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869738248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d1f7f2a25dbba419325e85f0e0d749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePlayed: 0
 --- !u!1 &1882297605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,6 +3134,7 @@ MonoBehaviour:
   converInitialisor:
   - {fileID: 1869738248}
   - {fileID: 1146843072}
+  popUp: {fileID: 909222958}
   choices:
   - {fileID: 1070930849}
   - {fileID: 1553296405}
@@ -3054,7 +3147,7 @@ Transform:
   m_GameObject: {fileID: 2004745442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.24, y: 3.6600013, z: 0}
-  m_LocalScale: {x: 0.60850006, y: 0.6049001, z: 1}
+  m_LocalScale: {x: 0.60850006, y: 0.6049002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

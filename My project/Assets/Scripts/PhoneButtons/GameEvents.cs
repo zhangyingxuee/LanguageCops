@@ -46,4 +46,5 @@ public class GameEvents : MonoBehaviour
             onCheckpoint(progress);
         }
     }
+
 }

@@ -1,12 +1,16 @@
--> intro
 
-=== intro ===
-this is an amazing game 
-do you wanna play 
--> main
+=== pre ===
+go find the others if you have stuff to do
+-> DONE
 
 === main ===
 # friend
+# special
+this is an amazing game 
+do you wanna play 
+-> intro
+
+=== intro ===
 hello this is Mike!
 What do you want!
     + [* coffee] 
@@ -21,4 +25,9 @@ What do you want!
         -> DONE
 
 
+-> END
+
+=== post ===
+will this be played?
+I guess not 
 -> END

@@ -10,24 +10,18 @@ public class DialogueProgressManager : MonoBehaviour
     }
 
     public int threshold;
-    private int checkpt;
+
 
     public GameObject PreCP;
     public GameObject CP;
     public GameObject PostCP;
     private void OnCheckpoint (int progress)
     {
-        checkpt = progress;
-        CheckProgress();
-    }
-
-    public void CheckProgress()
-    {
-        if (threshold > checkpt)
+        if (threshold > progress)
         {
             PreCP.SetActive(true);
 
-        } else if (threshold == checkpt)
+        } else if (threshold == progress)
         {
             PreCP.SetActive(false);
             CP.SetActive(true);
@@ -37,6 +31,7 @@ public class DialogueProgressManager : MonoBehaviour
             PostCP.SetActive(true);
         }
     }
+
 
     void OnDestroy()
     {
