@@ -6,6 +6,7 @@ public class Movement2 : MonoBehaviour
 {
    public Transform player; 
    public Vector3 offset;
+    public Animator walking;
 
    public GameObject textBox;
    private bool AllowMovement = true;
@@ -25,17 +26,24 @@ public class Movement2 : MonoBehaviour
         
         if (textBox.activeSelf==false & AllowMovement == true)
         {
+            
             if (Input.GetKey(KeyCode.RightArrow))
             {
+                walking.SetBool("IsWalking", true);
                 player.position += offset;
+                Debug.Log("d pressed");
             }
         
             if (Input.GetKey(KeyCode.LeftArrow))
             { 
+                walking.SetBool("IsWalking", true);
                 player.position -= offset;
+                Debug.Log("a pressed");
             }
         }
-        
+        walking.SetBool("IsWalking", false);
+        Debug.Log("stop");
+
     }
 
 }
