@@ -102,6 +102,7 @@ public class DialogueManager : MonoBehaviour
             popUp.SetActive(true);
         }
         specialDialogue = false;
+        GameEvents.current.DialogueEnd();
      }
 
      public void SpecialDialogue()

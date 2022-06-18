@@ -4,19 +4,38 @@ using UnityEngine;
 
 public class UpdateCheckpoint : MonoBehaviour
 {
-    public GameObject textbox;
+
+    private bool is_ready = false;
+    public int ready_id;
+    void Start()
+    {
+        GameEvents.current.onGetReady += OnGetReady;
+        GameEvents.current.onDialogueEnd += OnDialogueEnd;
+    }
+
     public void UpdateProgress(int checkpt)
     {
         GameEvents.current.Checkpoint(checkpt);
         Debug.Log(checkpt);
     }
 
-    public void PostDialogueUpdate( int checkpt)
+    public void OnDialogueEnd()
     {
-        while(textbox.activeSelf == true)
+        if (is_ready) 
         {
-            //wait
+            GameEvents.current.Checkpoint(ready_id);
         }
-        GameEvents.current.Checkpoint(checkpt);
+        
+    }
+
+    private void OnGetReady(int id)
+    {
+        if ( id == ready_id)
+        {
+            is_ready = true;
+        } else
+        {
+            is_ready = false;
+        }
     }
 }

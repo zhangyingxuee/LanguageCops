@@ -19,13 +19,13 @@ public class GameEvents : MonoBehaviour
             onCloseCafe();
         }
     }
-    public event Action onDialogueMode;
+    public event Action onDialogueEnd;
 
-    public void DialogueMode()
+    public void DialogueEnd()
     {
-        if (onDialogueMode != null)
+        if (onDialogueEnd != null)
         {
-            onDialogueMode();
+            onDialogueEnd();
         }
     }
 
@@ -43,6 +43,15 @@ public class GameEvents : MonoBehaviour
         if (onCheckpoint != null)
         {
             onCheckpoint(progress);
+        }
+    }
+
+    public event Action<int> onGetReady;
+    public void GetReady(int id)
+    {
+        if (onGetReady != null)
+        {
+            onGetReady(id);
         }
     }
 }

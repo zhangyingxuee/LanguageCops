@@ -12,4 +12,9 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
+    public void GettingReady(int id)
+    {
+        GameEvents.current.GetReady(id);
+    }
+
 }

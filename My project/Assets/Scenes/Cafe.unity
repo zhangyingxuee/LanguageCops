@@ -9022,6 +9022,7 @@ GameObject:
   - component: {fileID: 1055961210}
   - component: {fileID: 1055961209}
   - component: {fileID: 1055961208}
+  - component: {fileID: 1055961211}
   m_Layer: 0
   m_Name: Fade to black
   m_TagString: Untagged
@@ -9116,6 +9117,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1055961211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055961207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5603b8dede17c44896202485be39d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneIndex: 2
 --- !u!1 &1076091097
 GameObject:
   m_ObjectHideFlags: 0
@@ -11405,6 +11419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1de7c3751ce8547b622cbe8f032091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ready_id: 0
 --- !u!114 &1261604725
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,6 @@ public class AnimationControlCenter : MonoBehaviour
         GameEvents.current.onCheckpoint += OnCheckpoint;
     }
     public GameObject[] Scenes;
-    public GameObject DialogueBox;
 
     private void OnCheckpoint(int progress)
     {
