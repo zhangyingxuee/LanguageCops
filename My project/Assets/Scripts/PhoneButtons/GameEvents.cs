@@ -19,6 +19,15 @@ public class GameEvents : MonoBehaviour
             onCloseCafe();
         }
     }
+    public event Action onDialogueMode;
+
+    public void DialogueMode()
+    {
+        if (onDialogueMode != null)
+        {
+            onDialogueMode();
+        }
+    }
 
     public event Action<int> onAddingItem;
     public void AddingItem(int count)

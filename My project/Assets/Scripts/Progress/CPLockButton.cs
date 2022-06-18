@@ -12,8 +12,10 @@ public class CPLockButton : MonoBehaviour
 
     public int NotesUnlock;
     public int SolvingUnlock;
+    public int NextSceneUnlock;
     public Button Notes;
     public Button Solvings;
+    public Button NextScene;
 
     private void OnCheckpoint(int progress)
     {
@@ -24,9 +26,13 @@ public class CPLockButton : MonoBehaviour
         if (progress == SolvingUnlock)
         {
             Solvings.interactable = true;
-            Debug.Log("Solution activated");
+            //Debug.Log("Solution activated");
         }
-        Debug.Log("Button state checked");
+        if (progress == NextSceneUnlock)
+        {
+            NextScene.interactable = true;
+        }
+        //Debug.Log("Button state checked");
     }
 
 }
