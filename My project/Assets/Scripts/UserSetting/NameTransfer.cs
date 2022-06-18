@@ -12,6 +12,14 @@ public class NameTransfer : MonoBehaviour
 
     public TMP_Text textDisplay;
 
+    public GameObject textDisplayBox;
+
+    public GameObject continueButton;
+
+    public GameObject newMsgButton;
+
+    public GameObject messagePage;
+
     // if cannot access, use PlayerPrefs, SetString, GetString, 
     private static NameTransfer instance;
 
@@ -29,11 +37,30 @@ public class NameTransfer : MonoBehaviour
         return instance;
     }
 
+    void Start()
+    {
+        inputField.SetActive(true);
+        textDisplayBox.SetActive(false);
+        newMsgButton.SetActive(false);
+        messagePage.SetActive(false);
+
+    }
+
     public void StoreName()
-    { 
+    {   
+
         Debug.Log("Store is working");
         nameEntered = inputField.GetComponent<TMP_InputField>().text;
-        textDisplay.text = "Welcome" + nameEntered;
+        if (nameEntered == "")
+        { 
+            nameEntered = "Detective";
+        }
+        textDisplayBox.SetActive(true);
+        textDisplay.text = "Welcome! " + nameEntered + "!";
+        inputField.SetActive(false);
+        continueButton.SetActive(false);
+        newMsgButton.SetActive(true);
+
     
     }
 
