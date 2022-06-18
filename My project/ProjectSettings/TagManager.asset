@@ -53,3 +53,9 @@ TagManager:
   - name: UI
     uniqueID: 3355239649
     locked: 0
+  - name: UI-text
+    uniqueID: 1652498743
+    locked: 0
+  - name: Animation
+    uniqueID: 2408243909
+    locked: 0

@@ -20,6 +20,8 @@ public class NameTransfer : MonoBehaviour
 
     public GameObject messagePage;
 
+    public GameObject messageContent;
+
     // if cannot access, use PlayerPrefs, SetString, GetString, 
     private static NameTransfer instance;
 
@@ -43,6 +45,7 @@ public class NameTransfer : MonoBehaviour
         textDisplayBox.SetActive(false);
         newMsgButton.SetActive(false);
         messagePage.SetActive(false);
+        messageContent.SetActive(false);
 
     }
 
