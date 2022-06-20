@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueMode : MonoBehaviour
-{
+{   /*
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +22,5 @@ public class DialogueMode : MonoBehaviour
     {
         GameEvents.current.onStartDialogue -= OnStartDialogue;
     }
-    
+    */
 }
