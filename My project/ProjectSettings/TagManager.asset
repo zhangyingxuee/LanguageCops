@@ -44,18 +44,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 'items '
+  - name: Items
     uniqueID: 3213387357
     locked: 0
-  - name: 'Text '
+  - name: Player
     uniqueID: 3944887961
     locked: 0
   - name: UI
     uniqueID: 3355239649
     locked: 0
-  - name: UI-text
+  - name: Dialogue
     uniqueID: 1652498743
     locked: 0
-  - name: Animation
+  - name: Phone-Screen
     uniqueID: 2408243909
+    locked: 0
+  - name: Phone-Background
+    uniqueID: 1532905137
+    locked: 0
+  - name: Phone-UI
+    uniqueID: 110512343
     locked: 0
