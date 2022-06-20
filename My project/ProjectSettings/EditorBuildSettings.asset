@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Screen.unity
     guid: 4a0e7c74b7410b54f9593134c42fe17a
   - enabled: 1
-    path: Assets/Scenes/Cafe.unity
+    path: Assets/Scenes/Starting(NameInput).unity
+    guid: 72069eec765c465479d439726f2fa522
+  - enabled: 1
+    path: Assets/Scenes/Prologue Cafe.unity
     guid: 7c181abc790744b41b8751dced653d0f
   - enabled: 1
     path: Assets/Scenes/Cut Scene 2 (death).unity
@@ -20,25 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act 1.unity
     guid: 474ff55635a17c24f80a7691a8078e95
-  - enabled: 1
-    path: Assets/Scenes/Interrogation.unity
-    guid: 38d4b3ea52591c84eb6c86385f7c4b5b
-  - enabled: 1
-    path: Assets/Scenes/Investigation (Inky).unity
-    guid: 79a6160cf53c1ed4d916612abd2fa1d9
-  - enabled: 1
-    path: Assets/Scenes/Phone interaction.unity
-    guid: 12440f873ed812244aba2a3e20c408b9
-  - enabled: 1
-    path: Assets/Scenes/Identifying Error.unity
-    guid: fe350e1d656716a42bb2ee34c94287cb
-  - enabled: 1
-    path: Assets/Scenes/Tutorial solution.unity
-    guid: b4d6ba7b134e1134a960ec31c03ca91f
-  - enabled: 1
-    path: Assets/Scenes/Starting(NameInput).unity
-    guid: 72069eec765c465479d439726f2fa522
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: 887cb7dc2c834ef49a0926e312a4a23e
   m_configObjects: {}

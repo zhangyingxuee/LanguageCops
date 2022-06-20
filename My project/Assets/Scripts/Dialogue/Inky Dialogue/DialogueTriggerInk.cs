@@ -14,5 +14,11 @@ public class DialogueTriggerInk : MonoBehaviour
    {
         FindObjectOfType<DialogueManagerInk>().EnterDialogueMode(inkJSON, threshold);
         Debug.Log("I am working.");
-   }
+        GameEvents.current.StartDialogue();
+    }
+
+    public void GettingReady(int id)
+    {
+        GameEvents.current.GetReady(id);
+    }
 }

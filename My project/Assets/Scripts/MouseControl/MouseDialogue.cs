@@ -19,8 +19,7 @@ public class MouseDialogue : MonoBehaviour, IPointerEnterHandler,IPointerExitHan
         { 
             Debug.Log("OnMouseOver is working");
             MouseControl.GetInstance().Dialogue();
-        }
-        
+        }        
         
     }
     public void OnPointerExit(PointerEventData eventData)
@@ -32,6 +31,7 @@ public class MouseDialogue : MonoBehaviour, IPointerEnterHandler,IPointerExitHan
     private void OnStartDialogue()
     {
         state = false;
+        MouseControl.GetInstance().Default();
     }
         private void OnDialogueEnd()
     {
