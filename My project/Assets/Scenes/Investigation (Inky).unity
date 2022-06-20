@@ -523,8 +523,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1081579939
-  m_SortingLayer: 1
+  m_SortingLayerID: -350079335
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2665c1770a062f546a5914ef5f805ec3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -614,7 +614,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: -2044805325
+  m_SortingLayerID: 1652498743
   m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &546518277
@@ -674,6 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad1de7c3751ce8547b622cbe8f032091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ready_id: 0
 --- !u!224 &640707048
 RectTransform:
   m_ObjectHideFlags: 0
@@ -728,6 +729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 715313015}
   offset: {x: 0.05, y: 0, z: 0}
+  walking: {fileID: 0}
   textBox: {fileID: 1447012292}
 --- !u!114 &715313013
 MonoBehaviour:
@@ -743,6 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 715313015}
   offset: {x: 0.05, y: 0, z: 0}
+  walking: {fileID: 0}
   textBox: {fileID: 1447012292}
 --- !u!212 &715313014
 SpriteRenderer:
@@ -1876,8 +1879,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1081579939
-  m_SortingLayer: 1
+  m_SortingLayerID: -350079335
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4fb9549277519d4449f3eed39e6ece26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1975,8 +1978,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2044805325
-  m_SortingLayer: 0
+  m_SortingLayerID: 1652498743
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.09433961, g: 0.0059332987, b: 0.0059332987, a: 1}
