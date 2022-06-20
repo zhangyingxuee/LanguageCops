@@ -19,14 +19,13 @@ public class GameEvents : MonoBehaviour
             onCloseCafe();
         }
     }
+    public event Action onDialogueEnd;
 
-        public event Action onStartDialogue;
-
-    public void StartDialogue()
+    public void DialogueEnd()
     {
-        if (onStartDialogue != null)
+        if (onDialogueEnd != null)
         {
-            onStartDialogue();
+            onDialogueEnd();
         }
     }
 
@@ -47,4 +46,12 @@ public class GameEvents : MonoBehaviour
         }
     }
 
+    public event Action<int> onGetReady;
+    public void GetReady(int id)
+    {
+        if (onGetReady != null)
+        {
+            onGetReady(id);
+        }
+    }
 }
