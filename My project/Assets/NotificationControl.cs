@@ -10,17 +10,15 @@ public class NotificationControl : MonoBehaviour
         GameEvents.current.onAddingItem += OnAddingItem;
     }
 
-    private int currCount = 0;
     private int display = 0;
     private bool state = false;
     public TextMeshProUGUI Outside;
     public TextMeshProUGUI Inside;
     public GameObject PopOutside;
     public GameObject PopInside;
-    private void OnAddingItem(int count)
+    private void OnAddingItem(int id)
     {
-        display += count - currCount;
-        currCount = count;
+        display += id % 10;
         state = true;
         PopOutside.SetActive(true);
         PopInside.SetActive(true);

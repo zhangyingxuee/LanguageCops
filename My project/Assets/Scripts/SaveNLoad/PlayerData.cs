@@ -8,13 +8,13 @@ public class PlayerData
     public float[] position;
     public int progress;
     public int itemCount;
-   // public bool[] items;
+    public bool[] items;
 
     public PlayerData (PlayerInfo player) 
     {
         progress = player.progress;
         itemCount = player.itemCount;
-       // items = player.items;
+        items = player.items;
 
         position = new float[2];
         position[0] = player.transform.position.x;

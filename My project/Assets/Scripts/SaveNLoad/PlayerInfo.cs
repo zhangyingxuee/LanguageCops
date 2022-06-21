@@ -6,7 +6,9 @@ public class PlayerInfo : MonoBehaviour
 {
     public int progress;
     public int itemCount;
-    //public bool[] items = new bool[5];
+    public bool[] items;
+    
+
 
     private void Start()
     {
@@ -17,22 +19,28 @@ public class PlayerInfo : MonoBehaviour
         SaveSystem.SavePlayer(this);
     }
 
-    public void LoadPlayer ()
+    public void LoadPlayer (ActivatingItem activatingItem)
     {
         PlayerData data = SaveSystem.LoadPlayer();
 
         progress = data.progress;
         itemCount = data.itemCount;
+        items = data.items;
 
         Vector2 position;
         position.x = data.position[0];
         position.y = data.position[1];
         transform.position = position;
+        activatingItem.AfterLoad( items, itemCount);
     }
 
-    private void OnAddingItem(int count)
+    private void OnAddingItem(int id)
     {
-        itemCount = count;
+        itemCount += id % 10;
+        for (int i = id / 10; i < (id / 10 + id % 10); i++)
+        {
+            items[i] = true;
+        }
     }
     private void OnDestroy()
     {
