@@ -6,6 +6,7 @@ public class ActivatingItem : MonoBehaviour
 {
     private int item_sum;
     private int activate_id;
+    public bool[] item_state;
     void Start()
     {
         GameEvents.current.onAddingItem += OnAddingItem;
@@ -16,9 +17,12 @@ public class ActivatingItem : MonoBehaviour
         //id = [set active id][number of items activated]
         item_sum += id % 10;
         activate_id = id / 10;
-        for (int i = activate_id; i < (activate_id + id % 10); i++)
+        if (!item_state[activate_id])
         {
-            OverviewItem[i].SetActive(true);
+            for (int i = activate_id; i < (activate_id + id % 10); i++)
+            {
+                OverviewItem[i].SetActive(true);
+            }
         }
     }
 
@@ -28,6 +32,7 @@ public class ActivatingItem : MonoBehaviour
         {
             OverviewItem[i].SetActive(items[i]);
         }
+        item_state = items;
     }
     private void OnDestroy()
     {

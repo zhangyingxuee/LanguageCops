@@ -16,14 +16,20 @@ public class NotificationControl : MonoBehaviour
     public TextMeshProUGUI Inside;
     public GameObject PopOutside;
     public GameObject PopInside;
+    public bool[] item_state;
     private void OnAddingItem(int id)
     {
-        display += id % 10;
-        state = true;
-        PopOutside.SetActive(true);
-        PopInside.SetActive(true);
-        Outside.text = display.ToString();
-        Inside.text = display.ToString();
+        if (!item_state[id / 10])
+        {
+            display += id % 10;
+            state = true;
+            PopOutside.SetActive(true);
+            PopInside.SetActive(true);
+            Outside.text = display.ToString();
+            Inside.text = display.ToString();
+            item_state[id / 10] = true;
+        }
+  
     }
 
     public void OnOpeningPhone()

@@ -5,17 +5,29 @@ using UnityEngine.UI;
 
 public class DisableButton : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private bool state = false;
+    private bool curr_state;
     void Start()
     {
         GameEvents.current.onCloseCafe += OnCloseCafe;
+        curr_state = GetComponent<Button>().interactable;
+        Debug.Log("start" + curr_state);
     }
-    private bool state = false;
+
     private void OnCloseCafe()
     {
-        GetComponent<Button>().interactable = state;
-       // Debug.Log(state);
-        state = !state;
+        if (!state)
+        {
+            curr_state = GetComponent<Button>().interactable;
+        }
+        Debug.Log("curr:" + curr_state);
+        if (curr_state == true)
+        {
+            GetComponent<Button>().interactable = state;
+            Debug.Log(state);
+            state = !state;
+        }
+
     }
 
     private void OnDestroy()

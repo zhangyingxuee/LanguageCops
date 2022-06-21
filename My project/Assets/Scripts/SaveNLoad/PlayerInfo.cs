@@ -36,10 +36,13 @@ public class PlayerInfo : MonoBehaviour
 
     private void OnAddingItem(int id)
     {
-        itemCount += id % 10;
-        for (int i = id / 10; i < (id / 10 + id % 10); i++)
+        if (!items[id / 10])
         {
-            items[i] = true;
+            itemCount += id % 10;
+            for (int i = id / 10; i < (id / 10 + id % 10); i++)
+            {
+                items[i] = true;
+            }
         }
     }
     private void OnDestroy()

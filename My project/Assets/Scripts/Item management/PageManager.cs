@@ -23,19 +23,44 @@ public class PageManager : MonoBehaviour
     public void CheckPageNo( PlayerInfo player)
     {
         ItemCount = player.itemCount;
+        LastPage.SetActive(false);
         if (ItemCount <= 4)
         {
             TotalPage.text = "1";
             CurrPage.text = "1";
             NextPage.SetActive(false);
-            LastPage.SetActive(false);
         } else
         {
-            TPage = ItemCount / 4 ;
+            if (ItemCount % 4 == 0)
+            {
+                TPage = ItemCount / 4;
+            }
+            else
+            {
+                TPage = (ItemCount / 4) + 1;
+            }
+            
             TotalPage.text = TPage.ToString();
             NextPage.SetActive(true);
         }
 
+    }
+
+    public void Load_first_page()
+    {
+        OverviewPage.SetActive(true);
+        SpecificPage.SetActive(false);
+        for (int i = 0; i < TPage; i++)
+        {
+            if(i == 0)
+            {
+                Page[i].SetActive(true);
+            }
+            else
+            {
+                Page[i].SetActive(false);
+            }
+        }
     }
 
     public void nextPage()
@@ -44,7 +69,7 @@ public class PageManager : MonoBehaviour
         CPage += 1;
         CurrPage.text = CPage.ToString();
         Page[CPage - 1].SetActive(true);
-        LastPage.SetActive(false);
+        LastPage.SetActive(true);
         if (CPage == TPage)
         {
             NextPage.SetActive(false);
@@ -57,6 +82,7 @@ public class PageManager : MonoBehaviour
         CPage -= 1;
         CurrPage.text = CPage.ToString();
         Page[CPage - 1].SetActive(true);
+        NextPage.SetActive(true);
         if (CPage == 1)
         {
             LastPage.SetActive(false);
@@ -67,7 +93,7 @@ public class PageManager : MonoBehaviour
     {
         OverviewPage.SetActive(false);
         SpecificPage.SetActive(true);
-        for (int i = 0; i < ItemCount; i++)
+        for (int i = 0; i < TPage * 4; i++)
         {
             if (i != id)
             {

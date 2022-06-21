@@ -8,9 +8,9 @@ public class CPLockButton : MonoBehaviour
     void Start()
     {
         GameEvents.current.onCheckpoint += OnCheckpoint;
+        GameEvents.current.onAddingItem += OnAddingItem;
     }
 
-    public int NotesUnlock;
     public int SolvingUnlock;
     public int NextSceneUnlock;
     public Button Notes;
@@ -19,10 +19,6 @@ public class CPLockButton : MonoBehaviour
 
     private void OnCheckpoint(int progress)
     {
-        if(progress == NotesUnlock)
-        {
-            Notes.interactable = true;
-        }
         if (progress == SolvingUnlock)
         {
             Solvings.interactable = true;
@@ -34,5 +30,8 @@ public class CPLockButton : MonoBehaviour
         }
         //Debug.Log("Button state checked");
     }
-
-}
+    private void OnAddingItem(int id)
+    {
+        Notes.interactable = true;
+    }
+ }
