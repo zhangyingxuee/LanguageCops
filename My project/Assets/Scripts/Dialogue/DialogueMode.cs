@@ -4,22 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueMode : MonoBehaviour
-{   
-    // Start is called before the first frame update
+{
+    private bool curr_state;
     void Start()
     {
         GameEvents.current.onStartDialogue += OnStartDialogue;
         GameEvents.current.onDialogueEnd += OnDialogueEnd;
+
     }
 
     private void OnStartDialogue()
     {
+        curr_state = GetComponent<Button>().interactable;
         GetComponent<Button>().interactable = false;
        // Debug.Log(state);
     }
     private void OnDialogueEnd()
     {
-        GetComponent<Button>().interactable = true;
+        GetComponent<Button>().interactable = curr_state;
     }
 
     private void OnDestroy()

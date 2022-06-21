@@ -11,7 +11,7 @@ public class DisableButton : MonoBehaviour
     {
         GameEvents.current.onCloseCafe += OnCloseCafe;
         curr_state = GetComponent<Button>().interactable;
-        Debug.Log("start" + curr_state);
+        //Debug.Log("start" + curr_state);
     }
 
     private void OnCloseCafe()
@@ -20,11 +20,11 @@ public class DisableButton : MonoBehaviour
         {
             curr_state = GetComponent<Button>().interactable;
         }
-        Debug.Log("curr:" + curr_state);
+        //Debug.Log("curr:" + curr_state);
         if (curr_state == true)
         {
             GetComponent<Button>().interactable = state;
-            Debug.Log(state);
+            //Debug.Log(state);
             state = !state;
         }
 
