@@ -16,9 +16,9 @@ public class UpdateCheckpoint : MonoBehaviour
 
     public void UpdateProgress(int checkpt)
     {
-        GameEvents.current.Checkpoint(checkpt);
         InfoSO.Progress = checkpt;
-        Debug.Log(checkpt);
+        GameEvents.current.Checkpoint(checkpt); 
+        //Debug.Log(checkpt);
     }
 
     public void All_Items_Clicked(int checkpt_plus_item_num)

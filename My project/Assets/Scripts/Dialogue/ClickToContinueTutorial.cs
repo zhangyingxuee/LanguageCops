@@ -19,7 +19,7 @@ public class ClickToContinueTutorial : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Debug.Log("the click to continue is working");
+                //Debug.Log("the click to continue is working");
                 FindObjectOfType<DialogueManager>().DisplayNextSentence();
             }
         }

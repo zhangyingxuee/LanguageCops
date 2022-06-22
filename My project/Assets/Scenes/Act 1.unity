@@ -18986,6 +18986,7 @@ GameObject:
   - component: {fileID: 1265338596}
   - component: {fileID: 1265338595}
   - component: {fileID: 1265338598}
+  - component: {fileID: 1265338599}
   m_Layer: 0
   m_Name: Fade in and out (to cafe side)
   m_TagString: Untagged
@@ -19096,6 +19097,19 @@ MonoBehaviour:
   next_scene: {fileID: 1044182755}
   player: {fileID: 1675276081}
   initial_position: {x: -11.56, y: -4.3, z: 0}
+--- !u!114 &1265338599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265338594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fdbc0f75efc244d9ce6aab080c7745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &1266251351
 GameObject:
   m_ObjectHideFlags: 0
@@ -22228,6 +22242,7 @@ GameObject:
   - component: {fileID: 1481923403}
   - component: {fileID: 1481923402}
   - component: {fileID: 1481923401}
+  - component: {fileID: 1481923405}
   m_Layer: 0
   m_Name: Fade in and out (from toilet)
   m_TagString: Untagged
@@ -22338,6 +22353,19 @@ Transform:
   m_Father: {fileID: 65835117}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1481923405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481923400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fdbc0f75efc244d9ce6aab080c7745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &1490316618
 GameObject:
   m_ObjectHideFlags: 0
@@ -24236,7 +24264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ready_id: 0
-  InfoSO: {fileID: 0}
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!95 &1606586377
 Animator:
   serializedVersion: 4
@@ -29535,6 +29563,7 @@ GameObject:
   - component: {fileID: 1932962732}
   - component: {fileID: 1932962731}
   - component: {fileID: 1932962730}
+  - component: {fileID: 1932962733}
   m_Layer: 0
   m_Name: Fade in and out (to cafe main)
   m_TagString: Untagged
@@ -29645,6 +29674,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1932962733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932962728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fdbc0f75efc244d9ce6aab080c7745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &1941676354
 GameObject:
   m_ObjectHideFlags: 0
@@ -31101,6 +31143,7 @@ GameObject:
   - component: {fileID: 2017027657}
   - component: {fileID: 2017027656}
   - component: {fileID: 2017027655}
+  - component: {fileID: 2017027658}
   m_Layer: 0
   m_Name: Fade in and out (to toilet)
   m_TagString: Untagged
@@ -31211,6 +31254,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2017027658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017027653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fdbc0f75efc244d9ce6aab080c7745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &2032761517
 GameObject:
   m_ObjectHideFlags: 0

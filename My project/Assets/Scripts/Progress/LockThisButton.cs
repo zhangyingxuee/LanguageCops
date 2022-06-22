@@ -26,10 +26,10 @@ public class LockThisButton : MonoBehaviour
             GetComponent<Button>().interactable = false;
         }
     }
-    /*
+   
     private void OnDestroy()
     {
         GameEvents.current.onCheckpoint -= OnCheckpoint;
     }
-    */
+ 
 }

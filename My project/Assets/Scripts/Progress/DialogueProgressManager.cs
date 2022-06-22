@@ -17,16 +17,22 @@ public class DialogueProgressManager : MonoBehaviour
     public GameObject PostCP;
     private void OnCheckpoint (int progress)
     {
+        Debug.Log("Progress updated to " + progress);
         if (threshold > progress)
         {
             PreCP.SetActive(true);
+            CP.SetActive(false);
+            PostCP.SetActive(false);
 
-        } else if (threshold == progress)
+        }
+        else if (threshold == progress)
         {
             PreCP.SetActive(false);
             CP.SetActive(true);
+            PostCP.SetActive(false);
         } else
         {
+            PreCP.SetActive(false);
             CP.SetActive(false);
             PostCP.SetActive(true);
         }
