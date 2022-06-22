@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class ActivatingItem : MonoBehaviour
 {
-    private int item_sum;
     private int activate_id;
-    public bool[] item_state;
+    public SaveDataSO InfoSO;
+    public GameObject[] OverviewItem;
     void Start()
     {
         GameEvents.current.onAddingItem += OnAddingItem;
     }
-    public GameObject[] OverviewItem;
+
     private void OnAddingItem(int id)
     {
         //id = [set active id][number of items activated]
-        item_sum += id % 10;
         activate_id = id / 10;
-        if (!item_state[activate_id])
+        if (!InfoSO.Items[activate_id])
         {
             for (int i = activate_id; i < (activate_id + id % 10); i++)
             {
@@ -26,13 +25,12 @@ public class ActivatingItem : MonoBehaviour
         }
     }
 
-    public void AfterLoad(bool[] items, int count)
+    public void AfterLoad()
     {
-        for ( int i = 0; i < count; i++)
+        for ( int i = 0; i < OverviewItem.Length; i++)
         {
-            OverviewItem[i].SetActive(items[i]);
+            OverviewItem[i].SetActive(InfoSO.Items[i]);
         }
-        item_state = items;
     }
     private void OnDestroy()
     {

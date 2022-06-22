@@ -20,9 +20,9 @@ public class PageManager : MonoBehaviour
     private int CPage = 1;
     private int ItemCount;
 
-    public void CheckPageNo( PlayerInfo player)
+    public void CheckPageNo( SaveDataSO PlayerInfoSO)
     {
-        ItemCount = player.itemCount;
+        ItemCount = PlayerInfoSO.ItemCount;
         LastPage.SetActive(false);
         if (ItemCount <= 4)
         {
@@ -93,7 +93,7 @@ public class PageManager : MonoBehaviour
     {
         OverviewPage.SetActive(false);
         SpecificPage.SetActive(true);
-        for (int i = 0; i < TPage * 4; i++)
+        for (int i = 0; i < Item.Length; i++)
         {
             if (i != id)
             {

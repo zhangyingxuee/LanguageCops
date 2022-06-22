@@ -22,6 +22,8 @@ public class NameTransfer : MonoBehaviour
 
     public GameObject messageContent;
 
+    public SaveDataSO PlayerInfoSO;
+
 
     // if cannot access, use PlayerPrefs, SetString, GetString, 
     private static NameTransfer instance;
@@ -61,6 +63,7 @@ public class NameTransfer : MonoBehaviour
         }
         textDisplayBox.SetActive(true);
         textDisplay.text = "Welcome!\nDetective " + nameEntered + "!";
+        PlayerInfoSO.PlayerName = nameEntered;
         inputField.SetActive(false);
         continueButton.SetActive(false);
         newMsgButton.SetActive(true);

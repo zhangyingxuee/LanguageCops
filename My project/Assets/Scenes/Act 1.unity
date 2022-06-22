@@ -6422,7 +6422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ready_id: 0
-  player: {fileID: 0}
+  InfoSO: {fileID: 0}
 --- !u!114 &408117241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13517,10 +13517,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1675276085}
         m_TargetAssemblyTypeName: PlayerInfo, Assembly-CSharp
         m_MethodName: LoadPlayer
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1912296896}
-          m_ObjectArgumentAssemblyTypeName: ActivatingItem, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16239,7 +16239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1044182756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24235,7 +24235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ready_id: 0
-  player: {fileID: 0}
+  InfoSO: {fileID: 0}
 --- !u!95 &1606586377
 Animator:
   serializedVersion: 4
@@ -25593,9 +25593,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e922eeb0c16d294dbf6f944873e9e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progress: 0
-  itemCount: 0
-  items: 000000000000000000000000000000000000
+  scene_num: 4
+  sub_scene:
+  - {fileID: 1965432446}
+  - {fileID: 1044182755}
+  - {fileID: 1546786456}
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+  activatingItem: {fileID: 1912296896}
 --- !u!212 &1675276086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28980,7 +28984,7 @@ MonoBehaviour:
   Inside: {fileID: 1941676356}
   PopOutside: {fileID: 1409729946}
   PopInside: {fileID: 963827425}
-  item_state: 00000000000000000000000000000000000000
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!114 &1912296894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29050,7 +29054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129001d989786ff4aad4fd9c46a6af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item_state: 00000000000000000000000000000000000000
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   OverviewItem:
   - {fileID: 459803349}
   - {fileID: 848656732}
@@ -29254,7 +29258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1920938069
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29382,6 +29386,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1912296895}
+        m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
+        m_MethodName: UpdateCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 41
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -29955,7 +29971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1965432447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31025,7 +31041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ready_id: 0
-  player: {fileID: 1675276085}
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &2017027653
 GameObject:
   m_ObjectHideFlags: 0

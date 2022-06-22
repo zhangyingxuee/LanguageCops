@@ -16,10 +16,10 @@ public class NotificationControl : MonoBehaviour
     public TextMeshProUGUI Inside;
     public GameObject PopOutside;
     public GameObject PopInside;
-    public bool[] item_state;
+    public SaveDataSO InfoSO;
     private void OnAddingItem(int id)
     {
-        if (!item_state[id / 10])
+        if (!InfoSO.Items[id / 10])
         {
             display += id % 10;
             state = true;
@@ -27,7 +27,6 @@ public class NotificationControl : MonoBehaviour
             PopInside.SetActive(true);
             Outside.text = display.ToString();
             Inside.text = display.ToString();
-            item_state[id / 10] = true;
         }
   
     }

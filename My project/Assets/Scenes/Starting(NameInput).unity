@@ -2125,6 +2125,7 @@ MonoBehaviour:
   newMsgButton: {fileID: 730353619}
   messagePage: {fileID: 323144633}
   messageContent: {fileID: 1856893820}
+  PlayerInfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!224 &1412924162
 RectTransform:
   m_ObjectHideFlags: 0

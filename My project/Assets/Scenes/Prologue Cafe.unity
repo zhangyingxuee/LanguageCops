@@ -837,8 +837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e922eeb0c16d294dbf6f944873e9e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progress: 0
-  itemCount: 0
+  scene_num: 2
+  sub_scene: []
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+  activatingItem: {fileID: 151323440}
 --- !u!95 &72874594
 Animator:
   serializedVersion: 4
@@ -1703,6 +1705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129001d989786ff4aad4fd9c46a6af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   OverviewItem:
   - {fileID: 1970712301}
   - {fileID: 108783622}
@@ -1734,6 +1737,7 @@ MonoBehaviour:
   Inside: {fileID: 2014885845}
   PopOutside: {fileID: 1460146845}
   PopInside: {fileID: 266004192}
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &167888137
 GameObject:
   m_ObjectHideFlags: 0
@@ -8953,8 +8957,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e922eeb0c16d294dbf6f944873e9e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progress: 0
-  itemCount: 0
+  scene_num: 0
+  sub_scene: []
+  InfoSO: {fileID: 0}
+  activatingItem: {fileID: 0}
 --- !u!1 &1044809569
 GameObject:
   m_ObjectHideFlags: 0
@@ -11552,6 +11558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ready_id: 0
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!114 &1261604725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11564,7 +11571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fd06573f207da146a4b863a960bdde6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NotesUnlock: 3
   SolvingUnlock: 1
   NextSceneUnlock: 0
   Notes: {fileID: 1640902211}
