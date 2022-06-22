@@ -16,12 +16,9 @@ public class ActivatingItem : MonoBehaviour
     {
         //id = [set active id][number of items activated]
         activate_id = id / 10;
-        if (!InfoSO.Items[activate_id])
+        for (int i = activate_id; i < (activate_id + id % 10); i++)
         {
-            for (int i = activate_id; i < (activate_id + id % 10); i++)
-            {
-                OverviewItem[i].SetActive(true);
-            }
+            OverviewItem[i].SetActive(true);
         }
     }
 

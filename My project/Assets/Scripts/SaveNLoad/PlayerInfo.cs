@@ -22,10 +22,7 @@ public class PlayerInfo : MonoBehaviour
             InfoSO.From_another_scene = false;
         }
     }
-    private void Start()
-    {
-        GameEvents.current.onAddingItem += OnAddingItem;
-    }
+
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
@@ -65,20 +62,5 @@ public class PlayerInfo : MonoBehaviour
         }
     }
 
-    private void OnAddingItem(int id)
-    {
-        if (!InfoSO.Items[id / 10])
-        {
-            InfoSO.ItemCount += id % 10;
-            for (int i = id / 10; i < (id / 10 + id % 10); i++)
-            {
-                InfoSO.Items[i] = true;
-            }
-        }
-    }
-    private void OnDestroy()
-    {
-        GameEvents.current.onAddingItem -= OnAddingItem;
-    }
 
 }

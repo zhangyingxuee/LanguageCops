@@ -9,7 +9,7 @@ public class SaveDataSO : ScriptableObject
     private int progress;
     private int itemCount;
     private string player_name;
-    private bool[] items;
+    private bool[] items = new bool[30];
     private Vector2 position;
     private bool from_another_scene;
 

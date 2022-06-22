@@ -19,14 +19,21 @@ public class NotificationControl : MonoBehaviour
     public SaveDataSO InfoSO;
     private void OnAddingItem(int id)
     {
+        Debug.Log("Item added" );
         if (!InfoSO.Items[id / 10])
         {
+            Debug.Log("New item");
             display += id % 10;
+            InfoSO.ItemCount += id % 10;
             state = true;
             PopOutside.SetActive(true);
             PopInside.SetActive(true);
             Outside.text = display.ToString();
             Inside.text = display.ToString();
+            for (int i = id / 10; i < (id / 10 + id % 10); i++)
+            {
+                InfoSO.Items[i] = true;
+            }
         }
   
     }

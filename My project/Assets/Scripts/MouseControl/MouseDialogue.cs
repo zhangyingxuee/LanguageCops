@@ -21,14 +21,14 @@ public class MouseDialogue : MonoBehaviour, IPointerEnterHandler,IPointerExitHan
         activate = GetComponent<Button>().interactable;
         if (state & activate)
         { 
-            Debug.Log("OnMouseOver is working");
+            //Debug.Log("OnMouseOver is working");
             MouseControl.GetInstance().Dialogue();
         }        
         
     }
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("OnMouseExit is working");
+        //Debug.Log("OnMouseExit is working");
         MouseControl.GetInstance().Default();
     }
 
