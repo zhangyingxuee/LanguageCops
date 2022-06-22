@@ -1738,6 +1738,7 @@ MonoBehaviour:
   Inside: {fileID: 2014885845}
   PopOutside: {fileID: 1460146845}
   PopInside: {fileID: 266004192}
+  TextBox: {fileID: 2073342541}
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &167888137
 GameObject:

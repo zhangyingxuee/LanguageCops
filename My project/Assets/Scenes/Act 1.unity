@@ -632,6 +632,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29076754}
   m_CullTransparentMesh: 1
+--- !u!1 &33662332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33662333}
+  - component: {fileID: 33662336}
+  - component: {fileID: 33662335}
+  - component: {fileID: 33662334}
+  m_Layer: 5
+  m_Name: Clickable people buttons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &33662333
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33662332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1920938069}
+  - {fileID: 1788880344}
+  m_Father: {fileID: 1965432450}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &33662334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33662332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &33662335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33662332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &33662336
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33662332}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 83697662}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: -1081579939
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &61401752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2403,8 @@ GameObject:
   - component: {fileID: 152793435}
   - component: {fileID: 152793434}
   - component: {fileID: 152793440}
+  - component: {fileID: 152793442}
+  - component: {fileID: 152793441}
   m_Layer: 5
   m_Name: Over coffee machine
   m_TagString: Untagged
@@ -2364,7 +2468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e7a3ef08ec202468f43216e48d2305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activate: 1
+  activate: 2
   disactivate: 5
 --- !u!114 &152793437
 MonoBehaviour:
@@ -2410,6 +2514,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 152793442}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 152793441}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -2472,6 +2600,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &152793441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152793432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &152793442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152793432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - Ah! There is coffee spiling everywhere.
+    - Whoever last used this must be really bad at making coffee.
 --- !u!1 &166985751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2715,6 +2877,60 @@ Canvas:
   m_SortingLayerID: 1532905137
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &187712484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 187712486}
+  - component: {fileID: 187712485}
+  m_Layer: 0
+  m_Name: D_pop 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &187712485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187712484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c728e3e48db9aa4895f4f201118e078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - It must be Christian Minus, the other customer, who poisioned the jar of suger.
+    - 'The question now is: Who hired him to do such a job.'
+    - Either way, I should have a proper questioning with him after giving him these
+      nice bracelets.
+  progress_update: 14
+  AddItemAfterFinish: 0
+  items_id: 0
+--- !u!4 &187712486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187712484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.53505, y: 2.8263361, z: 6176.3813}
+  m_LocalScale: {x: 69.92462, y: 69.92462, z: 69.92462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133143051}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &191749930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4266,7 +4482,6 @@ RectTransform:
   - {fileID: 509242506}
   - {fileID: 299875036}
   - {fileID: 1330800246}
-  - {fileID: 1645140915}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4971,8 +5186,8 @@ GameObject:
   - component: {fileID: 358950482}
   - component: {fileID: 358950481}
   - component: {fileID: 358950480}
-  - component: {fileID: 358950479}
   - component: {fileID: 358950478}
+  - component: {fileID: 358950487}
   m_Layer: 5
   m_Name: Over dustbin
   m_TagString: Untagged
@@ -5012,23 +5227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &358950479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358950476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profilePic: {fileID: 0}
-  heads:
-  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
-  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
-  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
 --- !u!114 &358950480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5044,10 +5242,13 @@ MonoBehaviour:
   dialogue:
     name: Detective
     sentences:
-    - 'The cup of coffee Ressard was drinking before he fall.
+    - 'Like all good detectives, dustbin is a must-check location.
 
 '
-    - I should send it to the relevant department to check its contents.
+    - 'Ha, look what I''ve found: a pair of gloves and a mysterious bottle.'
+    - Judging by the colour, these gloves are likely the belongings of the owner
+      of this place.
+    - The question now is who do this still-wet bottle belongs to.
 --- !u!114 &358950481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5192,6 +5393,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358950476}
   m_CullTransparentMesh: 1
+--- !u!114 &358950487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358950476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
 --- !u!1 &373830859
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,6 +6621,7 @@ GameObject:
   - component: {fileID: 408117242}
   - component: {fileID: 408117240}
   - component: {fileID: 408117241}
+  - component: {fileID: 408117243}
   m_Layer: 0
   m_Name: Checkpoint control
   m_TagString: Untagged
@@ -6436,8 +6655,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fd06573f207da146a4b863a960bdde6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolvingUnlock: 1
-  NextSceneUnlock: 3
+  SolvingUnlock: 12
+  NextSceneUnlock: 14
   Notes: {fileID: 2106811105}
   Solvings: {fileID: 75353392}
   NextScene: {fileID: 1034955053}
@@ -6456,6 +6675,25 @@ Transform:
   m_Father: {fileID: 313132694}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408117243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408117239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07965f8c482759147aa283b474dd53d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold_checkpoint: 01000000080000000c0000000d000000
+  pop_up_dialogue:
+  - {fileID: 1380755797}
+  - {fileID: 1253214706}
+  - {fileID: 741194343}
+  - {fileID: 187712484}
+  dialogueBox: {fileID: 1183136805}
 --- !u!1 &420305957
 GameObject:
   m_ObjectHideFlags: 0
@@ -11120,8 +11358,8 @@ GameObject:
   - component: {fileID: 721483235}
   - component: {fileID: 721483234}
   - component: {fileID: 721483233}
-  - component: {fileID: 721483232}
   - component: {fileID: 721483231}
+  - component: {fileID: 721483240}
   m_Layer: 5
   m_Name: Over raw material
   m_TagString: Untagged
@@ -11161,23 +11399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &721483232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721483229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profilePic: {fileID: 0}
-  heads:
-  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
-  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
-  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
 --- !u!114 &721483233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11193,10 +11414,11 @@ MonoBehaviour:
   dialogue:
     name: Detective
     sentences:
-    - 'The cup of coffee Ressard was drinking before he fall.
+    - 'There are a lot of brand new materials here.
 
 '
-    - I should send it to the relevant department to check its contents.
+    - A new pack of coffee beans, a new can of sugar, a new bottle of ketchup.
+    - They are all sealed pretty tightly.
 --- !u!114 &721483234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11279,6 +11501,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 721483233}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 721483240}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -11341,6 +11587,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721483229}
   m_CullTransparentMesh: 1
+--- !u!114 &721483240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721483229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
 --- !u!1 &724392473
 GameObject:
   m_ObjectHideFlags: 0
@@ -11841,6 +12104,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fading: {fileID: 1265338594}
+--- !u!1 &741194343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741194345}
+  - component: {fileID: 741194344}
+  m_Layer: 0
+  m_Name: D_pop 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &741194344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741194343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c728e3e48db9aa4895f4f201118e078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - With everything I've heard and everything I've seen.
+    - I think now I'm ready to submit my Solution and reveal the criminal amone them.
+  progress_update: 12
+  AddItemAfterFinish: 0
+  items_id: 0
+--- !u!4 &741194345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741194343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.53505, y: 2.8263361, z: 6176.3813}
+  m_LocalScale: {x: 69.92462, y: 69.92462, z: 69.92462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133143051}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764355191
 GameObject:
   m_ObjectHideFlags: 0
@@ -13581,6 +13896,8 @@ GameObject:
   - component: {fileID: 897549253}
   - component: {fileID: 897549252}
   - component: {fileID: 897549258}
+  - component: {fileID: 897549260}
+  - component: {fileID: 897549259}
   m_Layer: 5
   m_Name: Over crime scene
   m_TagString: Untagged
@@ -13690,6 +14007,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 897549260}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 897549259}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -13764,6 +14105,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &897549259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897549250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &897549260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897549250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - 'There he was... Still chatting about future....
+
+'
+    - ... ...
+    - No point crying over spilled coffee now, time to find out who did this.
 --- !u!1 &897942800
 GameObject:
   m_ObjectHideFlags: 0
@@ -16318,12 +16696,12 @@ RectTransform:
   - {fileID: 1190923899}
   - {fileID: 1316453899}
   - {fileID: 388303332}
+  - {fileID: 1790956090}
   - {fileID: 1592461668}
   - {fileID: 1099589609}
-  - {fileID: 1790956090}
-  - {fileID: 1130955281}
+  - {fileID: 1653168798}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16902,7 +17280,7 @@ RectTransform:
   - {fileID: 721483230}
   - {fileID: 1530679973}
   m_Father: {fileID: 1044182759}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17141,12 +17519,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1044182759}
-  m_RootOrder: 7
+  m_Father: {fileID: 1653168798}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161.85, y: 98}
+  m_AnchoredPosition: {x: 161.84995, y: 98}
   m_SizeDelta: {x: 200.12, y: 473.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130955282
@@ -17470,6 +17848,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132633374}
   m_CullTransparentMesh: 1
+--- !u!1 &1133143050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133143051}
+  - component: {fileID: 1133143054}
+  - component: {fileID: 1133143053}
+  - component: {fileID: 1133143052}
+  m_Layer: 5
+  m_Name: Dialogue pop-ups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1133143051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133143050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1380755799}
+  - {fileID: 1253214708}
+  - {fileID: 741194345}
+  - {fileID: 187712486}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1133143052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133143050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1133143053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133143050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1133143054
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133143050}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 83697662}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1133585994
 GameObject:
   m_ObjectHideFlags: 0
@@ -18839,6 +19321,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249437536}
   m_CullTransparentMesh: 1
+--- !u!1 &1253214706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253214708}
+  - component: {fileID: 1253214707}
+  m_Layer: 0
+  m_Name: D_pop 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1253214707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253214706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c728e3e48db9aa4895f4f201118e078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - 'Everyone here is lying about something. '
+    - I wonder if I find the truth behind these lies if I mix up the questions.
+    - Wait, I just got a message that the autopsy report and the results of all the
+      things I sent for analysis are done.
+    - I should check them in the Notes app before going on another round of questioning.
+  progress_update: 9
+  AddItemAfterFinish: 1
+  items_id: 133
+--- !u!4 &1253214708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253214706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.53505, y: 2.8263361, z: 6176.3813}
+  m_LocalScale: {x: 69.92462, y: 69.92462, z: 69.92462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133143051}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1260581640
 GameObject:
   m_ObjectHideFlags: 0
@@ -19122,6 +19659,8 @@ GameObject:
   - component: {fileID: 1266251355}
   - component: {fileID: 1266251354}
   - component: {fileID: 1266251353}
+  - component: {fileID: 1266251357}
+  - component: {fileID: 1266251356}
   m_Layer: 5
   m_Name: Female
   m_TagString: Untagged
@@ -19192,7 +19731,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266251354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266251357}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1266251356}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1266251354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19231,6 +19794,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266251351}
   m_CullTransparentMesh: 1
+--- !u!114 &1266251356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266251351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &1266251357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266251351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - No.
 --- !u!1 &1276813414
 GameObject:
   m_ObjectHideFlags: 0
@@ -19466,6 +20062,8 @@ GameObject:
   - component: {fileID: 1301621609}
   - component: {fileID: 1301621608}
   - component: {fileID: 1301621614}
+  - component: {fileID: 1301621616}
+  - component: {fileID: 1301621615}
   m_Layer: 5
   m_Name: Over virus vial
   m_TagString: Untagged
@@ -19575,6 +20173,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1301621616}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1301621615}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -19649,6 +20271,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1301621615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301621606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &1301621616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301621606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - 'According to Ressars, this is the virus that forces people to tell lies with
+      grammar errors.
+
+'
+    - Guess I'm an official language cop now.
+    - Sadly, evidence is still required if I wish to arrest someone.
 --- !u!1 &1316453898
 GameObject:
   m_ObjectHideFlags: 0
@@ -20404,6 +21064,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378241374}
   m_CullTransparentMesh: 1
+--- !u!1 &1380755797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380755799}
+  - component: {fileID: 1380755798}
+  m_Layer: 0
+  m_Name: D_pop 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1380755798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380755797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c728e3e48db9aa4895f4f201118e078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - Hmm...
+    - I have checked all the items around the crime scene and sent the objects to
+      the forensic department.
+    - While I wait for the results, I should go and talk with the other people here.
+  progress_update: 2
+  AddItemAfterFinish: 0
+  items_id: 0
+--- !u!4 &1380755799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380755797}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.53505, y: 2.8263361, z: 6176.3813}
+  m_LocalScale: {x: 69.92462, y: 69.92462, z: 69.92462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133143051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1388778345
 GameObject:
   m_ObjectHideFlags: 0
@@ -23146,6 +23860,8 @@ GameObject:
   - component: {fileID: 1530679976}
   - component: {fileID: 1530679975}
   - component: {fileID: 1530679974}
+  - component: {fileID: 1530679982}
+  - component: {fileID: 1530679981}
   m_Layer: 5
   m_Name: Over spare cloths
   m_TagString: Untagged
@@ -23267,6 +23983,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1530679982}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1530679981}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -23329,6 +24069,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530679972}
   m_CullTransparentMesh: 1
+--- !u!114 &1530679981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530679972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &1530679982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530679972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - These seems to be spare cloths made for male waiters.
+    - One of them look used. I wonder who could have used it.
 --- !u!1 &1546786456
 GameObject:
   m_ObjectHideFlags: 0
@@ -23347,7 +24121,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1546786457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23427,7 +24201,7 @@ RectTransform:
   - {fileID: 888350989}
   - {fileID: 191811482}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -23516,7 +24290,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1965432450}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1568827469
 GameObject:
@@ -23758,7 +24532,7 @@ RectTransform:
   - {fileID: 1919530223}
   - {fileID: 1266251352}
   m_Father: {fileID: 1044182759}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24911,7 +25685,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1645140914
+--- !u!1 &1653168797
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24919,44 +25693,99 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1645140915}
-  - component: {fileID: 1645140916}
-  m_Layer: 0
-  m_Name: 'Clear stored data '
+  - component: {fileID: 1653168798}
+  - component: {fileID: 1653168801}
+  - component: {fileID: 1653168800}
+  - component: {fileID: 1653168799}
+  m_Layer: 5
+  m_Name: 'Clickable people buttons '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1645140915
-Transform:
+--- !u!224 &1653168798
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645140914}
+  m_GameObject: {fileID: 1653168797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5939703, y: 58.037434, z: -6293.216}
-  m_LocalScale: {x: 69.92462, y: 69.92462, z: 69.92462}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 313132694}
-  m_RootOrder: 8
+  m_Children:
+  - {fileID: 1130955281}
+  m_Father: {fileID: 1044182759}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1645140916
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1653168799
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645140914}
+  m_GameObject: {fileID: 1653168797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d25465e44753fdc4bb0ebde528025ec9, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
-  curr_item_count: 20
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1653168800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653168797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1653168801
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653168797}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 83697662}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: -1081579939
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1660709443
 GameObject:
   m_ObjectHideFlags: 0
@@ -25675,6 +26504,7 @@ MonoBehaviour:
   - {fileID: 1546786456}
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   activatingItem: {fileID: 1912296896}
+  curr_item_count: 20
 --- !u!212 &1675276086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27294,12 +28124,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1965432450}
-  m_RootOrder: 8
+  m_Father: {fileID: 33662333}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395.97, y: -82.76}
+  m_AnchoredPosition: {x: 395.96994, y: -82.76}
   m_SizeDelta: {x: 256.04, y: 473.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1788880345
@@ -27650,7 +28480,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1044182759}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1790956091
 SpriteRenderer:
@@ -28332,6 +29162,8 @@ GameObject:
   - component: {fileID: 1852984171}
   - component: {fileID: 1852984170}
   - component: {fileID: 1852984176}
+  - component: {fileID: 1852984178}
+  - component: {fileID: 1852984177}
   m_Layer: 5
   m_Name: Over suger jar
   m_TagString: Untagged
@@ -28441,6 +29273,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1852984178}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1852984177}
+        m_TargetAssemblyTypeName: ProfileArray, Assembly-CSharp
+        m_MethodName: GetImage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296895}
         m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
         m_MethodName: UpdateCount
@@ -28515,6 +29371,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1852984177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852984168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e836f4f1efa1cf4e9694907a0308569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profilePic: {fileID: 1464679844}
+  heads:
+  - {fileID: 2800000, guid: 61633b2a35a90a04d9f8a546dde45660, type: 3}
+  - {fileID: 2800000, guid: b9509e87a268ae04cb9574f51a0c0602, type: 3}
+  - {fileID: 2800000, guid: d4d719b77909f6047b56bdff10963c13, type: 3}
+--- !u!114 &1852984178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852984168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324c8a71fad9b9048ad77edadafd1da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Detective
+    sentences:
+    - 'With the amount of suger Ressard put in his coffee, I''m always suprised with
+      the fact that he is healthier than I am.
+
+'
+    - ... ...
+    - ...He was healthier than I am.
 --- !u!1 &1877356913
 GameObject:
   m_ObjectHideFlags: 0
@@ -29059,6 +29953,7 @@ MonoBehaviour:
   Inside: {fileID: 1941676356}
   PopOutside: {fileID: 1409729946}
   PopInside: {fileID: 963827425}
+  TextBox: {fileID: 1183136805}
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!114 &1912296894
 MonoBehaviour:
@@ -29327,6 +30222,7 @@ GameObject:
   - component: {fileID: 1920938077}
   - component: {fileID: 1920938076}
   - component: {fileID: 1920938075}
+  - component: {fileID: 1920938078}
   m_Layer: 5
   m_Name: ConverWaitress
   m_TagString: Untagged
@@ -29346,12 +30242,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1965432450}
-  m_RootOrder: 7
+  m_Father: {fileID: 33662333}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395.97, y: -82.76}
+  m_AnchoredPosition: {x: 395.96994, y: -82.76}
   m_SizeDelta: {x: 256.04, y: 473.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920938070
@@ -29453,30 +30349,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2015078780}
-        m_TargetAssemblyTypeName: UpdateCheckpoint, Assembly-CSharp
-        m_MethodName: UpdateProgress
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1912296895}
-        m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
-        m_MethodName: UpdateCount
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 41
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1920938073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29490,7 +30362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27058825}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -29551,6 +30423,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1920938078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920938068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e7a3ef08ec202468f43216e48d2305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activate: 0
+  disactivate: 0
 --- !u!1 &1932962728
 GameObject:
   m_ObjectHideFlags: 0
@@ -30060,7 +30946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1965432447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30141,11 +31027,10 @@ RectTransform:
   - {fileID: 1660709444}
   - {fileID: 1211838232}
   - {fileID: 511494503}
-  - {fileID: 1920938069}
-  - {fileID: 1788880344}
+  - {fileID: 33662333}
   - {fileID: 1549634364}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -30405,7 +31290,7 @@ RectTransform:
   - {fileID: 2011448052}
   - {fileID: 378129181}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -31388,7 +32273,7 @@ RectTransform:
   - {fileID: 300099660}
   - {fileID: 1688079719}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32164,8 +33049,8 @@ MonoBehaviour:
         m_MethodName: CheckPageNo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1675276085}
-          m_ObjectArgumentAssemblyTypeName: PlayerInfo, Assembly-CSharp
+          m_ObjectArgument: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: SaveDataSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32457,30 +33342,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1912296895}
-        m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
-        m_MethodName: UpdateCount
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2015078780}
-        m_TargetAssemblyTypeName: UpdateCheckpoint, Assembly-CSharp
-        m_MethodName: All_Items_Clicked
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 401
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2115293286}
         m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
         m_MethodName: TriggerDialogue
@@ -32501,6 +33362,30 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1912296895}
+        m_TargetAssemblyTypeName: UpdateItemCount, Assembly-CSharp
+        m_MethodName: UpdateCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2015078780}
+        m_TargetAssemblyTypeName: UpdateCheckpoint, Assembly-CSharp
+        m_MethodName: All_Items_Clicked
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 401
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

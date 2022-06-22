@@ -28,7 +28,7 @@ public class UpdateCheckpoint : MonoBehaviour
         if(InfoSO.ItemCount >= num_items)
         {
             GameEvents.current.Checkpoint(checkpt);
-            Debug.Log("All items clicked");
+            //Debug.Log("All items clicked");
         }
     }
 
@@ -50,5 +50,11 @@ public class UpdateCheckpoint : MonoBehaviour
         {
             is_ready = false;
         }
+    }
+
+    private void OnDestroy()
+    {
+        GameEvents.current.onGetReady -= OnGetReady;
+        GameEvents.current.onDialogueEnd -= OnDialogueEnd;
     }
 }
