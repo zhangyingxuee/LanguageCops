@@ -24,6 +24,14 @@ public class NameTransfer : MonoBehaviour
 
     public SaveDataSO PlayerInfoSO;
 
+    [SerializeField] private GameObject title1;
+
+    [SerializeField] private GameObject title2;
+
+    [SerializeField] private GameObject blackSquare;
+
+    [SerializeField] private GameObject blackScreen;
+
 
     // if cannot access, use PlayerPrefs, SetString, GetString, 
     private static NameTransfer instance;
@@ -49,7 +57,10 @@ public class NameTransfer : MonoBehaviour
         newMsgButton.SetActive(false);
         messagePage.SetActive(false);
         messageContent.SetActive(false);
-
+        title1.SetActive(false);
+        title2.SetActive(false);
+        blackSquare.SetActive(false);
+        blackScreen.SetActive(false);
     }
 
     public void StoreName()
