@@ -8,9 +8,7 @@ public class ProfileArray : MonoBehaviour
 {
     public RawImage profilePic; 
 
-    public Texture[] heads = new Texture[3];
-
-    private int[] names = {0, 1, 2};
+    public Texture[] heads;
 
     public void GetImage(int index)
     { 

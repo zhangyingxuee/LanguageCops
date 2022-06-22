@@ -1,1 +1,0 @@
-﻿{"inkVersion":20,"root":[[{"->":"main"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"pre":["^please talk to the old man first.","\n","done",{"#f":1}],"main":[{"#":"waitress"},{"#":"noSpecial"},"^what do you want to know","\n","^i don't know anything","\n","done",{"#f":1}],"post":["^I have nothing else to say","\n","done",{"#f":1}],"#f":1}],"listDefs":{}}

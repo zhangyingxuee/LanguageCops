@@ -495,9 +495,9 @@ MonoBehaviour:
   textBox: {fileID: 1645006566}
   nameBox: {fileID: 130876281}
   dialogueBox: {fileID: 1461954007}
-  ContinueButton: {fileID: 1016402632}
-  movement1: {fileID: 0}
-  movement2: {fileID: 0}
+  image: {fileID: 0}
+  popUp: {fileID: 0}
+  nameWithGrammar: 
 --- !u!222 &360255052
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -686,7 +686,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2009291211
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 46ed6a3afb4fa60448bd792ae52591fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -906,7 +906,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1608782405
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a32c0a70739e86045bc987af807aca01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -948,6 +948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1289295355}
   offset: {x: 0.05, y: 0, z: 0}
+  walking: {fileID: 0}
   textBox: {fileID: 1645006566}
 --- !u!114 &1289295357
 MonoBehaviour:
@@ -963,6 +964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1289295355}
   offset: {x: 0.05, y: 0, z: 0}
+  walking: {fileID: 0}
   textBox: {fileID: 1645006566}
 --- !u!1 &1375728865
 GameObject:
@@ -1307,7 +1309,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 177702769
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.09433961, g: 0.0059332987, b: 0.0059332987, a: 1}

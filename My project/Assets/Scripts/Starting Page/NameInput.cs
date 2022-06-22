@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NameInput : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class NameInput : MonoBehaviour
     [SerializeField] private float delayInput;
     
     [SerializeField] private GameObject[] userInputField;
+
+    [SerializeField] private Button phoneActivate;
+
 
     public void DoDelayAction()
     {
@@ -18,6 +22,7 @@ public class NameInput : MonoBehaviour
             thing.SetActive(true);
             Debug.Log("setting active");
         }
+        phoneActivate.interactable = false;
 
     }
  

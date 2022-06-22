@@ -22,6 +22,7 @@ public class NameTransfer : MonoBehaviour
 
     public GameObject messageContent;
 
+
     // if cannot access, use PlayerPrefs, SetString, GetString, 
     private static NameTransfer instance;
 
@@ -56,10 +57,10 @@ public class NameTransfer : MonoBehaviour
         nameEntered = inputField.GetComponent<TMP_InputField>().text;
         if (nameEntered == "")
         { 
-            nameEntered = "Detective";
+            nameEntered = "Povas Lirros";
         }
         textDisplayBox.SetActive(true);
-        textDisplay.text = "Welcome! " + nameEntered + "!";
+        textDisplay.text = "Welcome!\nDetective " + nameEntered + "!";
         inputField.SetActive(false);
         continueButton.SetActive(false);
         newMsgButton.SetActive(true);

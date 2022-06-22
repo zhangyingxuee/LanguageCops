@@ -34,7 +34,7 @@ public class DialogueManagerInk : MonoBehaviour
 
     private Story currentStory;
 
-    private bool dialogueIsPlaying;
+    public bool dialogueIsPlaying;
 
     private static DialogueManagerInk instance;
 
@@ -183,6 +183,7 @@ public class DialogueManagerInk : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueTextDisplay.text = currentStory.Continue();
+            Debug.Log(dialogueTextDisplay.text);
             DisplayChoices();
         }
         else 
@@ -235,11 +236,11 @@ public class DialogueManagerInk : MonoBehaviour
     
     public void MakeChoice(int choiceIndex)
     {
-        Debug.Log(choiceIndex);
+        Debug.Log("choose choice " + choiceIndex);
         // to allow the ink script to continue after you make the choice
         currentStory.ChooseChoiceIndex(choiceIndex); 
         ContinueStory();
-        Debug.Log("continue story is working");
+        Debug.Log("text after choice is displayed");
     }
 
 
