@@ -10,7 +10,6 @@ public class ClickToContinueTutorial : MonoBehaviour
     {   
            if (Input.GetMouseButtonDown(0))
             {
-
                 FindObjectOfType<DialogueManager>().DisplayNextSentence();
             }
              
