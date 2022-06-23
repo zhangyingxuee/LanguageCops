@@ -5,7 +5,7 @@ I need to call my insurance company! Go away!
 -> DONE
 
 === main === 
-# Owner 
+# Kiffery Lollas 
 # Special 
 Hey, hurry up! I don't have all day to mess around. 
 -> question1
@@ -48,7 +48,9 @@ I mean, with such a recognizable hairstyle, it is hard not to remember him, righ
 -> question1
 
 = answer3
-Huh? No! Our cafe has the best reputation in the whole town! Stop questioning the quality of our food! 
+Huh? No! 
+Our cafe has the best reputation in the whole town! 
+Stop questioning the quality of our food! 
 {   - not answer4:
         -> question1
     - else:

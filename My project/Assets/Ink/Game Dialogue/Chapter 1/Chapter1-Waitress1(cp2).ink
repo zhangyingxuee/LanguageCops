@@ -6,7 +6,7 @@ I will try my best to cooperate when I am ready.
 -> DONE
 
 === main === 
-# Waitress 
+# Murph Derras
 # Special 
 Today is literally the worst day of my life. 
 -> question1
@@ -36,11 +36,13 @@ It wasn't a popular period for our cafe.
 -> question1
 
 = answer2
-The owner, I have never touched it other than serving it.
+The owner.
+I have never touched it other than serving it.
 -> question1
 
 = answer3
-Yes, he is a regular customer, always sitting at the same spot.
+Yes, he is a regular customer,
+always sitting at the same spot.
 {   - not answer4:
         -> question1
     - else:
@@ -49,7 +51,8 @@ Yes, he is a regular customer, always sitting at the same spot.
 
 = answer3version2
 Oh I remember one more thing!
-Professor is a regular customer. He always sits at the same table there. 
+Professor is a regular customer. 
+He always sits at the same table there. 
 ->conclusion 
 
 = answer4
@@ -62,7 +65,8 @@ Professor is a regular customer. He always sits at the same table there.
 }
 
 = conclusion 
-I hope you find the murderer soon, detective. I am really scared now.
+I hope you find the murderer soon, detective. 
+I am really scared now.
 -> DONE
 
 

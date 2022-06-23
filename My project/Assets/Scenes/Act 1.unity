@@ -8511,8 +8511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.027999997, y: 0.024000004}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.004000008, y: -0.000000052154064}
+  m_SizeDelta: {x: 1.5599, y: -0.1106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &402248322
 MonoBehaviour:
@@ -8597,7 +8597,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.6970426, y: 0.01711148, z: -0.605348, w: -0.017111368}
+  m_margin: {x: -0.0079270005, y: 0.0064943954, z: 0.0061736996, w: -0.0029553026}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -15302,8 +15302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.009, y: -0.046}
-  m_SizeDelta: {x: 0.65377, y: 0.2024}
+  m_AnchoredPosition: {x: 0.0729, y: -0.046}
+  m_SizeDelta: {x: 0.79472, y: 0.2024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726370929
 MonoBehaviour:
@@ -15327,9 +15327,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 0, b: 0, a: 0.15686275}
-    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 0.39215687}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 0.15686275}
     m_PressedColor: {r: 0.8207547, g: 0.05936269, b: 0.05936269, a: 0.50980395}
-    m_SelectedColor: {r: 1, g: 0, b: 0, a: 0}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 0.15686275}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -15434,8 +15434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385.07, y: 45.419983}
-  m_SizeDelta: {x: 289.86, y: -502.84}
+  m_AnchoredPosition: {x: 118.45, y: -60.536987}
+  m_SizeDelta: {x: 1379.86, y: -328.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &726971416
 CanvasRenderer:
@@ -15528,7 +15528,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -34.23387, y: 44.41131, z: -870.284, w: -206.48961}
+  m_margin: {x: 1.4308926, y: 2.059431, z: 1.273529, w: -8.104435}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -18909,7 +18909,7 @@ RectTransform:
   m_GameObject: {fileID: 905318709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 1.9, z: 1.02}
+  m_LocalScale: {x: 0.33, y: 1.9, z: 1.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1728585796}
@@ -18917,8 +18917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.21199998, y: 0.033}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.004000008, y: -0.000000052154064}
+  m_SizeDelta: {x: 1.5599, y: -0.1106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905318711
 MonoBehaviour:
@@ -35125,9 +35125,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.9716981, g: 0, b: 0, a: 0.15686275}
-    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 0.39215687}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 0.15686275}
     m_PressedColor: {r: 1, g: 0, b: 0, a: 0.50980395}
-    m_SelectedColor: {r: 1, g: 0, b: 0, a: 0}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 0.15686275}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -35215,8 +35215,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.009, y: -0.3261}
-  m_SizeDelta: {x: 0.65377, y: 0.2024}
+  m_AnchoredPosition: {x: 0.069, y: -0.284}
+  m_SizeDelta: {x: 0.79113, y: 0.1884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1731845325
 GameObject:
@@ -36199,7 +36199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: ab1c6bbf1403720489835cbdfa3b2d09, type: 3}
-  threshold: 0
+  threshold: 3
 --- !u!114 &1788880349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38497,7 +38497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSON: {fileID: 4900000, guid: 94b96b12754a7b040b0a22d9868ca27c, type: 3}
-  threshold: 0
+  threshold: 2
 --- !u!114 &1920938071
 MonoBehaviour:
   m_ObjectHideFlags: 0
