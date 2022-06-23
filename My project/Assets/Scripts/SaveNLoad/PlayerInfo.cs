@@ -16,6 +16,8 @@ public class PlayerInfo : MonoBehaviour
     private bool send_game_event;
 
     public int curr_item_count;
+
+    private bool should_reset;
     private void Awake()
     {
         InfoSO.Progress = 0;
@@ -28,9 +30,12 @@ public class PlayerInfo : MonoBehaviour
         {
             LoadPlayer();
             send_game_event = true;
+            should_reset = false;
         }else
         {
             send_game_event = false;
+            should_reset = true;
+            
         }
         InfoSO.From_another_scene = false;
     }
@@ -40,6 +45,11 @@ public class PlayerInfo : MonoBehaviour
         {
             GameEvents.current.Checkpoint(InfoSO.Progress);
             send_game_event = false;
+        }
+        if (should_reset)
+        {
+            GameEvents.current.Checkpoint(0);
+            should_reset = false;
         }
     }
     public void SavePlayer()

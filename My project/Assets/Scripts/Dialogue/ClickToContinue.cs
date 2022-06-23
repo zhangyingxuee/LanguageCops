@@ -27,7 +27,7 @@ public class ClickToContinue : MonoBehaviour
             { 
                 if (Input.GetMouseButtonDown(0) && choiceButton1.activeSelf == false && choiceButton0.activeSelf == false)
                 {
-                    Debug.Log("Continue button for ink is working");
+                    //Debug.Log("Continue button for ink is working");
                     FindObjectOfType<DialogueManagerInk>().ContinueStory();
                 }
 
@@ -38,7 +38,7 @@ public class ClickToContinue : MonoBehaviour
                 
                 if (Input.GetMouseButtonDown(0))
                 {   
-                    Debug.Log("the click to continue is working");
+                    //Debug.Log("the click to continue is working");
                     FindObjectOfType<DialogueManager>().DisplayNextSentence();
                 }
             }  

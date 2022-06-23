@@ -28,7 +28,7 @@ public class DialogueManagerInk : MonoBehaviour
 
    private int currentThreshold;
 
-
+    private bool specialDialoguePop;
 
 
 
@@ -60,9 +60,10 @@ public class DialogueManagerInk : MonoBehaviour
         nameBox.SetActive(false);
         spriteProfile.SetActive(false);
         popUp.SetActive(false);
+        specialDialoguePop = false;
         foreach (GameObject converButton in converInitialisor)
         {
-            converButton.SetActive(true);
+           // converButton.SetActive(true);
         }
         
 
@@ -120,7 +121,7 @@ public class DialogueManagerInk : MonoBehaviour
         spriteProfile.SetActive(true);
         foreach (GameObject converButton in converInitialisor)
         {
-            converButton.SetActive(false);
+            //converButton.SetActive(false);
         }
         
         
@@ -138,16 +139,18 @@ public class DialogueManagerInk : MonoBehaviour
             dialogueTextDisplay.text = "";
             foreach (GameObject converButton in converInitialisor)
             {
-                converButton.SetActive(true);
+               // converButton.SetActive(true);
             }
 
             // check if there is special dialogue
             
-            string specialLable = currentStory.TagsForContentAtPath("main")[1];
-            Debug.Log(specialLable);
-            if (specialLable == "special")
-            { 
+            string specialLabel = currentStory.TagsForContentAtPath("main")[1];
+            Debug.Log(specialLabel);
+            if (specialLabel == "special" && specialDialoguePop )
+            {
+                Debug.Log("The popup function is working.");
                 popUp.SetActive(true);
+            specialDialoguePop = false;
             }
              GameEvents.current.DialogueEnd();
     }
@@ -159,20 +162,21 @@ public class DialogueManagerInk : MonoBehaviour
         
         if (checkPoint < currentThreshold)
             { 
-                Debug.Log("pre is playing");
+                //Debug.Log("pre is playing");
                 currentStory.ChoosePathString("pre");
             }
 
         if (checkPoint > currentThreshold)
             { 
-                Debug.Log("post is playing");
+                //Debug.Log("post is playing");
                 currentStory.ChoosePathString("post");
             }
         
         if (checkPoint == currentThreshold)
             { 
-                Debug.Log("main is playing");
+                //Debug.Log("main is playing");
                 currentStory.ChoosePathString("main");
+            specialDialoguePop = true;
             }
         ContinueStory();
         
@@ -183,7 +187,7 @@ public class DialogueManagerInk : MonoBehaviour
         if (currentStory.canContinue)
         {
             dialogueTextDisplay.text = currentStory.Continue();
-            Debug.Log(dialogueTextDisplay.text);
+            
             DisplayChoices();
         }
         else 
@@ -236,11 +240,11 @@ public class DialogueManagerInk : MonoBehaviour
     
     public void MakeChoice(int choiceIndex)
     {
-        Debug.Log("choose choice " + choiceIndex);
+        //Debug.Log("choose choice " + choiceIndex);
         // to allow the ink script to continue after you make the choice
         currentStory.ChooseChoiceIndex(choiceIndex); 
         ContinueStory();
-        Debug.Log("text after choice is displayed");
+        //Debug.Log("text after choice is displayed");
     }
 
 

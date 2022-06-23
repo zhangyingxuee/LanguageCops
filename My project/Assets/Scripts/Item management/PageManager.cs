@@ -18,26 +18,38 @@ public class PageManager : MonoBehaviour
 
     private int TPage = 1;
     private int CPage = 1;
-    private int ItemCount;
+    private int Highest_item_id;
 
-    public void CheckPageNo( SaveDataSO PlayerInfoSO)
+    void Start()
     {
-        ItemCount = PlayerInfoSO.ItemCount;
+        GameEvents.current.onAddingItem += OnAddingItem;
+    }
+    private void OnAddingItem(int id)
+    {
+        if (id / 10 > Highest_item_id)
+        {
+            Highest_item_id = (id / 10) + (id % 10) - 1;
+        }
+
+
+    }
+    public void CheckPageNo( )
+    {
         LastPage.SetActive(false);
-        if (ItemCount <= 4)
+        if (Highest_item_id <= 4)
         {
             TotalPage.text = "1";
             CurrPage.text = "1";
             NextPage.SetActive(false);
         } else
         {
-            if (ItemCount % 4 == 0)
+            if (Highest_item_id % 4 == 0)
             {
-                TPage = ItemCount / 4;
+                TPage = Highest_item_id / 4;
             }
             else
             {
-                TPage = (ItemCount / 4) + 1;
+                TPage = (Highest_item_id / 4) + 1;
             }
             
             TotalPage.text = TPage.ToString();
@@ -120,4 +132,8 @@ public class PageManager : MonoBehaviour
             }
         }
     }
- }
+    private void OnDestroy()
+    {
+        GameEvents.current.onAddingItem += OnAddingItem;
+    }
+}
