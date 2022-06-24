@@ -22,6 +22,7 @@ public class PlayerInfo : MonoBehaviour
     {
         InfoSO.Progress = 0;
         InfoSO.ItemCount = 0;
+        InfoSO.HighestItemId = 0;
         InfoSO.Items = new bool[curr_item_count];
     }
     private void Start()
@@ -54,7 +55,7 @@ public class PlayerInfo : MonoBehaviour
     }
     public void SavePlayer()
     {
-        InfoSO.SceneCount = (InfoSO.SceneCount / 10) * 10 + scene_num;
+        InfoSO.SceneCount = InfoSO.SubSceneCount * 10 + scene_num;
         SaveSystem.SavePlayer(this);
     }
 
@@ -70,6 +71,7 @@ public class PlayerInfo : MonoBehaviour
         {
             InfoSO.Progress = data.progress;
             InfoSO.ItemCount = data.itemCount;
+            InfoSO.HighestItemId = data.highestItemId;
             InfoSO.Items = data.items;
             for (int i = 0; i < sub_scene.Length; i++)
             {

@@ -8,6 +8,6 @@ public class UpdateSubscene : MonoBehaviour
 
     public void UpdateSubScene(int count)
     {
-        InfoSO.SceneCount = InfoSO.SceneCount % 10 + count * 10;
+        InfoSO.SubSceneCount =  count;
     }
 }

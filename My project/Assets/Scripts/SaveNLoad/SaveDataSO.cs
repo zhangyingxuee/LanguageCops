@@ -6,8 +6,10 @@ using UnityEngine;
 public class SaveDataSO : ScriptableObject
 {
     private int scene_count;
+    private int sub_scene_count;
     private int progress;
     private int itemCount;
+    private int highestItemId;
     private string player_name;
     private bool[] items = new bool[30];
     private Vector2 position;
@@ -17,6 +19,11 @@ public class SaveDataSO : ScriptableObject
     {
         get { return scene_count; }
         set { scene_count = value; }
+    }
+    public int SubSceneCount
+    {
+        get { return sub_scene_count; }
+        set { sub_scene_count = value; }
     }
     public int Progress
     {
@@ -28,6 +35,11 @@ public class SaveDataSO : ScriptableObject
     {
         get { return itemCount; }
         set { itemCount = value; }
+    }
+    public int HighestItemId
+    {
+        get { return highestItemId; }
+        set { highestItemId = value; }
     }
     public string PlayerName
     {

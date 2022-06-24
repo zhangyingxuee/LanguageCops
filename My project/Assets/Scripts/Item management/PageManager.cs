@@ -15,10 +15,11 @@ public class PageManager : MonoBehaviour
     public GameObject[] Item;
     public GameObject OverviewPage;
     public GameObject SpecificPage;
+    public SaveDataSO InfoSO;
 
     private int TPage = 1;
     private int CPage = 1;
-    private int Highest_item_id;
+
 
     void Start()
     {
@@ -26,9 +27,9 @@ public class PageManager : MonoBehaviour
     }
     private void OnAddingItem(int id)
     {
-        if ((id / 10) + 1 > Highest_item_id)
+        if (id / 10 > InfoSO.HighestItemId)
         {
-            Highest_item_id = (id / 10) + (id % 10);
+            InfoSO.HighestItemId = (id / 10) + (id % 10);
         }
 
 
@@ -36,20 +37,20 @@ public class PageManager : MonoBehaviour
     public void CheckPageNo( )
     {
         LastPage.SetActive(false);
-        if (Highest_item_id <= 4)
+        if (InfoSO.HighestItemId <= 4)
         {
             TotalPage.text = "1";
             CurrPage.text = "1";
             NextPage.SetActive(false);
         } else
         {
-            if (Highest_item_id % 4 == 0)
+            if (InfoSO.HighestItemId % 4 == 0)
             {
-                TPage = Highest_item_id / 4;
+                TPage = InfoSO.HighestItemId / 4;
             }
             else
             {
-                TPage = (Highest_item_id / 4) + 1;
+                TPage = (InfoSO.HighestItemId / 4) + 1;
             }
             
             TotalPage.text = TPage.ToString();
@@ -73,8 +74,6 @@ public class PageManager : MonoBehaviour
                 Page[i].SetActive(false);
             }
         }
-        CPage = 1;
-        CurrPage.text = CPage.ToString();
     }
 
     public void nextPage()

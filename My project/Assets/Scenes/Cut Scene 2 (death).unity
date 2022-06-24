@@ -1239,12 +1239,16 @@ MonoBehaviour:
   dialogue:
     name: Ressard Charz
     sentences:
-    - 'I talk about a virus.
-
-'
-    - 'Now I will drink my coffee
-
-'
+    - Currently, this virus will only force people to include grammar errors when
+      they attempt to lie.
+    - However, if you can submit this bottle to your commissioner, it should gather
+      enough attention to shut this lab down.
+    - However, if you can submit this bottle to your commissioner, it should gather
+      enough attention to shut this lab down.
+    - I have already completed an antidote and hid it in my locker, the password
+      is the one we used to use.
+    - 'All this talking is getting me thirsty. '
+    - 'Let me take a sip before writing you the location of my lab. '
 --- !u!1 &526873583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,7 +2975,17 @@ MonoBehaviour:
   dialogue:
     name: Ressard Charz
     sentences:
-    - This is a dummy sentence
+    - Sorry to call you out this early, but I have urgent business to discuss with
+      you.
+    - Putting it simply, I need your help.
+    - 'Do you remember that I told you that I was working on finding a vaccine for
+      some unknown virus? '
+    - The one that is supposed to force people to only tell the truth.
+    - "It turns out that the higher-ups in the lab only wanted only the virus and
+      not the vaccine.\r"
+    - "Not only that, they plan to release this virus into the general population
+      upon its completion!\r"
+    - So I snuck this vial of virus sample out of the lab.
 --- !u!1 &1478277530
 GameObject:
   m_ObjectHideFlags: 0
