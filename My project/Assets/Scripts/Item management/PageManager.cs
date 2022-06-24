@@ -26,9 +26,9 @@ public class PageManager : MonoBehaviour
     }
     private void OnAddingItem(int id)
     {
-        if (id / 10 > Highest_item_id)
+        if ((id / 10) + 1 > Highest_item_id)
         {
-            Highest_item_id = (id / 10) + (id % 10) - 1;
+            Highest_item_id = (id / 10) + (id % 10);
         }
 
 
@@ -73,6 +73,8 @@ public class PageManager : MonoBehaviour
                 Page[i].SetActive(false);
             }
         }
+        CPage = 1;
+        CurrPage.text = CPage.ToString();
     }
 
     public void nextPage()

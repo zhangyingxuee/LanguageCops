@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerDIalogueWhenActive : MonoBehaviour
 {
+    public Texture heads;
+    public RawImage profilePic;
     public Dialogue dialogue;
     public int progress_update;
     public bool AddItemAfterFinish;
@@ -16,6 +19,7 @@ public class TriggerDIalogueWhenActive : MonoBehaviour
     private void OnEnable()
     {
         TriggerDialogue();
+        profilePic.texture = heads;
         is_ready = true;
         //Debug.Log("Now a pop-up appears");
     }

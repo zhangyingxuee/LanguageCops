@@ -20,17 +20,16 @@ public class DialogueProgressManager : MonoBehaviour
         //Debug.Log("Progress updated to " + progress);
         if (threshold > progress)
         {
-            PreCP.SetActive(true);
             CP.SetActive(false);
             PostCP.SetActive(false);
-
+            PreCP.SetActive(true);
         }
         else if (threshold == progress)
         {
             Debug.Log("Active:" + CP.name);
             PreCP.SetActive(false);
-            CP.SetActive(true);
             PostCP.SetActive(false);
+            CP.SetActive(true);   
         } else
         {
             PreCP.SetActive(false);

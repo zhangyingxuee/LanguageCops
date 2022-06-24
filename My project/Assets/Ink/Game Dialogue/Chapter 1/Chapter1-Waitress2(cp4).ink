@@ -5,7 +5,7 @@ I have told you everything just now.
 
 === main === 
 # Murph Derras
-# Special 
+# No Special 
 Oh, you have new questions for me, detective? 
 -> question1
 

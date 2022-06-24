@@ -146,11 +146,11 @@ public class DialogueManagerInk : MonoBehaviour
             
             string specialLabel = currentStory.TagsForContentAtPath("main")[1];
             Debug.Log(specialLabel);
-            if (specialLabel == "special" && specialDialoguePop )
+            if (specialLabel == "Special" && specialDialoguePop )
             {
                 Debug.Log("The popup function is working.");
                 popUp.SetActive(true);
-            specialDialoguePop = false;
+                specialDialoguePop = false;
             }
              GameEvents.current.DialogueEnd();
     }

@@ -64,4 +64,13 @@ public class GameEvents : MonoBehaviour
             onGetReady(id);
         }
     }
+
+    public event Action<int> onSubmit;
+    public void Submit(int id)
+    {
+        if (onSubmit != null)
+        {
+            onSubmit(id);
+        }
+    }
 }

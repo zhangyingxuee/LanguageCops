@@ -5,17 +5,21 @@ using UnityEngine.UI;
 
 public class CPLockButton : MonoBehaviour
 {
+    public int SolvingUnlock;
+    public int NextSceneUnlock;
+
+    private bool ItemsLocked;
+    public Button Notes;
+    public Button Solvings;
+    public Button NextScene;
+
     void Start()
     {
         GameEvents.current.onCheckpoint += OnCheckpoint;
         GameEvents.current.onAddingItem += OnAddingItem;
+        ItemsLocked = true;
     }
 
-    public int SolvingUnlock;
-    public int NextSceneUnlock;
-    public Button Notes;
-    public Button Solvings;
-    public Button NextScene;
 
     private void OnCheckpoint(int progress)
     {
@@ -40,10 +44,16 @@ public class CPLockButton : MonoBehaviour
     }
     private void OnAddingItem(int id)
     {
-        Notes.interactable = true;
+        if (ItemsLocked)
+        {
+            Notes.interactable = true;
+            ItemsLocked = false;
+        }
+        
     }
     private void OnDestroy()
     {
         GameEvents.current.onCheckpoint -= OnCheckpoint;
+        GameEvents.current.onAddingItem += OnAddingItem;
     }
 }

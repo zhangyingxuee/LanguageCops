@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006e487929dd8c049ad4ca2c1d681194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0.5
+  offset: 0.8
   m_MovementSmoothing: 0.05
   walking: {fileID: 72874594}
   textBox: {fileID: 2073342541}

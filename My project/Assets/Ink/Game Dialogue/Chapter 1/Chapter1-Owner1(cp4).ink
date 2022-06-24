@@ -18,7 +18,7 @@ What do you want to know?
     * [Do you know the victim personally?]
         -> answer.answer2
     
-    * {answer.answer1 && answer.answer2} [Was there any previous incidence of food poisoning in your cafe?]
+    * {answer.answer1 && answer.answer2} [Was there any previous incidence of food poisoning?]
         -> answer.answer3
         
     * {answer.answer1 && answer.answer2} [I have no more questions for you. Thank you]
@@ -30,26 +30,25 @@ What do you want to know?
 
 = answer1
 Yo, what kind of question is this? 
-Can't you see I am the owner here? Do the others look like they can manage a shop?
+Can't you see I am the owner here? 
+Do the others look like they can manage a shop?
     * What are you in charge of? 
         I am the only one who can make good coffee here. 
-        I mean, can you trust those kids who cannot even distinguish salt and sugar? 
+        I mean, can you trust those dumb kids? 
         ** Is there anything else that you do? 
             Huh? I do literally everything here! Buying the ingredients, managing the stock, cleaning of the storeroom...
-            Those kids are definitely getting more salary than they deserved! Wandering around like that!
+            Those kids are definitely getting more salary than they deserved!
             -> question1
     
 
 = answer2
-That old man? Yes, he is a really coffee addict. 
-Of course, my coffee always make my customers come back. 
-This old man always sits at the same spot every time he comes. 
-I mean, with such a recognizable hairstyle, it is hard not to remember him, right?
+That weirdo? Yes, he is a really coffee addict. Of course, my coffee always make my customers come back. 
+This weirdo always sits at the same spot every time he comes. I mean, with such a crazy hairstyle, it is hard not to remember him, right?
 -> question1
 
 = answer3
 Huh? No! 
-Our cafe has the best reputation in the whole town! 
+Our cafe has a best reputation in the whole town! 
 Stop questioning the quality of our food! 
 {   - not answer4:
         -> question1
@@ -60,7 +59,7 @@ Stop questioning the quality of our food!
 
 = answer3version2
 Are you sure you have no more questions? My time is precious, so ask in one go!
-    *[Was there any previous incidence of food poisoning in your cafe?]
+    *[Was there any previous incidence of food poisoning?]
         -> answer.answer3
 
 -> question1

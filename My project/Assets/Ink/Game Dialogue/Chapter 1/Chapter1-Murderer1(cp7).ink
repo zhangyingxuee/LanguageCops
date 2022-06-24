@@ -6,7 +6,7 @@
 === main === 
 # Christian Minus  
 # Special 
-Hello there！
+Hello there!
 uhm, what an unpleasant environment for our conversation.  
 -> question1
 
