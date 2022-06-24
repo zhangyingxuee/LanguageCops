@@ -24,9 +24,15 @@ public class ActivatingItem : MonoBehaviour
 
     public void AfterLoad()
     {
+        bool is_activated = false;
         for ( int i = 0; i < OverviewItem.Length; i++)
         {
             OverviewItem[i].SetActive(InfoSO.Items[i]);
+            if(!is_activated & InfoSO.Items[i])
+            {
+                GameEvents.current.AddingItem(i);
+                is_activated = true;
+            }
         }
     }
     private void OnDestroy()

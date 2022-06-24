@@ -27,7 +27,7 @@ public class PageManager : MonoBehaviour
     }
     private void OnAddingItem(int id)
     {
-        if (id / 10 > InfoSO.HighestItemId)
+        if ((id / 10) + 1 > InfoSO.HighestItemId)
         {
             InfoSO.HighestItemId = (id / 10) + (id % 10);
         }

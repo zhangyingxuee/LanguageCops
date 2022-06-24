@@ -30,8 +30,9 @@ public class ItemSlot : MonoBehaviour, IDropHandler
             
             if (correctObject == true)
 
-            {
-                 Debug.Log("placeTaken first if =" + dataSO.PlaceTaken[slotName]);
+            {   
+
+                 //Debug.Log("placeTaken first if =" + dataSO.PlaceTaken[slotName]);
                 if (dataSO.PlaceTaken[slotName] == false)
                 {
                     eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
@@ -70,16 +71,20 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         typeOnDrag = dataSO.ObjectType;
 
         //Debug.Log("Trigger!");
-        //Debug.Log("objectType ="+typeOnDrag+"slotName =" + slotName);
+       
         if (slotName == typeOnDrag)
         {   
             //Debug.Log("Object is correct type");
-            
+            Debug.Log("objectType = "+typeOnDrag+"slotName = " + slotName + " in triggerEnter");
             correctObject = true;
+        }
+        else
+        { 
+            correctObject = false;
         }
      
     }
-    
+
     /*private void OnTriggerExit2D(Collider2D collider)
     {
         dataSO.PlaceTaken[slotName] = false;

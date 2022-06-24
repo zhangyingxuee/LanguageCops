@@ -15,7 +15,8 @@ public class PlayerInfo : MonoBehaviour
 
     public GameObject popup;
 
-    private bool send_game_event;
+    private bool send_game_event1;
+    private bool send_game_event2;
 
     public int curr_item_count;
 
@@ -32,22 +33,33 @@ public class PlayerInfo : MonoBehaviour
         if (InfoSO.From_another_scene)
         {
             LoadPlayer();
-            send_game_event = true;
+            send_game_event1 = true;
+            send_game_event2 = true;
             should_reset = false;
         }else
         {
-            send_game_event = false;
+            send_game_event1 = false;
+            send_game_event2 = false;
             should_reset = true;
             
         }
         InfoSO.From_another_scene = false;
     }
+
     private void Update()
     {
-        if (send_game_event)
+        if (send_game_event1 & send_game_event2)
+        {
+            LoadPlayer();
+            //GameEvents.current.Checkpoint(InfoSO.Progress);
+            send_game_event1 = false;
+            Debug.Log("Loading player...");
+        } 
+        else if (!send_game_event1 & send_game_event2)
         {
             GameEvents.current.Checkpoint(InfoSO.Progress);
-            send_game_event = false;
+            send_game_event2 = false;
+            Debug.Log("Loading a second time.");
         }
         if (should_reset)
         {
@@ -55,6 +67,7 @@ public class PlayerInfo : MonoBehaviour
             should_reset = false;
         }
     }
+    
     public void SavePlayer()
     {
         InfoSO.SceneCount = InfoSO.SubSceneCount * 10 + scene_num;
@@ -92,13 +105,13 @@ public class PlayerInfo : MonoBehaviour
             transform.position = position;
             InfoSO.Position = position;
             popup.SetActive(false);
-            activatingItem.AfterLoad();
             Invoke("updateProcessAftLoad", 0.3f);
             
         }
     }
 private void updateProcessAftLoad()
 { 
+    activatingItem.AfterLoad();
     GameEvents.current.Checkpoint(InfoSO.Progress);
     Debug.Log("Reset checkpoint to " + InfoSO.Progress);
 }
