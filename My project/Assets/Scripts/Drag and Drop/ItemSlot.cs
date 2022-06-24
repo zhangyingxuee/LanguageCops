@@ -24,22 +24,20 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-
-        
         if (eventData.pointerDrag != null)
         {
-            Debug.Log("placeTaken before Snap =" + dataSO.PlaceTaken[slotName]);
+            //Debug.Log("placeTaken before Snap =" + dataSO.PlaceTaken[slotName]);
             
             if (correctObject == true)
 
             {
-                 //Debug.Log("placeTaken first if =" + dataSO.PlaceTaken[slotName]);
+                 Debug.Log("placeTaken first if =" + dataSO.PlaceTaken[slotName]);
                 if (dataSO.PlaceTaken[slotName] == false)
                 {
                     eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
                     correctObject = false;
                     dataSO.PlaceTaken[slotName] = true;
-                    //Debug.Log("Conflict second if =" + dataSO.PlaceConflict[slotName]);
+                    Debug.Log("Conflict second if =" + dataSO.PlaceConflict[slotName]);
 
                     dataSO.CheckCorrectSet[slotName] = dataSO.ObjectSet;
                     Debug.Log("slotName "+ slotName + "store object of type " +  dataSO.ObjectSet);
@@ -81,13 +79,14 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         }
      
     }
-    private void OnTriggerExit2D(Collider2D collider)
+    
+    /*private void OnTriggerExit2D(Collider2D collider)
     {
         dataSO.PlaceTaken[slotName] = false;
         //dataSO.PlaceConflict[slotName] = false;
-        //Debug.Log("placeTaken in Exit =" + dataSO.PlaceTaken[slotName]);
-    }
+        Debug.Log("placeTaken in TriggerExit =" + dataSO.PlaceTaken[slotName]);
+    }*/
 
-    
+
 
 }

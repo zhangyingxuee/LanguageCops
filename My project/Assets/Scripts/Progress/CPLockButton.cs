@@ -54,6 +54,6 @@ public class CPLockButton : MonoBehaviour
     private void OnDestroy()
     {
         GameEvents.current.onCheckpoint -= OnCheckpoint;
-        GameEvents.current.onAddingItem += OnAddingItem;
+        GameEvents.current.onAddingItem -= OnAddingItem;
     }
 }

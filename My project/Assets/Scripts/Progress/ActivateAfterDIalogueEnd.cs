@@ -18,6 +18,7 @@ public class ActivateAfterDIalogueEnd : MonoBehaviour
          if (progress == activate)
         {
             ready_to_activate = true;
+            Debug.Log("Getting ready");
         } 
 
     }
@@ -26,9 +27,15 @@ public class ActivateAfterDIalogueEnd : MonoBehaviour
     {
         if (ready_to_activate)
         {
-            GetComponent<Button>().interactable = true;
-            ready_to_activate = false;
+            Invoke("Activating", 0.2f);
         }
+    }
+
+    private void Activating()
+    {
+        gameObject.GetComponent<Button>().interactable = true;
+        Debug.Log("Activating");
+        ready_to_activate = false;
     }
    
     private void OnDestroy()

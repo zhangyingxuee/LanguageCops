@@ -27,6 +27,7 @@ public class UpdateCheckpoint : MonoBehaviour
         int num_items = checkpt_plus_item_num / 100;
         if(InfoSO.ItemCount >= num_items)
         {
+            InfoSO.Progress = checkpt;
             GameEvents.current.Checkpoint(checkpt);
             //Debug.Log("All items clicked");
         }
@@ -36,6 +37,7 @@ public class UpdateCheckpoint : MonoBehaviour
     {
         if (is_ready) 
         {
+            InfoSO.Progress = ready_id;
             GameEvents.current.Checkpoint(ready_id);
         }
         

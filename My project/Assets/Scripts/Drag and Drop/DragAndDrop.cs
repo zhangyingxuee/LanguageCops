@@ -70,7 +70,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         {
             dataSO.PlaceConflict[objectType] = true;
         }
-        dataSO.OriginalPos = originalPosition;
+        dataSO.OriginalPos = originalPosition; // this is for itemslot to refer
         dataSO.ObjectSet = objectSet;
         
     }
@@ -80,7 +80,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
         if (dataSO.PlaceConflict[objectType] == true)
         { 
-            //originalPosition = dataSO.OriginalPos;
+            //originalPosition = dataSO.OriginalPos; 
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = originalPosition;
             dataSO.PlaceConflict[objectType] = false;
         }
@@ -90,7 +90,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         canvasGroup.blocksRaycasts = true;
         canvasGroup.alpha = 1f;
        // Debug.Log(dataSO.ObjectType);
-        Debug.Log(dataSO.PlaceTaken[objectType] + "on End Drag");
+        Debug.Log(dataSO.PlaceTaken[objectType] + " placetaken on End Drag");
         
     }
 

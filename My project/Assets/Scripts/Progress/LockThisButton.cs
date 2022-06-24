@@ -15,10 +15,12 @@ public class LockThisButton : MonoBehaviour
     {
         if (progress < activate)
         {
+            Debug.Log(gameObject.name + " is now deactivated");
             GetComponent<Button>().interactable = false;
         }
         else if (progress == activate)
         {
+            Debug.Log(gameObject.name + " is activated");
             GetComponent<Button>().interactable = true;
         } 
         else if (progress > disactivate)

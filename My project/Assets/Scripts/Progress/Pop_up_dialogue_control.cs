@@ -27,8 +27,13 @@ public class Pop_up_dialogue_control : MonoBehaviour
                 }
                 else
                 {
+                    pop_up_dialogue[i].SetActive(false);
                     pop_up_dialogue[i].SetActive(true);
                 }
+            } 
+            else
+            {
+                pop_up_dialogue[i].SetActive(false);
             }
         }
 
@@ -37,11 +42,12 @@ public class Pop_up_dialogue_control : MonoBehaviour
     {
         if (is_ready)
         {
-            Invoke("ActivateDialogue", 0.3f);
+            Invoke("ActivateDialogue", 0.01f);
         }
     }
     private void ActivateDialogue()
     {
+        pop_up_dialogue[ready_id].SetActive(false);
         pop_up_dialogue[ready_id].SetActive(true);
         is_ready = false;
     }

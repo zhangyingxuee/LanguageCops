@@ -58,7 +58,8 @@ Stop questioning the quality of our food!
 }
 
 = answer3version2
-Are you sure you have no more questions? My time is precious, so ask in one go!
+Are you sure you have no more questions? 
+My time is precious, so ask in one go!
     *[Was there any previous incidence of food poisoning?]
         -> answer.answer3
 

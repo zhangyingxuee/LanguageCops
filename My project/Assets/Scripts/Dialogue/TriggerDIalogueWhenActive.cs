@@ -8,6 +8,8 @@ public class TriggerDIalogueWhenActive : MonoBehaviour
     public Texture heads;
     public RawImage profilePic;
     public Dialogue dialogue;
+
+    public SaveDataSO InfoSO;
     public int progress_update;
     public bool AddItemAfterFinish;
     public int items_id;
@@ -33,13 +35,20 @@ public class TriggerDIalogueWhenActive : MonoBehaviour
     {
         if (is_ready)
         {
+            InfoSO.Progress = progress_update;
             GameEvents.current.Checkpoint(progress_update);
+            if (AddItemAfterFinish)
+            {
+                GameEvents.current.AddingItem(items_id);
+            }
             is_ready = false;
         } 
-        if (AddItemAfterFinish)
-        {
-            GameEvents.current.AddingItem(items_id);
-        }
+
+    }
+
+    private void OnDisable()
+    { 
+        is_ready = false;
     }
 
     private void OnDestroy()

@@ -74,6 +74,8 @@ public class PageManager : MonoBehaviour
                 Page[i].SetActive(false);
             }
         }
+        CPage = 1;
+        CurrPage.text = "1";
     }
 
     public void nextPage()

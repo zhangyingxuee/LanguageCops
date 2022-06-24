@@ -13,6 +13,8 @@ public class PlayerInfo : MonoBehaviour
 
     public ActivatingItem activatingItem;
 
+    public GameObject popup;
+
     private bool send_game_event;
 
     public int curr_item_count;
@@ -89,11 +91,16 @@ public class PlayerInfo : MonoBehaviour
             position.y = data.position[1];
             transform.position = position;
             InfoSO.Position = position;
+            popup.SetActive(false);
             activatingItem.AfterLoad();
-            GameEvents.current.Checkpoint(InfoSO.Progress);
-            Debug.Log("Reset checkpoint to " + InfoSO.Progress);
+            Invoke("updateProcessAftLoad", 0.3f);
+            
         }
     }
-
+private void updateProcessAftLoad()
+{ 
+    GameEvents.current.Checkpoint(InfoSO.Progress);
+    Debug.Log("Reset checkpoint to " + InfoSO.Progress);
+}
 
 }

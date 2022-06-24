@@ -2691,7 +2691,7 @@ MonoBehaviour:
   title1: {fileID: 973747774}
   title2: {fileID: 89634208}
   blackSquare: {fileID: 1184247353}
-  blackScreen: {fileID: 0}
+  blackScreen: {fileID: 642610456}
 --- !u!224 &1412924162
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2722,7 +2722,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1465466220}
   - component: {fileID: 1465466219}
-  - component: {fileID: 1465466221}
   m_Layer: 0
   m_Name: opening scene (with light) (1)
   m_TagString: Untagged
@@ -2797,26 +2796,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1465466221
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465466218}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d4e2d7065a65063468dace4823acb4be, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1479735285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4136,6 +4115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2063600728}
   - component: {fileID: 2063600727}
+  - component: {fileID: 2063600729}
   m_Layer: 5
   m_Name: 'MouseControl '
   m_TagString: Untagged
@@ -4178,3 +4158,15 @@ RectTransform:
   m_AnchoredPosition: {x: 5.59397, y: -58.037434}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2063600729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063600726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fabbffd93f617ed468ad3af2b7d48732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

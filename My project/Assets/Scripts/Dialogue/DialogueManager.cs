@@ -23,6 +23,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject popUp;
 
+    public GameObject player;
+
     public string nameWithGrammar;
 
     private bool specialDialogue;
@@ -94,6 +96,9 @@ public class DialogueManager : MonoBehaviour
         image.SetActive(false);
         if (specialDialogue)
         {
+            Vector2 player_location = player.transform.position;
+            Vector2 popup_location = popUp.transform.position;
+            popUp.transform.position = new Vector2(player_location.x, popup_location.y);
             popUp.SetActive(true);
         }
         specialDialogue = false;

@@ -22,6 +22,8 @@ public class DialogueManagerInk : MonoBehaviour
 
    [SerializeField] private GameObject popUp;
 
+   [SerializeField] private GameObject player;
+
    [Header("Choices UI")]
    [SerializeField] private GameObject[] choices;
    private TextMeshProUGUI[] choiceText;
@@ -92,6 +94,7 @@ public class DialogueManagerInk : MonoBehaviour
     private void DialogueAtCheckpoint(int progress)
     { 
         checkPoint = progress;
+        Debug.Log("current progress = "+ checkPoint );
     }
 
     /*private void update() 
@@ -145,10 +148,13 @@ public class DialogueManagerInk : MonoBehaviour
             // check if there is special dialogue
             
             string specialLabel = currentStory.TagsForContentAtPath("main")[1];
-            Debug.Log(specialLabel);
+            //Debug.Log(specialLabel);
             if (specialLabel == "Special" && specialDialoguePop )
             {
-                Debug.Log("The popup function is working.");
+                //Debug.Log("The popup function is working.");
+                Vector2 player_location = player.transform.position;
+                Vector2 popup_location = popUp.transform.position;
+                popUp.transform.position = new Vector2(player_location.x, popup_location.y);
                 popUp.SetActive(true);
                 specialDialoguePop = false;
             }
@@ -158,7 +164,7 @@ public class DialogueManagerInk : MonoBehaviour
     public void ChooseStory()
     { 
         Debug.Log("checkPoint = "+ checkPoint );
-        Debug.Log("currentThreshold = "+ currentThreshold);
+        //Debug.Log("currentThreshold = "+ currentThreshold);
         
         if (checkPoint < currentThreshold)
             { 

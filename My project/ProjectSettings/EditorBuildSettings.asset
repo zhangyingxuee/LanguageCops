@@ -26,22 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MS1 TBC.unity
     guid: f00f38518148a7d458a2c9b7d89342cf
-  - enabled: 1
-    path: Assets/Scenes/Interrogation.unity
-    guid: 38d4b3ea52591c84eb6c86385f7c4b5b
-  - enabled: 1
-    path: Assets/Scenes/Phone interaction.unity
-    guid: 12440f873ed812244aba2a3e20c408b9
-  - enabled: 1
-    path: Assets/Scenes/Identifying Error.unity
-    guid: fe350e1d656716a42bb2ee34c94287cb
-  - enabled: 1
-    path: Assets/Scenes/Tutorial solution.unity
-    guid: b4d6ba7b134e1134a960ec31c03ca91f
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: 887cb7dc2c834ef49a0926e312a4a23e
-  - enabled: 1
-    path: Assets/Scenes/Drag and Drop.unity
-    guid: c63d1250df534d04abd8bd80494269e1
   m_configObjects: {}
