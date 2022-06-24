@@ -8,6 +8,7 @@ public class PlayerData
     public float[] position;
     public int progress;
     public int itemCount;
+    public int highestItemId;
     public int scene_count;
     public bool[] items;
     public string player_name;
@@ -16,6 +17,7 @@ public class PlayerData
     {
         progress = player.InfoSO.Progress;
         itemCount = player.InfoSO.ItemCount;
+        highestItemId = player.InfoSO.HighestItemId;
         items = player.InfoSO.Items;
         player_name = player.InfoSO.PlayerName;
         scene_count = player.InfoSO.SceneCount;
