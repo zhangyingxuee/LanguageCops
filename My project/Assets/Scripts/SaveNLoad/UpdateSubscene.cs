@@ -9,5 +9,6 @@ public class UpdateSubscene : MonoBehaviour
     public void UpdateSubScene(int count)
     {
         InfoSO.SubSceneCount =  count;
+        GameEvents.current.Checkpoint(InfoSO.Progress);
     }
 }

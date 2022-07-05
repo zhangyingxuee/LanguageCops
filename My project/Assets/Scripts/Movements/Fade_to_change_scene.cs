@@ -14,6 +14,7 @@ public class Fade_to_change_scene : MonoBehaviour
         this_scene.SetActive(false);
         next_scene.SetActive(true);
         player.transform.position = initial_position;
+
     }
 
 

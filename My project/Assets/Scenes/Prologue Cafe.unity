@@ -4487,7 +4487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hint: take note of the ubject-verb agreement'
+  m_text: 'Hint: take note of the subject-verb agreement'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -16187,7 +16187,7 @@ GameObject:
   - component: {fileID: 1919617285}
   - component: {fileID: 1919617284}
   m_Layer: 5
-  m_Name: Congradulations (1)
+  m_Name: Congratulations (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16233,7 +16233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Congradulations!
+  m_text: 'Congratulations!
 
     You have selected the correct option.'
   m_isRightToLeft: 0
