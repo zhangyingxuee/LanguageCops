@@ -14,6 +14,7 @@ public class NewMovement : MonoBehaviour
     public Animator walking;
     public GameObject textBox;
     private bool AllowMovement = true;
+    public bool isInCutScene;
 
     // Start is called before the first frame update
     private void Awake()
@@ -28,7 +29,7 @@ public class NewMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (textBox.activeSelf == false & AllowMovement == true)
+        if (textBox.activeSelf == false & AllowMovement == true & isInCutScene == false)
         {
             horizontalmove = Input.GetAxisRaw("Horizontal") * offset;
             if (Input.GetAxisRaw("Horizontal") != 0)
@@ -49,7 +50,10 @@ public class NewMovement : MonoBehaviour
     }
     private void toggleAllowance()
     {
-        AllowMovement = !AllowMovement;
+        if (!isInCutScene)
+        {
+            AllowMovement = !AllowMovement;
+        } 
         //Debug.Log(AllowMovement);
     }
     private void FixedUpdate()
