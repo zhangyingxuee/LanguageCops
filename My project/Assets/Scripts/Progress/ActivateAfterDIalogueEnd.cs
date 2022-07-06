@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ActivateAfterDIalogueEnd : MonoBehaviour
 {  
     public int activate;
+    public SaveDataSO InfoSO;
 
     private bool ready_to_activate = false;
     void Start()
@@ -17,6 +18,10 @@ public class ActivateAfterDIalogueEnd : MonoBehaviour
     {
          if (progress == activate)
         {
+            if(activate == InfoSO.LastLoadedProgress)
+            {
+                gameObject.GetComponent<Button>().interactable = true;
+            }
             ready_to_activate = true;
             Debug.Log("Getting ready");
         } 
@@ -37,6 +42,7 @@ public class ActivateAfterDIalogueEnd : MonoBehaviour
         Debug.Log("Activating");
         ready_to_activate = false;
     }
+
    
     private void OnDestroy()
     {

@@ -26,6 +26,7 @@ public class PlayerInfo : MonoBehaviour
         InfoSO.Progress = 0;
         InfoSO.ItemCount = 0;
         InfoSO.HighestItemId = 0;
+        InfoSO.LastLoadedProgress = 0;
         InfoSO.Items = new bool[curr_item_count];
     }
     private void Start()
@@ -85,6 +86,7 @@ public class PlayerInfo : MonoBehaviour
         } else
         {
             InfoSO.Progress = data.progress;
+            InfoSO.LastLoadedProgress = data.progress;
             InfoSO.ItemCount = data.itemCount;
             InfoSO.HighestItemId = data.highestItemId;
             InfoSO.Items = data.items;

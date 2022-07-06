@@ -27354,6 +27354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 5
+  InfoSO: {fileID: 0}
 --- !u!1 &935356324
 GameObject:
   m_ObjectHideFlags: 0
@@ -30195,6 +30196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 5
+  InfoSO: {fileID: 0}
 --- !u!114 &1025204580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31051,6 +31053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 7
+  InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
 --- !u!1 &1038889434
 GameObject:
   m_ObjectHideFlags: 0

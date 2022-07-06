@@ -8,6 +8,7 @@ public class SaveDataSO : ScriptableObject
     private int scene_count;
     private int sub_scene_count;
     private int progress;
+    private int lastLoadedProgress;
     private int itemCount;
     private int highestItemId;
     private string player_name;
@@ -30,7 +31,11 @@ public class SaveDataSO : ScriptableObject
         get { return progress; }
         set { progress = value; }
     }
-
+    public int LastLoadedProgress
+    {
+        get { return lastLoadedProgress; }
+        set { lastLoadedProgress = value; }
+    }
     public int ItemCount
     {
         get { return itemCount; }
