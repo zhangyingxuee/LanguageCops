@@ -1,6 +1,8 @@
+VAR player_name = "Povas Lirros"
+
 -> main
 === pre === 
-Detective, please give me some time to collect my thoughts.
+Detective {player_name}, please give me some time to collect my thoughts.
 Could you please investigate the crime scene first? 
 I will try my best to cooperate when I am ready. 
 -> DONE
@@ -12,7 +14,7 @@ Today is literally the worst day of my life.
 -> question1
 
 === question1 ===
-Detective, what do you want to know? 
+Detective {player_name}, what do you want to know? 
         
     * [Were there other customers before the victim?]
         -> answer.answer1 
@@ -65,7 +67,7 @@ He always sits at the same table there.
 }
 
 = conclusion 
-I hope you find the murderer soon, detective. 
+I hope you find the murderer soon, detective {player_name}. 
 I am really scared now.
 -> DONE
 

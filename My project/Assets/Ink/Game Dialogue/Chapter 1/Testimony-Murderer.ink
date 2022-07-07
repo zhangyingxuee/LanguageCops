@@ -1,3 +1,5 @@
+VAR player_name = "Povas Lirros"
+
 -> main
 === pre === 
 -> main 
@@ -10,7 +12,7 @@ Hi, I will answer as far as I know.
 -> question1
 
 === question1 ===
-What can I help you, detective? 
+What can I help you, detective {player_name}? 
     * [Who made your drink?]
         -> answer.answer1 
         
@@ -49,7 +51,7 @@ But seriously, who would wear an apron to the bathroom?
         -> question1
     - else:
         That's it? 
-        Detective, you should know that I am really innocent. 
+        Detective {player_name}, you should know that I am really innocent. 
         -> DONE
 }
 
@@ -68,7 +70,7 @@ That's all, hope my information helps.
         
     - else:
         That's it? 
-        Detective, you should know that I am really innocent. 
+        Detective {player_name}, you should know that I am really innocent. 
         -> DONE
 }
 

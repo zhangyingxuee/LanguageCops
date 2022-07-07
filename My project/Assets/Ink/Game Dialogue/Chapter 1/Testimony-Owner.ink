@@ -1,3 +1,5 @@
+VAR player_name = "Povas Lirras"
+
 -> main
 === pre === 
 -> main 
