@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CPLockButton : MonoBehaviour
 {
     public int SolvingUnlock;
+    public int SolvingLock;
     public int NextSceneUnlock;
 
     private bool ItemsLocked;
@@ -23,7 +24,7 @@ public class CPLockButton : MonoBehaviour
 
     private void OnCheckpoint(int progress)
     {
-        if (progress >= SolvingUnlock)
+        if (progress >= SolvingUnlock & progress < SolvingLock)
         {
             Solvings.interactable = true;
             //Debug.Log("Solution activated");

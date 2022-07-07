@@ -90,6 +90,7 @@ public class PlayerInfo : MonoBehaviour
             InfoSO.ItemCount = data.itemCount;
             InfoSO.HighestItemId = data.highestItemId;
             InfoSO.Items = data.items;
+            InfoSO.PlayerName = data.player_name;
             for (int i = 0; i < sub_scene.Length; i++)
             {
                 if(i == data.scene_count / 10)
