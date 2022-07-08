@@ -1277,8 +1277,8 @@ MonoBehaviour:
       enough attention to shut this lab down.
     - However, if you can submit this bottle to your commissioner, it should gather
       enough attention to shut this lab down.
-    - I have already completed an antidote and hid it in my locker, the password
-      is the one we used to use.
+    - "I have already completed an antidote and hid it in my locker, the password
+      is the one I always use.\r"
     - 'All this talking is getting me thirsty. '
     - 'Let me take a sip before writing you the location of my lab. '
 --- !u!1 &526873583
@@ -3014,8 +3014,8 @@ MonoBehaviour:
     - 'Do you remember that I told you that I was working on finding a vaccine for
       some unknown virus? '
     - The one that is supposed to force people to only tell the truth.
-    - "It turns out that the higher-ups in the lab only wanted only the virus and
-      not the vaccine.\r"
+    - It turns out that the higher-ups in the lab want to spread only the virus and
+      not its vaccine.
     - "Not only that, they plan to release this virus into the general population
       upon its completion!\r"
     - So I snuck this vial of virus sample out of the lab.
