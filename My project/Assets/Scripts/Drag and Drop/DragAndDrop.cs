@@ -96,23 +96,51 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     private void OnSubmit(int id)
     {
-        if (dataSO.CheckCorrectSet[0] == dataSO.CheckCorrectSet[1] & dataSO.CheckCorrectSet[0] == dataSO.CheckCorrectSet[2])
-        {
-            if(id == objectSet)
+        if(dataSO.Act2Solution == false)
+        { 
+            if (dataSO.CheckCorrectSet[0] == dataSO.CheckCorrectSet[1] & dataSO.CheckCorrectSet[0] == dataSO.CheckCorrectSet[2])
             {
-                Destroy(gameObject);
-            } 
+                if(id == objectSet)
+                {
+                    Destroy(gameObject);
+                } 
 
-            if(id != objectSet)
+                if(id != objectSet)
+                {
+                    gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                }
+            } 
+            else 
             {
-                gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                if(id != objectSet)
+                {
+                    gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                }
             }
-        } 
-        else 
-        {
-            if(id != objectSet)
+        }
+        
+
+        if(dataSO.Act2Solution == true)
+        { 
+            Debug.Log("the correct reset is triggered");
+            if(dataSO.CheckCorrectSet[1] == dataSO.CheckCorrectSet[2])
             {
-                gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                if(id == objectSet)
+                {
+                    Destroy(gameObject);
+                } 
+
+                if(id != objectSet)
+                {
+                    gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                }
+            }
+            else 
+            {
+                if(id != objectSet)
+                {
+                    gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                }
             }
         }
 

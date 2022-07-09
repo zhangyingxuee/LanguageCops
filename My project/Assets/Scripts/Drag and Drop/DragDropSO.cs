@@ -57,6 +57,12 @@ public class DragDropSO : ScriptableObject
         set { _correctSetNumber = value; }
     }
 
+    private bool _Act2Solution;
+    public bool Act2Solution
+    {
+        get { return _Act2Solution; }
+        set { _Act2Solution = value; }
+    }
 
 
    

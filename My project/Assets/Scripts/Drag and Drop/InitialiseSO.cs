@@ -13,6 +13,7 @@ public class InitialiseSO : MonoBehaviour
         dataSO.CorrectSetNumber = 0;
         dataSO.CheckCorrectSet = new int[] {8,8,8};
         dataSO.ObjectSet = 0;
+        dataSO.Act2Solution = false;
     }
 
    
