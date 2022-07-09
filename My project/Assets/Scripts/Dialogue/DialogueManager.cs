@@ -6,6 +6,8 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public SaveDataSO dataSO;
+
     public TextMeshProUGUI nameText;
 
     public TextMeshProUGUI dialogueText;
@@ -55,9 +57,23 @@ public class DialogueManager : MonoBehaviour
         image.SetActive(true);
         popUp.SetActive(false);
         
+        if (dialogue.name == "Detective")
+        {
+            if (dataSO.PlayerName == "")
+            {
+                nameText.text = "Povas Lirras";
+            }
+            else
+            {
+                nameText.text = dataSO.PlayerName;
+            }
+            
+        }
+        else
+        {
+            nameText.text = dialogue.name;
+        }
         
-        nameText.text = dialogue.name;
-
         
         
 

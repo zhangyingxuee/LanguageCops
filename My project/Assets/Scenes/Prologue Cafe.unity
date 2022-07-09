@@ -2258,8 +2258,7 @@ MonoBehaviour:
   dialogue:
     name: Ressard Charz
     sentences:
-    - 'Congratulations on being promoted, Detective Lirros! The drinks today are
-      on me.
+    - 'Congratulations on being promoted, my friend! The drinks today are on me.
 
 '
     - "So, how\u2019s the detective life? Now that you spend more time writing reports
@@ -5872,6 +5871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e4a3daf26a77447a12c80747f62856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   nameText: {fileID: 1863330253}
   dialogueText: {fileID: 929940381}
   textBox: {fileID: 2073342541}

@@ -1,3 +1,5 @@
+VAR player_name = "Povas Lirros" 
+
 -> main
 === pre === 
 What! Can't you see I am busy right now? 

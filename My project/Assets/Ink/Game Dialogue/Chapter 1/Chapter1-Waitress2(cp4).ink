@@ -1,3 +1,5 @@
+VAR player_name = "Povas Lirros"
+
 -> main
 === pre === 
 I have told you everything just now. 
@@ -6,11 +8,11 @@ I have told you everything just now.
 === main === 
 # Murph Derras
 # No Special 
-Oh, you have new questions for me, detective? 
+Oh, you have new questions for me, detective {player_name}? 
 -> question1
 
 === question1 ===
-Detective, what do you want to know? 
+Detective {player_name}, what do you want to know? 
     * [Do you recall anything about other customers?]
         -> answer.answer1 
         

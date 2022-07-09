@@ -1,3 +1,5 @@
+VAR player_name = "Povas Lirros"
+
 -> main
 === pre === 
 
@@ -11,7 +13,7 @@ uhm, what an unpleasant environment for our conversation.
 -> question1
 
 === question1 ===
-What can I help you, detective? 
+What can I help you, detective {player_name}? 
     * [Who are you?]
         -> answer.answer1 
         

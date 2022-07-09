@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 
 public class DialogueManagerInk : MonoBehaviour
 {
+    public SaveDataSO dataSO;
    [SerializeField] private GameObject dialoguePanel;
    [SerializeField] private TextMeshProUGUI dialogueTextDisplay;
 
@@ -31,8 +32,6 @@ public class DialogueManagerInk : MonoBehaviour
    private int currentThreshold;
 
     private bool specialDialoguePop;
-
-
 
     private Story currentStory;
 
@@ -117,6 +116,7 @@ public class DialogueManagerInk : MonoBehaviour
         // make the inkJSON file into a story 
         currentStory = new Story(inkJSON.text);
         nameTextDisplay.text = currentStory.TagsForContentAtPath("main")[0];
+        currentStory.variablesState["player_name"] = dataSO.PlayerName;
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         textBox.SetActive(true);
