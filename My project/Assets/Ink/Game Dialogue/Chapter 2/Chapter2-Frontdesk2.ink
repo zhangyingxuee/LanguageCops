@@ -2,38 +2,41 @@ VAR player_name = "Povas Lirros"
 
 -> main
 === pre === 
-Hi.
+I miss you detective.
 -> DONE
 
 === main === 
-# Front Desk
-# special 
-Detective {player_name}, need me to clean something?
+# Front Desk 
+# No special 
+Detective {player_name}! You are here again.
+I am so bored without you. 
 -> question1
 
 === question1 ===
-I will try my best to help, detective {player_name}?
-    * [Why is the vending machine under maintenance?] 
+Why are you here, detective {player_name}?
+    *[Sky king over ground tiger?]
         -> answer.answer1
         
-    * {answer.answer1}  [Thank you for your cooperation.]
-        -> answer.answer3
+    * {answer.answer1} [Thank you for your cooperation.]
+        -> answer.answer2
     
 
 === answer ===
 
 = answer1
-I don't know. It has always been under maintenance when I am around. 
-It has been a very long time. 
-But most of the guests here do not buy snacks from the machine, so I guess the manager just doesn't want to fix it? 
+...
+Precious tower holds river monsters.
+...
+Do you like my hair band? I heard that it is made from three recyclable materials.
 -> question1
 
-= answer3
-There is nothing wrong here, right? I don't want to lose my job. 
-    -> DONE
+= answer2
+...
+Have a nice day, professor. 
+-> DONE
 
 === post ===
-Is there anything else I can help? 
+What happened, detective {player_name}?
 
 -> DONE
 

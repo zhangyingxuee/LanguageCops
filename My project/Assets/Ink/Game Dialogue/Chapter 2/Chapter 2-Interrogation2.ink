@@ -7,7 +7,7 @@ VAR player_name = "Povas Lirros"
 
 === main === 
 # Christian Minus
-# special 
+# Special 
 Fine, fine! You caught me!
 I will tell the truth now, okay?
 The client did insist on communicating online, but I was curious.
@@ -20,15 +20,13 @@ It was risky, after all, to take a bold move just to satisfy my curiosity, so I 
 -> question2
 
 === question2 ===
+What else do you want to know 
 
-
-What else do you want to know  
-    * [Can you identify who your client is when he is brought in?] 
+    * [Can you identify who your client is when he is brought in?]
         -> answer.answer7
-        
+
     * [How did you communicate with your client?]
         -> answer.answer5
-    
         
     * {answer.answer5&&answer.answer7}  [Did you notice anything special about his writings?]
         -> answer.answer6
@@ -43,7 +41,8 @@ My client changed contact information every time.
 
 = answer6
 # lie
-No, the messages are all simple and straightforward. They are in the usual business tone. 
+No, the messages is all simple and straightforward. 
+They are in the usual business tone. 
     * [I have no more question for you.]
         Hope you bring good news soon, detective {player_name}. 
         -> DONE

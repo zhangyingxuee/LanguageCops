@@ -7,7 +7,7 @@ Good evening, sir! May I help you?
 
 === main === 
 # Front Desk
-# special 
+# Special 
 Good evening, sir! May I help you?
 Would you like a room? 
 -> question1

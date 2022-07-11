@@ -7,7 +7,7 @@ This is such an unlucky day.
 
 === main === 
 # Christian Minus
-# special 
+# Special 
 Hi Detective {player_name}, this is really the last place I want to be at. 
 -> question1
 
@@ -22,7 +22,7 @@ I will told you everything I know.
     * {answer.answer1&&answer.answer2} [Did you meet your client physically before?]
         -> answer.answer3
         
-    * {answer.answer1&&answer.answer2} [Describe what you did and where you went.] 
+    * {answer.answer1&&answer.answer2} [Describe what you did and where you went.]
         -> answer.answer4
     
 
@@ -45,7 +45,7 @@ I am not a detective, poking around to find the truth.
 # lie 
 No, he wouldn't be so dumb, would he?
 Even kids know not to expose their identity when they do stupid things. 
-Doing shady thing like this, my client knows how to lay low for sure.  
+Doing something shady like this, my client knows how to lay low for sure.  
 {   - not answer4:
         -> question1
     - else:
@@ -54,11 +54,12 @@ Doing shady thing like this, my client knows how to lay low for sure.
 }
 
 = answer4 
-Okay, this is going to be long story.
+Okay, this is going to be a long story.
 I knew he was going to the cafe this morning, so I went to the cafe before him.
 I mean, he sat at the same spot everytime he went to that cafe. It's hard to miss. 
 So I ordered a drink and put the magic into the sugar pot while no one was paying attention. 
 I sat there until he was in my sight. That was when I took my leave, and the show began. 
+
 {   - not answer3:
         -> question1
     - else:

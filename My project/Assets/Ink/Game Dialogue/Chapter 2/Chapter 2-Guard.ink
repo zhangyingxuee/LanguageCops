@@ -7,7 +7,7 @@ Sor...sorry, it is my first day here. What...what can I do for you?
 
 === main === 
 # Guard
-# special 
+# No special 
 Hi...hi, emm, may I help you?
 I...I will answer your question if my boss allows it. It is allowed, right?
 -> question1

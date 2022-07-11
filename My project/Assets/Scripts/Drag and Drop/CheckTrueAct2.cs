@@ -6,8 +6,9 @@ using TMPro;
 public class CheckTrueAct2 : MonoBehaviour
 {
     public DragDropSO dataSO;
-    //public GameObject this_page;
-    //public GameObject next_page;
+    public SaveDataSO InfoSO;
+    public int checkpt;
+    public PhoneButtonUI control;
 
     public TextMeshProUGUI result;
 
@@ -43,8 +44,10 @@ public class CheckTrueAct2 : MonoBehaviour
                 { 
                     Debug.Log("all true");
                     GameEvents.current.Submit(9);
-                    //this_page.SetActive(false);
-                    //next_page.SetActive(true);
+                    control.OpenPhoneSolving();
+                    control.OpenPhone();
+                    InfoSO.Progress = checkpt;
+                    GameEvents.current.Checkpoint(checkpt);
                 }
 
                 // Make the items disappear!
