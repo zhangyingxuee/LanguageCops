@@ -19,6 +19,7 @@ public class PhoneButtonUI : MonoBehaviour
     private bool state_solving = false;
     private bool state_notes = false;
     private bool state_hints = false;
+    private bool is_from_solving = false;
 
     public void OpenPhone()
     {
@@ -48,13 +49,33 @@ public class PhoneButtonUI : MonoBehaviour
 
     }
 
+    public void OpenFromSolving()
+    {
+        is_from_solving = true;
+        OpenPhoneNotes();
+    }
+
+    public void ExitSolving()
+    {
+        is_from_solving = false;
+        OpenPhoneSolving();
+    }
+
     public void OpenPhoneNotes()
     {
-        state_notes = !state_notes;
-        state_main = !state_main;
-        Phone_main.SetActive(state_main);
-        Phone_notes.SetActive(state_notes);
-
+        if (is_from_solving)
+        {
+            state_notes = !state_notes;
+            state_solving = !state_solving;
+            Phone_solving.SetActive(state_solving);
+            Phone_notes.SetActive(state_notes);
+        } else
+        {
+            state_notes = !state_notes;
+            state_main = !state_main;
+            Phone_main.SetActive(state_main);
+            Phone_notes.SetActive(state_notes);
+        }
     }
 
     public void OpenPhoneHints()

@@ -8,22 +8,31 @@ public class TriggerDIalogueWhenActive : MonoBehaviour
     public Texture heads;
     public RawImage profilePic;
     public Dialogue dialogue;
+   // public GameObject textBox;
 
     public SaveDataSO InfoSO;
     public int progress_update;
     public bool AddItemAfterFinish;
     public int items_id;
     private bool is_ready = false;
+   // private bool is_waiting = false;
     void Start()
     {
         GameEvents.current.onDialogueEnd += OnDialogueEnd;
     }
     private void OnEnable()
     {
-        TriggerDialogue();
-        profilePic.texture = heads;
-        is_ready = true;
-        //Debug.Log("Now a pop-up appears");
+       // if(textBox.activeSelf == false)
+        {
+            TriggerDialogue();
+            profilePic.texture = heads;
+            is_ready = true;
+            //Debug.Log("Now a pop-up appears");
+      /*  } else
+        {
+            is_waiting = true;
+      */  }
+      
     }
 
     public void TriggerDialogue()
@@ -33,6 +42,14 @@ public class TriggerDIalogueWhenActive : MonoBehaviour
     }
     public void OnDialogueEnd()
     {
+        /*if(is_waiting)
+        {
+            TriggerDialogue();
+            profilePic.texture = heads;
+            is_ready = true;
+            is_waiting = false;
+        }
+        */
         if (is_ready)
         {
             InfoSO.Progress = progress_update;

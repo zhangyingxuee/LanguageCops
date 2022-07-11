@@ -21,6 +21,7 @@ public class PageManager : MonoBehaviour
     private int CPage = 1;
 
 
+
     void Start()
     {
         GameEvents.current.onAddingItem += OnAddingItem;

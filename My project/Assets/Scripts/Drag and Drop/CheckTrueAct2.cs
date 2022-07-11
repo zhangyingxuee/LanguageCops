@@ -44,7 +44,7 @@ public class CheckTrueAct2 : MonoBehaviour
                 { 
                     Debug.Log("all true");
                     GameEvents.current.Submit(9);
-                    control.OpenPhoneSolving();
+                    control.ExitSolving();
                     control.OpenPhone();
                     InfoSO.Progress = checkpt;
                     GameEvents.current.Checkpoint(checkpt);

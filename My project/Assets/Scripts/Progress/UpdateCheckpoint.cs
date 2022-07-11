@@ -8,6 +8,9 @@ public class UpdateCheckpoint : MonoBehaviour
     private bool is_ready = false;
     public int ready_id;
     public SaveDataSO InfoSO;
+
+    private int all_items_id;
+    private bool all_clicked = false;
     void Start()
     {
         GameEvents.current.onGetReady += OnGetReady;
@@ -27,8 +30,9 @@ public class UpdateCheckpoint : MonoBehaviour
         int num_items = checkpt_plus_item_num / 100;
         if(InfoSO.ItemCount >= num_items)
         {
-            InfoSO.Progress = checkpt;
-            GameEvents.current.Checkpoint(checkpt);
+            all_clicked = true;
+            all_items_id = checkpt;
+            
             //Debug.Log("All items clicked");
         }
     }
@@ -39,6 +43,12 @@ public class UpdateCheckpoint : MonoBehaviour
         {
             InfoSO.Progress = ready_id;
             GameEvents.current.Checkpoint(ready_id);
+        }
+        if(all_clicked)
+        {
+            InfoSO.Progress = all_items_id;
+            GameEvents.current.Checkpoint(all_items_id);
+            all_clicked = false;
         }
         
     }
