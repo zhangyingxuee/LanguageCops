@@ -144,6 +144,21 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
             }
         }
 
+        if(dataSO.EpilogueSolution == true)
+        { 
+            
+                if(id == objectSet)
+                {
+                    Destroy(gameObject);
+                } 
+
+                if(id != objectSet)
+                {
+                    gameObject.GetComponent<RectTransform>().anchoredPosition = originalPosition;
+                }
+            
+        }
+
     }
 
     void OnDestroy()

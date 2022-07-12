@@ -14,6 +14,8 @@ public class InitialiseSO : MonoBehaviour
         dataSO.CheckCorrectSet = new int[] {8,8,8};
         dataSO.ObjectSet = 0;
         dataSO.Act2Solution = false;
+        dataSO.EpiloguePageNum = 1;
+        dataSO.EpilogueSolution = false;
     }
 
    

@@ -64,6 +64,18 @@ public class DragDropSO : ScriptableObject
         set { _Act2Solution = value; }
     }
 
+    private bool _EpilogueSolution;
+    public bool EpilogueSolution
+    {
+        get { return _EpilogueSolution; }
+        set { _EpilogueSolution = value; }
+    }
 
+    private int _epiloguePageNum;
+    public int EpiloguePageNum
+    {
+        get { return _epiloguePageNum; }
+        set { _epiloguePageNum = value; }
+    }
    
 }
