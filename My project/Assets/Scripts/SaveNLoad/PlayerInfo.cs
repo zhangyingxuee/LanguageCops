@@ -29,7 +29,6 @@ public class PlayerInfo : MonoBehaviour
         {
             InfoSO.Progress = 0;
             InfoSO.LastLoadedProgress = 0;
-            InfoSO.Items = new bool[curr_item_count];
             activatingItem.AfterLoad();
         }
         else

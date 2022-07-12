@@ -105385,6 +105385,7 @@ MonoBehaviour:
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   activatingItem: {fileID: 1912296896}
   popup: {fileID: 584515667}
+  keep_data: 0
   curr_item_count: 17
 --- !u!212 &1675276086
 SpriteRenderer:
@@ -130606,7 +130607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5603b8dede17c44896202485be39d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 6
 --- !u!1 &2122706129
 GameObject:
   m_ObjectHideFlags: 0
