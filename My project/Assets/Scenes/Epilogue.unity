@@ -9142,7 +9142,6 @@ GameObject:
   m_Component:
   - component: {fileID: 408117242}
   - component: {fileID: 408117240}
-  - component: {fileID: 408117241}
   - component: {fileID: 408117243}
   - component: {fileID: 408117244}
   m_Layer: 0
@@ -9166,24 +9165,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ready_id: 0
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
---- !u!114 &408117241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408117239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd06573f207da146a4b863a960bdde6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SolvingUnlock: 10
-  SolvingLock: 12
-  NextSceneUnlock: 14
-  Notes: {fileID: 1739289037}
-  Solvings: {fileID: 1271575593}
-  NextScene: {fileID: 1034955053}
 --- !u!4 &408117242
 Transform:
   m_ObjectHideFlags: 0
@@ -40109,7 +40090,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1739289038}
   m_OnClick:
     m_PersistentCalls:

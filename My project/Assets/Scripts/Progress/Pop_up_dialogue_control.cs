@@ -9,6 +9,7 @@ public class Pop_up_dialogue_control : MonoBehaviour
     public GameObject dialogueBox;
     private bool is_ready = false;
     private int ready_id;
+
     void Start()
     {
         GameEvents.current.onCheckpoint += OnCheckpoint;
@@ -16,7 +17,7 @@ public class Pop_up_dialogue_control : MonoBehaviour
     }
     private void OnCheckpoint(int progress)
     {
-        for (int i = 0; i < threshold_checkpoint.Length; i ++)
+        for (int i = 0; i < threshold_checkpoint.Length; i++)
         {
             if (threshold_checkpoint[i] == progress)
             {
@@ -30,14 +31,14 @@ public class Pop_up_dialogue_control : MonoBehaviour
                     pop_up_dialogue[i].SetActive(false);
                     pop_up_dialogue[i].SetActive(true);
                 }
-            } 
+            }
             else
             {
                 pop_up_dialogue[i].SetActive(false);
             }
         }
-
     }
+
     public void OnDialogueEnd()
     {
         if (is_ready)
