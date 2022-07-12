@@ -39,6 +39,45 @@ public class GameEvents : MonoBehaviour
         }
     }
 
+    public event Action<int> onAllSelect;
+
+    public void AllSelect(int state)
+    {
+        if (onAllSelect != null)
+        {
+            onAllSelect(state);
+        }
+    }
+
+    public event Action onAllReset;
+
+    public void AllReset()
+    {
+        if (onAllReset != null)
+        {
+            onAllReset();
+        }
+    }
+
+    public event Action<int> onSelectButton;
+
+    public void Selectbutton(int correct)
+    {
+        if (onSelectButton != null)
+        {
+            onSelectButton(correct);
+        }
+    }
+
+    public event Action<int> onDeselectButton;
+    public void Deselectbutton(int correct)
+    {
+        if (onDeselectButton != null)
+        {
+            onDeselectButton(correct);
+        }
+    }
+
     public event Action<int> onAddingItem;
     public void AddingItem(int count)
     {

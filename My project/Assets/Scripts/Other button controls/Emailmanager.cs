@@ -19,22 +19,49 @@ public class Emailmanager : MonoBehaviour
     private int CurrentS = 0;
     private int correct = 0;
 
+    private void Start()
+    {
+        GameEvents.current.onSelectButton += OnSelectButton;
+        GameEvents.current.onDeselectButton += OnDeselectButton;
+    }
     public void LoadThisEmail()
     {
         TotalToSelect.text = TotalS.ToString();
         QuestionPage.SetActive(true);
         IncorrectPage.SetActive(false);
         CorrectPage.SetActive(false);
+        GameEvents.current.AllReset();
+        /*
         for(int i = 0; i < buttons.Length; i++)
         {
             buttons[i].is_selected = true;
             buttons[i].ToggleSelection();
         }
+        */
         CurrentS = 0;
         correct = 0;
         CurrentSelected.text = CurrentS.ToString();
     }
-
+    private void OnSelectButton(int no_correct)
+    {
+        CurrentS++;
+        CurrentSelected.text = CurrentS.ToString();
+        correct += no_correct;
+        if (CurrentS == TotalS)
+        {
+            GameEvents.current.AllSelect(1);    
+        }
+    }
+    private void OnDeselectButton(int no_correct)
+    {
+        CurrentS--;
+        CurrentSelected.text = CurrentS.ToString();
+        correct -= no_correct;
+        if (CurrentS == TotalS - 1)
+        {
+            GameEvents.current.AllSelect(0);
+        }
+    }
     public void IncorrectSelect()
     {
         CurrentS++;
@@ -104,5 +131,11 @@ public class Emailmanager : MonoBehaviour
     public void Retry()
     {
         LoadThisEmail();
+    }
+
+    private void OnDestroy()
+    {
+        GameEvents.current.onSelectButton -= OnSelectButton;
+        GameEvents.current.onDeselectButton -= OnDeselectButton;
     }
 }

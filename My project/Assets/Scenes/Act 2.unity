@@ -987,7 +987,6 @@ MonoBehaviour:
   selected: {fileID: 419059200}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &10382093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1328,7 +1327,6 @@ MonoBehaviour:
   selected: {fileID: 1379060840}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &12671769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,7 +1999,6 @@ MonoBehaviour:
   selected: {fileID: 1333922167}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &21066200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,7 +2376,6 @@ MonoBehaviour:
   selected: {fileID: 8556952}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &23044902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,7 +3558,6 @@ MonoBehaviour:
   selected: {fileID: 1617793343}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &38815066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,7 +3885,6 @@ MonoBehaviour:
   selected: {fileID: 347002811}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &42673877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4653,7 +4647,6 @@ MonoBehaviour:
   selected: {fileID: 738968848}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &61040470
 GameObject:
   m_ObjectHideFlags: 0
@@ -5299,7 +5292,6 @@ MonoBehaviour:
   selected: {fileID: 77360182}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &66363030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5526,7 +5518,6 @@ MonoBehaviour:
   selected: {fileID: 523870488}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &67213386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5966,7 +5957,6 @@ MonoBehaviour:
   selected: {fileID: 1769609505}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &74022155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6307,7 +6297,6 @@ MonoBehaviour:
   selected: {fileID: 1156458253}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &83681093
 GameObject:
   m_ObjectHideFlags: 0
@@ -6532,7 +6521,6 @@ MonoBehaviour:
   selected: {fileID: 379819507}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &87200322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6971,7 +6959,6 @@ MonoBehaviour:
   selected: {fileID: 1586899882}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &91241247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7219,7 +7206,6 @@ MonoBehaviour:
   selected: {fileID: 1748265716}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &93076667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7791,7 +7777,6 @@ MonoBehaviour:
   selected: {fileID: 125933356}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &106122702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8088,7 +8073,6 @@ MonoBehaviour:
   selected: {fileID: 518474963}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &109934296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8436,7 +8420,6 @@ MonoBehaviour:
   selected: {fileID: 788561654}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &113831965
 GameObject:
   m_ObjectHideFlags: 0
@@ -8710,7 +8693,6 @@ MonoBehaviour:
   selected: {fileID: 1217344544}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &117922583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9081,7 +9063,6 @@ MonoBehaviour:
   selected: {fileID: 1672960887}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &120725567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9245,7 +9226,6 @@ MonoBehaviour:
   selected: {fileID: 1664096572}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &121471009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10339,7 +10319,6 @@ MonoBehaviour:
   selected: {fileID: 23044902}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &136848630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10587,7 +10566,6 @@ MonoBehaviour:
   selected: {fileID: 1037488483}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &140875521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10918,7 +10896,6 @@ MonoBehaviour:
   selected: {fileID: 17827215}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &149379094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11380,7 +11357,6 @@ MonoBehaviour:
   selected: {fileID: 478541135}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &163349616
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,7 +11800,6 @@ MonoBehaviour:
   selected: {fileID: 373018392}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &174632591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11975,7 +11950,6 @@ MonoBehaviour:
   selected: {fileID: 1693598641}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &174800328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12523,7 +12497,6 @@ MonoBehaviour:
   selected: {fileID: 150421951}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &187881706
 GameObject:
   m_ObjectHideFlags: 0
@@ -13499,7 +13472,6 @@ MonoBehaviour:
   selected: {fileID: 494499189}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &197536802
 GameObject:
   m_ObjectHideFlags: 0
@@ -13557,7 +13529,6 @@ MonoBehaviour:
   selected: {fileID: 1230520179}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &197536805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14218,7 +14189,6 @@ MonoBehaviour:
   selected: {fileID: 1393628133}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &218331547
 GameObject:
   m_ObjectHideFlags: 0
@@ -14905,7 +14875,6 @@ MonoBehaviour:
   selected: {fileID: 1032686802}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &235508766
 GameObject:
   m_ObjectHideFlags: 0
@@ -15318,7 +15287,6 @@ MonoBehaviour:
   selected: {fileID: 1640018692}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &242185893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15986,7 +15954,6 @@ MonoBehaviour:
   selected: {fileID: 1363951858}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &253061579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16222,7 +16189,6 @@ MonoBehaviour:
   selected: {fileID: 1127435838}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &257695043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16386,7 +16352,6 @@ MonoBehaviour:
   selected: {fileID: 1767963459}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &258586287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16643,7 +16608,6 @@ MonoBehaviour:
   selected: {fileID: 1461130587}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &262115206
 GameObject:
   m_ObjectHideFlags: 0
@@ -17007,7 +16971,6 @@ MonoBehaviour:
   selected: {fileID: 2122706129}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &269277690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17171,7 +17134,6 @@ MonoBehaviour:
   selected: {fileID: 1466856433}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &269647758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17334,7 +17296,6 @@ MonoBehaviour:
   selected: {fileID: 388190778}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &270387535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17486,7 +17447,6 @@ MonoBehaviour:
   selected: {fileID: 21066200}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &271456325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18163,7 +18123,6 @@ MonoBehaviour:
   selected: {fileID: 437258389}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &286175951
 GameObject:
   m_ObjectHideFlags: 0
@@ -18221,7 +18180,6 @@ MonoBehaviour:
   selected: {fileID: 1980408145}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &286175954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18562,7 +18520,6 @@ MonoBehaviour:
   selected: {fileID: 548862830}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &289227050
 GameObject:
   m_ObjectHideFlags: 0
@@ -19993,7 +19950,6 @@ MonoBehaviour:
   selected: {fileID: 2141816291}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &309593901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20533,7 +20489,6 @@ MonoBehaviour:
   selected: {fileID: 636369838}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &315297270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21859,7 +21814,6 @@ MonoBehaviour:
   selected: {fileID: 1325736538}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &329306563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22022,7 +21976,6 @@ MonoBehaviour:
   selected: {fileID: 990881082}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &332104071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22838,7 +22791,6 @@ MonoBehaviour:
   selected: {fileID: 1151769767}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &344349084
 GameObject:
   m_ObjectHideFlags: 0
@@ -23147,7 +23099,6 @@ MonoBehaviour:
   selected: {fileID: 1633237464}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &350770504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24286,7 +24237,6 @@ MonoBehaviour:
   selected: {fileID: 1040538591}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &366298028
 GameObject:
   m_ObjectHideFlags: 0
@@ -24521,7 +24471,6 @@ MonoBehaviour:
   selected: {fileID: 61040470}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &369437581
 GameObject:
   m_ObjectHideFlags: 0
@@ -24713,7 +24662,6 @@ MonoBehaviour:
   selected: {fileID: 1664847971}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &370417859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24958,7 +24906,6 @@ MonoBehaviour:
   selected: {fileID: 262115206}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &373018392
 GameObject:
   m_ObjectHideFlags: 0
@@ -25672,7 +25619,6 @@ MonoBehaviour:
   selected: {fileID: 1433952189}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &380408104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26042,7 +25988,6 @@ MonoBehaviour:
   selected: {fileID: 304007658}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &393742366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26888,7 +26833,6 @@ MonoBehaviour:
   selected: {fileID: 17094626}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &406588708
 GameObject:
   m_ObjectHideFlags: 0
@@ -26946,7 +26890,6 @@ MonoBehaviour:
   selected: {fileID: 1526846387}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &406588711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27464,7 +27407,6 @@ MonoBehaviour:
   selected: {fileID: 1213778247}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &411226444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27889,7 +27831,6 @@ MonoBehaviour:
   selected: {fileID: 1335503881}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &420305957
 GameObject:
   m_ObjectHideFlags: 0
@@ -28919,7 +28860,6 @@ MonoBehaviour:
   selected: {fileID: 1150910548}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &437258389
 GameObject:
   m_ObjectHideFlags: 0
@@ -29341,7 +29281,6 @@ MonoBehaviour:
   selected: {fileID: 1860461254}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &448288482
 GameObject:
   m_ObjectHideFlags: 0
@@ -29399,7 +29338,6 @@ MonoBehaviour:
   selected: {fileID: 1903039905}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &448288485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29563,7 +29501,6 @@ MonoBehaviour:
   selected: {fileID: 1442880366}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &449742126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29810,7 +29747,6 @@ MonoBehaviour:
   selected: {fileID: 655042582}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &451483675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30740,7 +30676,6 @@ MonoBehaviour:
   selected: {fileID: 697130699}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &468861322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31008,7 +30943,6 @@ MonoBehaviour:
   selected: {fileID: 1176866825}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &470031708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31172,7 +31106,6 @@ MonoBehaviour:
   selected: {fileID: 303627631}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &471756543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31429,7 +31362,6 @@ MonoBehaviour:
   selected: {fileID: 1213098274}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &473506433
 GameObject:
   m_ObjectHideFlags: 0
@@ -32041,7 +31973,6 @@ MonoBehaviour:
   selected: {fileID: 6034533}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &484421059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32287,7 +32218,6 @@ MonoBehaviour:
   selected: {fileID: 1269837598}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &486803476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32356,7 +32286,6 @@ MonoBehaviour:
   selected: {fileID: 476593843}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &493505010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32676,7 +32605,6 @@ MonoBehaviour:
   selected: {fileID: 1915420117}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &498263702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33815,7 +33743,6 @@ MonoBehaviour:
   selected: {fileID: 1116152781}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &513042286
 GameObject:
   m_ObjectHideFlags: 0
@@ -34344,7 +34271,6 @@ MonoBehaviour:
   selected: {fileID: 1776739307}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &520662637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34591,7 +34517,6 @@ MonoBehaviour:
   selected: {fileID: 839606467}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &522102211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35146,7 +35071,6 @@ MonoBehaviour:
   selected: {fileID: 901067365}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &531997328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35554,7 +35478,6 @@ MonoBehaviour:
   selected: {fileID: 1793216350}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &537686887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36130,7 +36053,6 @@ MonoBehaviour:
   selected: {fileID: 83681093}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &539079484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36835,7 +36757,6 @@ MonoBehaviour:
   selected: {fileID: 481075134}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &543531985
 GameObject:
   m_ObjectHideFlags: 0
@@ -38411,7 +38332,6 @@ MonoBehaviour:
   selected: {fileID: 1228783724}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &578399125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38765,7 +38685,6 @@ MonoBehaviour:
   selected: {fileID: 1871265980}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &582865713
 GameObject:
   m_ObjectHideFlags: 0
@@ -40511,7 +40430,6 @@ MonoBehaviour:
   selected: {fileID: 1271186844}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &604951120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41060,7 +40978,6 @@ MonoBehaviour:
   selected: {fileID: 650452195}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &624663550
 GameObject:
   m_ObjectHideFlags: 0
@@ -41485,7 +41402,6 @@ MonoBehaviour:
   selected: {fileID: 128637255}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &636264940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41898,7 +41814,6 @@ MonoBehaviour:
   selected: {fileID: 2046179074}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &643387073
 GameObject:
   m_ObjectHideFlags: 0
@@ -42049,7 +41964,6 @@ MonoBehaviour:
   selected: {fileID: 1160246477}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &643523356
 GameObject:
   m_ObjectHideFlags: 0
@@ -42284,7 +42198,6 @@ MonoBehaviour:
   selected: {fileID: 547753500}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &647905500
 GameObject:
   m_ObjectHideFlags: 0
@@ -42560,7 +42473,6 @@ MonoBehaviour:
   selected: {fileID: 1764958976}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &651770619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42796,7 +42708,6 @@ MonoBehaviour:
   selected: {fileID: 458263694}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &655122997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42959,7 +42870,6 @@ MonoBehaviour:
   selected: {fileID: 910761456}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &662422127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43593,7 +43503,6 @@ MonoBehaviour:
   selected: {fileID: 1379560581}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &679948088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43861,7 +43770,6 @@ MonoBehaviour:
   selected: {fileID: 1206382963}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &681092372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44252,7 +44160,6 @@ MonoBehaviour:
   selected: {fileID: 1002745467}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &686609572
 GameObject:
   m_ObjectHideFlags: 0
@@ -44445,7 +44352,6 @@ MonoBehaviour:
   selected: {fileID: 1512965649}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &689696872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45687,7 +45593,6 @@ MonoBehaviour:
   selected: {fileID: 1534796512}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &713981970
 GameObject:
   m_ObjectHideFlags: 0
@@ -45978,7 +45883,6 @@ MonoBehaviour:
   selected: {fileID: 1854892967}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &714104707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47365,7 +47269,6 @@ MonoBehaviour:
   selected: {fileID: 555693895}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &730899920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48047,7 +47950,6 @@ MonoBehaviour:
   selected: {fileID: 278525977}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &747424197
 GameObject:
   m_ObjectHideFlags: 0
@@ -48105,7 +48007,6 @@ MonoBehaviour:
   selected: {fileID: 1129675506}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &747424200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48728,7 +48629,6 @@ MonoBehaviour:
   selected: {fileID: 5474090}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &754505456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49422,7 +49322,6 @@ MonoBehaviour:
   selected: {fileID: 982062269}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &764968434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49835,7 +49734,6 @@ MonoBehaviour:
   selected: {fileID: 534705153}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &779764498
 GameObject:
   m_ObjectHideFlags: 0
@@ -50350,7 +50248,6 @@ MonoBehaviour:
   selected: {fileID: 1412745648}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &784871706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50502,7 +50399,6 @@ MonoBehaviour:
   selected: {fileID: 1093224978}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &785858487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51748,7 +51644,6 @@ MonoBehaviour:
   selected: {fileID: 1776290826}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &817087447
 GameObject:
   m_ObjectHideFlags: 0
@@ -51805,7 +51700,6 @@ MonoBehaviour:
   selected: {fileID: 1713893419}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &817087450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52576,7 +52470,6 @@ MonoBehaviour:
   selected: {fileID: 402242517}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &827503977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53040,7 +52933,6 @@ MonoBehaviour:
   selected: {fileID: 1933564255}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &836103898
 GameObject:
   m_ObjectHideFlags: 0
@@ -53953,7 +53845,6 @@ MonoBehaviour:
   selected: {fileID: 1245072607}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &844995505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54560,7 +54451,6 @@ MonoBehaviour:
   selected: {fileID: 2028385262}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &854499289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54940,7 +54830,6 @@ MonoBehaviour:
   selected: {fileID: 1545853777}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &859976922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55308,7 +55197,6 @@ MonoBehaviour:
   selected: {fileID: 1414453526}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &862757096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55553,7 +55441,6 @@ MonoBehaviour:
   selected: {fileID: 1271499581}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &875062095
 GameObject:
   m_ObjectHideFlags: 0
@@ -56110,7 +55997,6 @@ MonoBehaviour:
   selected: {fileID: 407793657}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &878929737
 GameObject:
   m_ObjectHideFlags: 0
@@ -56167,7 +56053,6 @@ MonoBehaviour:
   selected: {fileID: 1658751103}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &878929740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56556,7 +56441,6 @@ MonoBehaviour:
   selected: {fileID: 1550135537}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &882078884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57111,7 +56995,6 @@ MonoBehaviour:
   selected: {fileID: 92562700}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &888348302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57656,7 +57539,6 @@ MonoBehaviour:
   selected: {fileID: 543531985}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &895371471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57913,7 +57795,6 @@ MonoBehaviour:
   selected: {fileID: 1935597955}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &897942800
 GameObject:
   m_ObjectHideFlags: 0
@@ -59845,7 +59726,6 @@ MonoBehaviour:
   selected: {fileID: 1345735893}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &929024773
 GameObject:
   m_ObjectHideFlags: 0
@@ -61352,7 +61232,6 @@ MonoBehaviour:
   selected: {fileID: 827107860}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &956817373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61503,7 +61382,6 @@ MonoBehaviour:
   selected: {fileID: 1422262153}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &957550621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61748,7 +61626,6 @@ MonoBehaviour:
   selected: {fileID: 1391107805}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &962767788
 GameObject:
   m_ObjectHideFlags: 0
@@ -62167,7 +62044,6 @@ MonoBehaviour:
   selected: {fileID: 295995537}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &978305684
 GameObject:
   m_ObjectHideFlags: 0
@@ -62224,7 +62100,6 @@ MonoBehaviour:
   selected: {fileID: 1041303951}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &978305687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63402,7 +63277,6 @@ MonoBehaviour:
   selected: {fileID: 1899301289}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &993242803
 GameObject:
   m_ObjectHideFlags: 0
@@ -63774,7 +63648,6 @@ MonoBehaviour:
   selected: {fileID: 65396441}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1000290139
 GameObject:
   m_ObjectHideFlags: 0
@@ -63915,7 +63788,6 @@ MonoBehaviour:
   selected: {fileID: 2145832154}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1001485077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64066,7 +63938,6 @@ MonoBehaviour:
   selected: {fileID: 282579578}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1001797159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64943,7 +64814,6 @@ MonoBehaviour:
   selected: {fileID: 1172918025}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1014537597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65699,7 +65569,6 @@ MonoBehaviour:
   selected: {fileID: 322535318}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1020205978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65851,7 +65720,6 @@ MonoBehaviour:
   selected: {fileID: 728204227}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1021780101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66679,7 +66547,6 @@ MonoBehaviour:
   selected: {fileID: 983445986}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1034955052
 GameObject:
   m_ObjectHideFlags: 0
@@ -67775,7 +67642,6 @@ MonoBehaviour:
   selected: {fileID: 1820253220}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1048916078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68094,7 +67960,6 @@ MonoBehaviour:
   selected: {fileID: 572721127}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1057587181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68339,7 +68204,6 @@ MonoBehaviour:
   selected: {fileID: 768857223}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1060753576
 GameObject:
   m_ObjectHideFlags: 0
@@ -68574,7 +68438,6 @@ MonoBehaviour:
   selected: {fileID: 710761821}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1064042951
 GameObject:
   m_ObjectHideFlags: 0
@@ -68610,7 +68473,6 @@ MonoBehaviour:
   selected: {fileID: 172822427}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!224 &1064042953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68783,7 +68645,6 @@ MonoBehaviour:
   selected: {fileID: 1236285099}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1064394484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69341,7 +69202,6 @@ MonoBehaviour:
   selected: {fileID: 287072249}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1072550900
 GameObject:
   m_ObjectHideFlags: 0
@@ -69625,7 +69485,6 @@ MonoBehaviour:
   selected: {fileID: 1749234798}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1077754010
 GameObject:
   m_ObjectHideFlags: 0
@@ -69682,7 +69541,6 @@ MonoBehaviour:
   selected: {fileID: 2128106514}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1077754013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70051,7 +69909,6 @@ MonoBehaviour:
   selected: {fileID: 1054049840}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1081765650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70380,7 +70237,6 @@ MonoBehaviour:
   selected: {fileID: 1709665938}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1086139140
 GameObject:
   m_ObjectHideFlags: 0
@@ -70995,7 +70851,6 @@ MonoBehaviour:
   selected: {fileID: 10458424}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1099820387
 GameObject:
   m_ObjectHideFlags: 0
@@ -71339,7 +71194,6 @@ MonoBehaviour:
   selected: {fileID: 1811837191}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1110338829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71632,7 +71486,6 @@ MonoBehaviour:
   selected: {fileID: 439393349}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1114101418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72484,7 +72337,6 @@ MonoBehaviour:
   selected: {fileID: 2083381176}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1130657206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73247,7 +73099,6 @@ MonoBehaviour:
   selected: {fileID: 593402671}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1137867537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73495,7 +73346,6 @@ MonoBehaviour:
   selected: {fileID: 1899681407}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1142185855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74602,7 +74452,6 @@ MonoBehaviour:
   selected: {fileID: 1233549240}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1158126509
 GameObject:
   m_ObjectHideFlags: 0
@@ -74878,7 +74727,6 @@ MonoBehaviour:
   selected: {fileID: 1974535731}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1160299127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75148,7 +74996,6 @@ MonoBehaviour:
   selected: {fileID: 791977794}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1167162362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75300,7 +75147,6 @@ MonoBehaviour:
   selected: {fileID: 2109144699}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1168165855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75548,7 +75394,6 @@ MonoBehaviour:
   selected: {fileID: 1854088173}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1175492903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75712,7 +75557,6 @@ MonoBehaviour:
   selected: {fileID: 32172714}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1175740094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76176,7 +76020,6 @@ MonoBehaviour:
   selected: {fileID: 1087757677}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1186476085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76505,7 +76348,6 @@ MonoBehaviour:
   selected: {fileID: 1663329792}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1191207837
 GameObject:
   m_ObjectHideFlags: 0
@@ -77095,7 +76937,6 @@ MonoBehaviour:
   selected: {fileID: 750413850}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1204534344
 GameObject:
   m_ObjectHideFlags: 0
@@ -77152,7 +76993,6 @@ MonoBehaviour:
   selected: {fileID: 1304863938}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1204534347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77520,7 +77360,6 @@ MonoBehaviour:
   selected: {fileID: 1315117737}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1206602645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77756,7 +77595,6 @@ MonoBehaviour:
   selected: {fileID: 1132925331}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1210372518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78054,7 +77892,6 @@ MonoBehaviour:
   selected: {fileID: 529213751}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1212692801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79725,7 +79562,6 @@ MonoBehaviour:
   selected: {fileID: 1993412782}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1241720315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79972,7 +79808,6 @@ MonoBehaviour:
   selected: {fileID: 423077934}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1247882203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80259,7 +80094,6 @@ MonoBehaviour:
   selected: {fileID: 1129180687}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1252182908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80478,7 +80312,6 @@ MonoBehaviour:
   selected: {fileID: 1254991568}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1253600215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81194,7 +81027,6 @@ MonoBehaviour:
   selected: {fileID: 852248687}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1260789969
 GameObject:
   m_ObjectHideFlags: 0
@@ -82242,7 +82074,6 @@ MonoBehaviour:
   selected: {fileID: 34771040}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1277454948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82671,7 +82502,6 @@ MonoBehaviour:
   selected: {fileID: 1327534920}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1285079997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83126,7 +82956,6 @@ MonoBehaviour:
   selected: {fileID: 567345931}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1297001496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83558,7 +83387,6 @@ MonoBehaviour:
   selected: {fileID: 180641824}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1302024607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84111,7 +83939,6 @@ MonoBehaviour:
   selected: {fileID: 1873463782}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1310230476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84262,7 +84089,6 @@ MonoBehaviour:
   selected: {fileID: 804691254}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1311151272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84772,7 +84598,6 @@ MonoBehaviour:
   selected: {fileID: 790854196}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1322141131
 GameObject:
   m_ObjectHideFlags: 0
@@ -84830,7 +84655,6 @@ MonoBehaviour:
   selected: {fileID: 1851743833}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1322141134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85727,7 +85551,6 @@ MonoBehaviour:
   selected: {fileID: 407175428}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1336601290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86127,7 +85950,6 @@ MonoBehaviour:
   selected: {fileID: 1209509957}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1340692373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86554,7 +86376,6 @@ MonoBehaviour:
   selected: {fileID: 29220976}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1349491583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86706,7 +86527,6 @@ MonoBehaviour:
   selected: {fileID: 351139112}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1353975928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87658,7 +87478,6 @@ MonoBehaviour:
   selected: {fileID: 43685236}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1383502559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88078,7 +87897,6 @@ MonoBehaviour:
   selected: {fileID: 1803454581}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1390501608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88503,7 +88321,6 @@ MonoBehaviour:
   selected: {fileID: 521914822}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1398603382
 GameObject:
   m_ObjectHideFlags: 0
@@ -89448,7 +89265,6 @@ MonoBehaviour:
   selected: {fileID: 138902482}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1423337140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92074,7 +91890,6 @@ MonoBehaviour:
   selected: {fileID: 163349616}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1471858470
 GameObject:
   m_ObjectHideFlags: 0
@@ -92131,7 +91946,6 @@ MonoBehaviour:
   selected: {fileID: 1942338495}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1471858473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92511,7 +92325,6 @@ MonoBehaviour:
   selected: {fileID: 520333260}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1474624462
 GameObject:
   m_ObjectHideFlags: 0
@@ -93643,7 +93456,6 @@ MonoBehaviour:
   selected: {fileID: 1121423787}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1491356744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93795,7 +93607,6 @@ MonoBehaviour:
   selected: {fileID: 590422190}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1501994772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95469,7 +95280,6 @@ MonoBehaviour:
   selected: {fileID: 1194138095}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1534796512
 GameObject:
   m_ObjectHideFlags: 0
@@ -96602,7 +96412,6 @@ MonoBehaviour:
   selected: {fileID: 1192032126}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1556087226
 GameObject:
   m_ObjectHideFlags: 0
@@ -96660,7 +96469,6 @@ MonoBehaviour:
   selected: {fileID: 517698300}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1556087229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96917,7 +96725,6 @@ MonoBehaviour:
   selected: {fileID: 254916557}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1561624324
 GameObject:
   m_ObjectHideFlags: 0
@@ -97354,7 +97161,6 @@ MonoBehaviour:
   selected: {fileID: 1909352499}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1565964560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97505,7 +97311,6 @@ MonoBehaviour:
   selected: {fileID: 1060753576}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1566339326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97874,7 +97679,6 @@ MonoBehaviour:
   selected: {fileID: 235508766}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1568033989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98470,7 +98274,6 @@ MonoBehaviour:
   selected: {fileID: 1939423632}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1578891550
 GameObject:
   m_ObjectHideFlags: 0
@@ -98528,7 +98331,6 @@ MonoBehaviour:
   selected: {fileID: 696974016}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1578891553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98691,7 +98493,6 @@ MonoBehaviour:
   selected: {fileID: 875747100}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1583895810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98842,7 +98643,6 @@ MonoBehaviour:
   selected: {fileID: 1671971511}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1585573974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98993,7 +98793,6 @@ MonoBehaviour:
   selected: {fileID: 1685503772}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1585942535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99725,7 +99524,6 @@ MonoBehaviour:
   selected: {fileID: 1000290139}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1600348720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100095,7 +99893,6 @@ MonoBehaviour:
   selected: {fileID: 376485230}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1605768434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101858,7 +101655,6 @@ MonoBehaviour:
   selected: {fileID: 774497433}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1621716075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102276,7 +102072,6 @@ MonoBehaviour:
   selected: {fileID: 1019417278}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1629334881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103011,7 +102806,6 @@ MonoBehaviour:
   selected: {fileID: 1478432439}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1644336813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103660,7 +103454,6 @@ MonoBehaviour:
   selected: {fileID: 244554111}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1662289316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104042,7 +103835,6 @@ MonoBehaviour:
   selected: {fileID: 1305910944}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1663893218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104193,7 +103985,6 @@ MonoBehaviour:
   selected: {fileID: 542320177}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1664083467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105781,7 +105572,6 @@ MonoBehaviour:
   selected: {fileID: 1758906297}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1680728227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106163,7 +105953,6 @@ MonoBehaviour:
   selected: {fileID: 1451380476}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1687240558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108004,7 +107793,6 @@ MonoBehaviour:
   selected: {fileID: 366298028}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1719915761
 GameObject:
   m_ObjectHideFlags: 0
@@ -108653,7 +108441,6 @@ MonoBehaviour:
   selected: {fileID: 1841649959}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1732885621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109002,7 +108789,6 @@ MonoBehaviour:
   selected: {fileID: 726818415}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1738676370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109518,7 +109304,6 @@ MonoBehaviour:
   selected: {fileID: 1856514356}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1744456744
 GameObject:
   m_ObjectHideFlags: 0
@@ -109576,7 +109361,6 @@ MonoBehaviour:
   selected: {fileID: 619997304}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1744456747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110312,7 +110096,6 @@ MonoBehaviour:
   selected: {fileID: 1296434508}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1764800639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110560,7 +110343,6 @@ MonoBehaviour:
   selected: {fileID: 431844215}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1765420952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110724,7 +110506,6 @@ MonoBehaviour:
   selected: {fileID: 829765435}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1765495177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111065,7 +110846,6 @@ MonoBehaviour:
   selected: {fileID: 1045959819}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1767963459
 GameObject:
   m_ObjectHideFlags: 0
@@ -112793,7 +112573,6 @@ MonoBehaviour:
   selected: {fileID: 375673607}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1791651205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113124,7 +112903,6 @@ MonoBehaviour:
   selected: {fileID: 875576898}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1794003844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113456,7 +113234,6 @@ MonoBehaviour:
   selected: {fileID: 194723216}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1801779424
 GameObject:
   m_ObjectHideFlags: 0
@@ -113514,7 +113291,6 @@ MonoBehaviour:
   selected: {fileID: 190223750}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1801779427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114587,7 +114363,6 @@ MonoBehaviour:
   selected: {fileID: 417303557}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1818052318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115627,7 +115402,6 @@ MonoBehaviour:
   selected: {fileID: 1719915761}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1851743833
 GameObject:
   m_ObjectHideFlags: 0
@@ -115768,7 +115542,6 @@ MonoBehaviour:
   selected: {fileID: 148938645}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1852181546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116484,7 +116257,6 @@ MonoBehaviour:
   selected: {fileID: 1792627851}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1865318833
 GameObject:
   m_ObjectHideFlags: 0
@@ -116541,7 +116313,6 @@ MonoBehaviour:
   selected: {fileID: 494476930}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1865318836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117205,7 +116976,6 @@ MonoBehaviour:
   selected: {fileID: 131703708}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1876035837
 GameObject:
   m_ObjectHideFlags: 0
@@ -117356,7 +117126,6 @@ MonoBehaviour:
   selected: {fileID: 601791507}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1877356913
 GameObject:
   m_ObjectHideFlags: 0
@@ -117945,7 +117714,6 @@ MonoBehaviour:
   selected: {fileID: 1812898657}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1887329764
 GameObject:
   m_ObjectHideFlags: 0
@@ -118239,7 +118007,6 @@ MonoBehaviour:
   selected: {fileID: 522541650}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1889775303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118506,7 +118273,6 @@ MonoBehaviour:
   selected: {fileID: 1592839244}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1893774485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119366,7 +119132,6 @@ MonoBehaviour:
   selected: {fileID: 823718363}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1908145659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119834,7 +119599,6 @@ MonoBehaviour:
   selected: {fileID: 1815962046}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1915420117
 GameObject:
   m_ObjectHideFlags: 0
@@ -120111,7 +119875,6 @@ MonoBehaviour:
   selected: {fileID: 473506433}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1920881007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120275,7 +120038,6 @@ MonoBehaviour:
   selected: {fileID: 178961977}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1921501032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120912,7 +120674,6 @@ MonoBehaviour:
   selected: {fileID: 861150365}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1933564255
 GameObject:
   m_ObjectHideFlags: 0
@@ -121683,7 +121444,6 @@ MonoBehaviour:
   selected: {fileID: 1188434589}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &1950608791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121835,7 +121595,6 @@ MonoBehaviour:
   selected: {fileID: 811598721}
   is_correct: 1
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1951821229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122686,7 +122445,6 @@ MonoBehaviour:
   selected: {fileID: 1708599868}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1966945926
 GameObject:
   m_ObjectHideFlags: 0
@@ -123366,7 +123124,6 @@ MonoBehaviour:
   selected: {fileID: 1306885307}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1973134360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123944,7 +123701,6 @@ MonoBehaviour:
   selected: {fileID: 1782719967}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &1980408145
 GameObject:
   m_ObjectHideFlags: 0
@@ -124442,7 +124198,6 @@ MonoBehaviour:
   selected: {fileID: 317133007}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &1988810625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126292,7 +126047,6 @@ MonoBehaviour:
   selected: {fileID: 1554609557}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2037634764
 GameObject:
   m_ObjectHideFlags: 0
@@ -126349,7 +126103,6 @@ MonoBehaviour:
   selected: {fileID: 725476700}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &2037634767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126501,7 +126254,6 @@ MonoBehaviour:
   selected: {fileID: 2060380375}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &2040741413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126833,7 +126585,6 @@ MonoBehaviour:
   selected: {fileID: 1098840335}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!114 &2047350913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127078,7 +126829,6 @@ MonoBehaviour:
   selected: {fileID: 1881357449}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2051462895
 GameObject:
   m_ObjectHideFlags: 0
@@ -127229,7 +126979,6 @@ MonoBehaviour:
   selected: {fileID: 1748573304}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2054706728
 GameObject:
   m_ObjectHideFlags: 0
@@ -127735,7 +127484,6 @@ MonoBehaviour:
   selected: {fileID: 1898269887}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2061395976
 GameObject:
   m_ObjectHideFlags: 0
@@ -128306,7 +128054,6 @@ MonoBehaviour:
   selected: {fileID: 173875612}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2071067400
 GameObject:
   m_ObjectHideFlags: 0
@@ -129091,7 +128838,6 @@ MonoBehaviour:
   selected: {fileID: 1715409482}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2085474910
 GameObject:
   m_ObjectHideFlags: 0
@@ -129242,7 +128988,6 @@ MonoBehaviour:
   selected: {fileID: 506534400}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2087765753
 GameObject:
   m_ObjectHideFlags: 0
@@ -129300,7 +129045,6 @@ MonoBehaviour:
   selected: {fileID: 2027731493}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &2087765756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129557,7 +129301,6 @@ MonoBehaviour:
   selected: {fileID: 1469212787}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2096504451
 GameObject:
   m_ObjectHideFlags: 0
@@ -129615,7 +129358,6 @@ MonoBehaviour:
   selected: {fileID: 1616325207}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1781884312}
 --- !u!114 &2096504454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131228,7 +130970,6 @@ MonoBehaviour:
   selected: {fileID: 323289898}
   is_correct: 0
   is_selected: 0
-  manager: {fileID: 1439487838}
 --- !u!1 &2136862555
 GameObject:
   m_ObjectHideFlags: 0
