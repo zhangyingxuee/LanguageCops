@@ -15,6 +15,8 @@ public class PlayerInfo : MonoBehaviour
 
     public GameObject popup;
 
+    public bool keep_data;
+
     private bool send_game_event1;
     private bool send_game_event2;
 
@@ -23,11 +25,21 @@ public class PlayerInfo : MonoBehaviour
     private bool should_reset;
     private void Awake()
     {
-        InfoSO.Progress = 0;
-        InfoSO.ItemCount = 0;
-        InfoSO.HighestItemId = 0;
-        InfoSO.LastLoadedProgress = 0;
-        InfoSO.Items = new bool[curr_item_count];
+        if(keep_data)
+        {
+            InfoSO.Progress = 0;
+            InfoSO.LastLoadedProgress = 0;
+            InfoSO.Items = new bool[curr_item_count];
+            activatingItem.AfterLoad();
+        }
+        else
+        {
+            InfoSO.Progress = 0;
+            InfoSO.ItemCount = 0;
+            InfoSO.HighestItemId = 0;
+            InfoSO.LastLoadedProgress = 0;
+            InfoSO.Items = new bool[curr_item_count];
+        }
     }
     private void Start()
     {
@@ -45,6 +57,7 @@ public class PlayerInfo : MonoBehaviour
             
         }
         InfoSO.From_another_scene = false;
+
     }
 
     private void Update()
@@ -67,6 +80,7 @@ public class PlayerInfo : MonoBehaviour
             GameEvents.current.Checkpoint(0);
             should_reset = false;
         }
+
     }
     
     public void SavePlayer()
