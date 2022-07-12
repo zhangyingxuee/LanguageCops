@@ -158,7 +158,7 @@ public class DialogueManagerInk : MonoBehaviour
                 popUp.SetActive(true);
                 specialDialoguePop = false;
             }
-             GameEvents.current.DialogueEnd();
+        GameEvents.current.DialogueEnd();
     }
 
     public void ChooseStory()

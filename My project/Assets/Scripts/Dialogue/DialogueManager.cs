@@ -119,8 +119,9 @@ public class DialogueManager : MonoBehaviour
         }
         specialDialogue = false;
         GameEvents.current.DialogueEnd();
-     }
+    }
 
+ 
      public void SpecialDialogue()
      {
             specialDialogue = true;
