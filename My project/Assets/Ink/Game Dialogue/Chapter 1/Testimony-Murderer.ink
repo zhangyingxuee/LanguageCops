@@ -51,7 +51,7 @@ But seriously, who would wear an apron to the bathroom?
         -> question1
     - else:
         That's it? 
-        Detective {player_name}, you should know that I am really innocent. 
+        Detective {player_name}, you should know that I am innocent. 
         -> DONE
 }
 
@@ -70,7 +70,7 @@ That's all, hope my information helps.
         
     - else:
         That's it? 
-        Detective {player_name}, you should know that I am really innocent. 
+        Detective {player_name}, you should know that I am innocent. 
         -> DONE
 }
 

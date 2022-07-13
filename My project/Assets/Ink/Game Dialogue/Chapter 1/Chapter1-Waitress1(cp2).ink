@@ -39,7 +39,7 @@ It wasn't a popular period for our cafe.
 
 = answer2
 The owner.
-I have never touched it other than serving it.
+I have never touched them other than serving it.
 -> question1
 
 = answer3
@@ -52,7 +52,7 @@ always sitting at the same spot.
 }
 
 = answer3version2
-Oh I remember one more thing!
+Oh, I remember one more thing!
 Professor is a regular customer. 
 He always sits at the same table there. 
 ->conclusion 

@@ -23,7 +23,7 @@ Detective {player_name}, what do you want to know?
 = answer1
 Uhm, nothing much. 
 They just come and go as usual. 
-    * Was there anyone linger a bit longer than usual? 
+    * Was there anyone lingering a bit longer than usual? 
         Let me think. 
         Oh, there was a guy who went to the toilet. 
             ** Where is the toilet?

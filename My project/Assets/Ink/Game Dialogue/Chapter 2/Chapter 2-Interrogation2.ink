@@ -11,7 +11,7 @@ VAR player_name = "Povas Lirros"
 Fine, fine! You caught me!
 I will tell the truth now, okay?
 The client did insist on communicating online, but I was curious.
-Why would someone clumsy as him want to kill some other guy?
+Why would someone as clumsy want to kill some other guy?
 Then, I sneaked a peak when he was delivering my down payment to our transaction place. 
 He looked weird. He was just like one of those mad scientists.  
 Bald, green hair, goggles, lab coat...You know the stereotypical look. 
@@ -43,7 +43,7 @@ My client changed contact information every time.
 # lie
 No, the messages is all simple and straightforward. 
 They are in the usual business tone. 
-    * [I have no more question for you.]
+    * [I have no more questions for you.]
         Hope you bring good news soon, detective {player_name}. 
         -> DONE
 
@@ -55,9 +55,9 @@ By the way, I am well-known for my good memory.
 
 === post ===
 Hey, is it that obvious?
-You are really sharp, detective {player_name}.
+You are sharp, detective {player_name}.
 Okay, I confess. I did notice something with his writing: I don't know if it is his style or what. He kept making grammatical mistakes. The sheer amount of errors is really hard to miss. 
-It is a random finding, really. Does that actually help you?
+It is a random finding. Does that actually help you?
 
 -> DONE
 

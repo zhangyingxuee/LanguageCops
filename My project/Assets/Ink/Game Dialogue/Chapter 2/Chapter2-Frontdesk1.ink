@@ -35,9 +35,9 @@ This hotel is the same as every other hotel you have been to: People can find pl
 -> question1
 
 = answer2
-Just sit here all day. Help people check in and out. The usual stuff. 
+Just sit here all day. Help people check-in and out. The usual stuff. 
 It is pretty boring to sit here by myself all day long. I had nobody to talk to. 
-Detective...{player_name}? That is a cute name. You want to stay here to keep me company? I am more than happy to have you, as long as you stop asking these weird questions. 
+Detective...{player_name}? That is a cute name. Do you want to stay here to keep me company? I am more than happy to have you, as long as you stop asking these weird questions. 
 
 -> question1
 

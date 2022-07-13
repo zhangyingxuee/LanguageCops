@@ -1,4 +1,4 @@
-VAR player_name = "POvas Lirros" 
+VAR player_name = "Povas Lirros" 
 
 -> main
 === pre === 
@@ -31,9 +31,9 @@ I am glad that I can help again!
 = answer1
 Oh, yes. There was another waiter here before. 
 But poor Jack got fired for sending the wrong coffee. 
-That incidence was awful.
-The customer had an severe allergic reaction from that wrongly served coffee. 
-I thought that was bad enough, until this happened...
+That incident was awful.
+The customer had a severe allergic reaction from that wrongly served coffee. 
+I thought that was bad until this happened...
 -> question1
 
 
@@ -46,14 +46,14 @@ I hope he is okay now...
 
 = answer3
 Oh...Mr Lollas is not very easy to get along with sometimes...
-He got mad at me all the time, from all the trivial things.
+He got mad at me all the time, for all the trivial things.
 I should probably switch jobs.
 But the pay is good though. 
 {
     - not answer4:
     -> question1
     - else:
-    This is really awful! Who did this?
+    This is awful! Who did this?
     I only know I have nothing to do with it. 
     -> DONE
 
@@ -71,7 +71,7 @@ That's all, hope my information helps.
 
 
 = answer4
-This is really awful! Who did this?
+This is awful! Who did this?
 I only know I have nothing to do with it.
 -> DONE
 

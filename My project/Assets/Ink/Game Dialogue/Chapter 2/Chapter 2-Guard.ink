@@ -8,7 +8,7 @@ Sor...sorry, it is my first day here. What...what can I do for you?
 === main === 
 # Guard
 # No special 
-Hi...hi, emm, may I help you?
+Hi...hi, umm, may I help you?
 I...I will answer your question if my boss allows it. It is allowed, right?
 -> question1
 
@@ -28,7 +28,7 @@ What do you want to know, detective {player_name}?
 === answer ===
 
 = answer1
-Oh, oh! Let me recall from my security officer handbook. Err...the first rule is...the second rule is...I guess it's just looking after the luggage in the storeroon? 
+Oh, oh! Let me recall from my security officer handbook. Err...the first rule is...the second rule is...I guess it's just looking after the luggage in the storeroom? 
 My job is pretty important, right? I mean, the luggage inside must be very expensive. I will do my best to protect them!
 -> question1
 
@@ -46,19 +46,19 @@ Oh...Did I answer your question, detective {player_name}? I hope I did...
 No problem, detective {player_name}!
 I am glad I can help!
 That was a lot of talking...
-I really hope the vending machine is not broken...
+I hope the vending machine is not broken...
 If it weren't, I would be able to get a cold drink...
 Too bad... 
     *[Vending machine?]
      Oh, the vending machine is on your left!
      Maybe you can convince my boss to fix it? 
-     That is probably not on your detective handbook right?
+     That is probably not on your detective handbook, right?
     -> DONE
 
 === post ===
 The vending machine is on your left!
      Maybe you can convince my boss to fix it? 
-     That is probably not on your detective handbook right?
+     That is probably not on your detective handbook, right?
 
 -> DONE
 

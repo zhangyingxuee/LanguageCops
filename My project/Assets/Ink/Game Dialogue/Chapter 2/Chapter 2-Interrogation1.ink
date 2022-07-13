@@ -8,7 +8,7 @@ This is such an unlucky day.
 === main === 
 # Christian Minus
 # Special 
-Hi Detective {player_name}, this is really the last place I want to be at. 
+Detective {player_name}, you caught me this time. 
 -> question1
 
 === question1 ===
@@ -28,10 +28,10 @@ I will told you everything I know.
 
 === answer ===
 = answer1
-I have never met him before til this morning. 
+I have never met him before till this morning. 
 I was telling the truth in the cafe, you know. 
     * [Why did you murder him?]
-        For money, certainly. 
+        For the money, certainly. 
         Someone wants him to be dead. 
 -> question1
 
@@ -56,7 +56,7 @@ Doing something shady like this, my client knows how to lay low for sure.
 = answer4 
 Okay, this is going to be a long story.
 I knew he was going to the cafe this morning, so I went to the cafe before him.
-I mean, he sat at the same spot everytime he went to that cafe. It's hard to miss. 
+I mean, he sat at the same spot every time he went to that cafe. It's hard to miss. 
 So I ordered a drink and put the magic into the sugar pot while no one was paying attention. 
 I sat there until he was in my sight. That was when I took my leave, and the show began. 
 

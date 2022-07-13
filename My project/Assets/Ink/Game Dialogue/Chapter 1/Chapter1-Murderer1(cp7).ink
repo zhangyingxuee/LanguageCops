@@ -9,7 +9,7 @@ VAR player_name = "Povas Lirros"
 # Christian Minus  
 # Special 
 Hello there!
-uhm, what an unpleasant environment for our conversation.  
+Uhm, what an unpleasant environment for our conversation.  
 -> question1
 
 === question1 ===
@@ -36,11 +36,11 @@ I came here to grab a cup of coffee.
         Oh, the leftmost one. 
         ** so you sit at the same table as the victim? 
             Did I? 
-            I think I probably did see him taking that table when I was leaving. 
+            I probably did see him taking that table when I was leaving. 
             -> question1 
 
 = answer2
-You know what, it was such a bad decision to come here. 
+You know what, it was such a wrong decision to come here. 
 The coffee I ordered tasted very funny
 and now I am trouble by my stomachache.
 I am going to be stuck in this toilet forever. 

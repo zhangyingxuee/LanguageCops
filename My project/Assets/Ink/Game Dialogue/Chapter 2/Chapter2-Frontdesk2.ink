@@ -2,7 +2,7 @@ VAR player_name = "Povas Lirros"
 
 -> main
 === pre === 
-I miss you detective.
+I miss you, detective.
 -> DONE
 
 === main === 
@@ -25,7 +25,7 @@ Why are you here, detective {player_name}?
 
 = answer1
 ...
-Precious tower holds river monsters.
+The precious tower holds river monsters.
 ...
 Do you like my hair band? I heard that it is made from three recyclable materials.
 -> question1

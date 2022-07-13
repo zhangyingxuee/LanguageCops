@@ -38,13 +38,13 @@ Do the others look like they can manage a shop?
         I am the only one who can make good coffee here. 
         I mean, can you trust those dumb kids? 
         ** Is there anything else that you do? 
-            Huh? I do literally everything here! Buying the ingredients, managing the stock, cleaning of the storeroom...
+            Huh? I do everything here! Buying the ingredients, managing the stock, cleaning the storeroom...
             Those kids are definitely getting more salary than they deserved!
             -> question1
     
 
 = answer2
-That weirdo? Yes, he is a really coffee addict. Of course, my coffee always make my customers come back. 
+That weirdo? Yes, he is a real coffee addict. Of course, my coffee always makes my customers come back. 
 This weirdo always sits at the same spot every time he comes. I mean, with such a crazy hairstyle, it is hard not to remember him, right?
 -> question1
 

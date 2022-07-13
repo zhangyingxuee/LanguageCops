@@ -31,7 +31,7 @@ There's no end to this, right?
 = answer1
 Who? The blonde guy?
 Yeah, he was also in the toilet, wasn't he? 
-I was inside one of the stall at that moment. 
+I was inside one of the stalls at that moment. 
 I heard some washing sound at the basin. 
 When I walked out of the stall, I had a glance of him walking into another stall.
 I mean, nothing strange right? 
@@ -46,7 +46,7 @@ That little bastard!
 -> question1
 
 = answer3
-How could I remember everyone of them? 
+How could I remember every one of them? 
 But his face does look unfamiliar to me. 
 Definitely not a regular customer, but who knows?
 {
@@ -54,7 +54,7 @@ Definitely not a regular customer, but who knows?
     -> question1
     - else:
     This is the last time right? 
-    I really don't want to see your face anymore. 
+    I don't want to see your face anymore. 
     -> DONE
 
 }
@@ -72,7 +72,7 @@ That's all, hope my information helps.
 
 = answer4
 This is the last time right? 
-I really don't want to see your face anymore. 
+I don't want to see your face anymore. 
 -> DONE
 
 
