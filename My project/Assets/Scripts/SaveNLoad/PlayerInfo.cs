@@ -39,6 +39,7 @@ public class PlayerInfo : MonoBehaviour
             InfoSO.LastLoadedProgress = 0;
             InfoSO.Items = new bool[curr_item_count];
         }
+        InfoSO.SubSceneCount = 0;
     }
     private void Start()
     {
@@ -109,6 +110,7 @@ public class PlayerInfo : MonoBehaviour
                 if(i == data.scene_count / 10)
                 {
                     sub_scene[i].SetActive(true);
+                    Debug.Log("Now active: " + sub_scene[i].name);
                 } else
                 {
                     sub_scene[i].SetActive(false);

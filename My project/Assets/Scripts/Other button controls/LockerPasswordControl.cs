@@ -116,6 +116,7 @@ public class LockerPasswordControl : MonoBehaviour
     {
         LockerPage.SetActive(false);
         GameEvents.current.CloseCafe();
+        InfoSO.Progress = checkpt;
         GameEvents.current.Checkpoint(checkpt);
     }
 }

@@ -17,11 +17,6 @@ public class PourManager : MonoBehaviour
     private int level = 0;
     private int end = 0;
 
-    private void Start()
-    {
-        GameEvents.current.onCheckpoint += OnCheckPoint;
-    }
-
     public void initialiseButton()
     {
         for(int i = 0;i < dataSO.CorrectSetNumber;i++ )
@@ -70,7 +65,7 @@ public class PourManager : MonoBehaviour
             }
             else
             {
-                //load end 2 (evil end)
+                //load end 2 (true end)
                 end = 2;
             }
         } else if (level == indicator.Length - 1)
@@ -83,9 +78,10 @@ public class PourManager : MonoBehaviour
             //load end 3 (normal end)
             end = 3;
         }
+        Invoke("ChangeScene", 0.45f);
     }
 
-    private void OnCheckPoint(int id)
+    private void ChangeScene()
     {
         if (end != 0)
         {
