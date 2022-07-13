@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PourManager : MonoBehaviour
 {
@@ -10,8 +11,16 @@ public class PourManager : MonoBehaviour
     public DragDropSO dataSO;
     public GameObject thisPage;
     public GameObject confirmPage;
+    public GameObject fade;
+    public int[] endSceneNo;
 
     private int level = 0;
+    private int end = 0;
+
+    private void Start()
+    {
+        GameEvents.current.onCheckpoint += OnCheckPoint;
+    }
 
     public void initialiseButton()
     {
@@ -51,23 +60,36 @@ public class PourManager : MonoBehaviour
 
     public void Continue()
     {
+        fade.SetActive(true);
         if(level == 0)
         {
             if(dataSO.CorrectSetNumber == 0)
             {
                 //load end 1 (bad end)
+                end = 1;
             }
             else
             {
                 //load end 2 (evil end)
+                end = 2;
             }
         } else if (level == indicator.Length - 1)
         {
             //load end 4 (good end)
+            end = 4;
         }
         else
         {
             //load end 3 (normal end)
+            end = 3;
+        }
+    }
+
+    private void OnCheckPoint(int id)
+    {
+        if (end != 0)
+        {
+            SceneManager.LoadScene(endSceneNo[end - 1]);
         }
     }
 }
