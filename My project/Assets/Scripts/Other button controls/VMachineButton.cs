@@ -6,6 +6,9 @@ using UnityEngine.EventSystems;
 
 public class VMachineButton : MonoBehaviour
 {
+    public string Sound = "a";
+    public string CorrectSound = "d";
+    public string IncorrectSound = "e";
     public Button[] colour;
     public Button[] number;
     public int CorrectColour;
@@ -33,6 +36,7 @@ public class VMachineButton : MonoBehaviour
 
     public void SelectColour(int id)
     {
+        AudioManager.instance.Play(Sound);
         for (int i = 0; i < colour.Length; i++)
         {
             if (i != id)
@@ -49,6 +53,7 @@ public class VMachineButton : MonoBehaviour
     }
     public void SelectNumber(int id)
     {
+        AudioManager.instance.Play(Sound);
         for (int i = 0; i < number.Length; i++)
         {
             if (i != id)
@@ -65,12 +70,15 @@ public class VMachineButton : MonoBehaviour
     }
     public void Submit()
     {
+        AudioManager.instance.Play(Sound);
         if(colour_state == true & number_state == true & current_colour == CorrectColour & current_number == CorrectNumber )
         {
+            AudioManager.instance.Play(CorrectSound);
             Correct.SetActive(true);
             Invoke("ClosePage", 1f);
         } else
         {
+            AudioManager.instance.Play(IncorrectSound);
             Incorrect.SetActive(true);
             Invoke("ResetPage", 0.5f);
             EventSystem.current.SetSelectedGameObject(null);

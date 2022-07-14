@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInfo : MonoBehaviour
 {
+    public string soundName1;
+    public string soundName2;
+
     public int scene_num;
 
     public GameObject[] sub_scene;
@@ -28,8 +31,7 @@ public class PlayerInfo : MonoBehaviour
         if(keep_data)
         {
             InfoSO.Progress = 0;
-            InfoSO.LastLoadedProgress = 0;
-            activatingItem.AfterLoad();
+            InfoSO.LastLoadedProgress = 0;   
         }
         else
         {
@@ -49,11 +51,17 @@ public class PlayerInfo : MonoBehaviour
             send_game_event1 = true;
             send_game_event2 = true;
             should_reset = false;
+            AudioManager.instance.FadeInAndOut(soundName2);
         }else
         {
             send_game_event1 = false;
             send_game_event2 = false;
             should_reset = true;
+            if(keep_data)
+            {
+                activatingItem.AfterLoad();
+            }
+            AudioManager.instance.FadeInAndOut(soundName1);
             
         }
         InfoSO.From_another_scene = false;

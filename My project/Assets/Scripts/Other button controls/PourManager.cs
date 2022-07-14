@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PourManager : MonoBehaviour
 {
+    public string Sound = "a";
     public GameObject[] indicator;
     public GameObject[] filled;
     public GameObject[] empty;
@@ -44,17 +45,20 @@ public class PourManager : MonoBehaviour
 
     public void Finish()
     {
+        AudioManager.instance.Play(Sound);
         thisPage.SetActive(false);
         confirmPage.SetActive(true);
     }
     public void Cancel()
     {
+        AudioManager.instance.Play(Sound);
         thisPage.SetActive(true);
         confirmPage.SetActive(false);
     }
 
     public void Continue()
     {
+        AudioManager.instance.Play(Sound);
         fade.SetActive(true);
         if(level == 0)
         {

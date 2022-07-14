@@ -5,6 +5,7 @@ using TMPro;
 
 public class CheckTrueAct2 : MonoBehaviour
 {
+    public string BGM;
     public DragDropSO dataSO;
     public SaveDataSO InfoSO;
     public int checkpt;
@@ -37,7 +38,7 @@ public class CheckTrueAct2 : MonoBehaviour
                 dataSO.PlaceConflict = new bool[3];
                 dataSO.CheckCorrectSet = new int[] {8,8,8};
                 result.text = "Correct";
-                Debug.Log("first set disappear");
+                AudioManager.instance.Play("d");
 
                 
                 if (dataSO.CorrectSetNumber == 2)
@@ -46,6 +47,7 @@ public class CheckTrueAct2 : MonoBehaviour
                     GameEvents.current.Submit(9);
                     control.ExitSolving();
                     control.OpenPhone();
+                    AudioManager.instance.FadeInAndOut(BGM);
                     InfoSO.Progress = checkpt;
                     GameEvents.current.Checkpoint(checkpt);
                 }
@@ -54,6 +56,7 @@ public class CheckTrueAct2 : MonoBehaviour
             }
             else
             {
+                AudioManager.instance.Play("e");
                 result.text = "Incorrect";
                 GameEvents.current.Submit(9);
                 dataSO.PlaceTaken[1] = false;

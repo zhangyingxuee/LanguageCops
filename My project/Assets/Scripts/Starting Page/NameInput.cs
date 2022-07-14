@@ -15,6 +15,7 @@ public class NameInput : MonoBehaviour
 
     public void DoDelayAction()
     {
+        AudioManager.instance.StopBuzz();
         Debug.Log("delay(button) is working");
         StartCoroutine(DelayAction(delayInput));
         foreach (GameObject thing in userInputField)

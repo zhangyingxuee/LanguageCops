@@ -1131,6 +1131,7 @@ GameObject:
   - component: {fileID: 481281721}
   - component: {fileID: 481281720}
   - component: {fileID: 481281719}
+  - component: {fileID: 481281722}
   m_Layer: 0
   m_Name: Sit with vial 4
   m_TagString: Untagged
@@ -1281,6 +1282,21 @@ MonoBehaviour:
       is the one I always use.\r"
     - 'All this talking is getting me thirsty. '
     - 'Let me take a sip before writing you the location of my lab. '
+--- !u!114 &481281722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481281715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: 3
 --- !u!1 &489301905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3386,6 +3402,7 @@ GameObject:
   - component: {fileID: 1497693522}
   - component: {fileID: 1497693521}
   - component: {fileID: 1497693523}
+  - component: {fileID: 1497693524}
   m_Layer: 0
   m_Name: cafe sit down with drinks 1 (1)
   m_TagString: Untagged
@@ -3494,6 +3511,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ready_id: 0
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+--- !u!114 &1497693524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497693519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: 3
 --- !u!1 &1498055946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4066,6 +4098,7 @@ GameObject:
   - component: {fileID: 1690771978}
   - component: {fileID: 1690771979}
   - component: {fileID: 1690771980}
+  - component: {fileID: 1690771981}
   m_Layer: 0
   m_Name: Sit with vial 1
   m_TagString: Untagged
@@ -4174,6 +4207,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ready_id: 6
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+--- !u!114 &1690771981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690771976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: c
 --- !u!1 &1741555375
 GameObject:
   m_ObjectHideFlags: 0

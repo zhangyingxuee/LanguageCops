@@ -6,7 +6,7 @@ using TMPro;
 public class PageManager : MonoBehaviour
 {
 
-
+    public string Sound;
     public TextMeshProUGUI CurrPage;
     public TextMeshProUGUI TotalPage;
     public GameObject NextPage;
@@ -81,6 +81,7 @@ public class PageManager : MonoBehaviour
 
     public void nextPage()
     {
+        AudioManager.instance.Play(Sound);
         Page[CPage - 1].SetActive(false);
         CPage += 1;
         CurrPage.text = CPage.ToString();
@@ -94,6 +95,7 @@ public class PageManager : MonoBehaviour
 
     public void lastPage()
     {
+        AudioManager.instance.Play(Sound);
         Page[CPage - 1].SetActive(false);
         CPage -= 1;
         CurrPage.text = CPage.ToString();
@@ -107,6 +109,7 @@ public class PageManager : MonoBehaviour
 
     public void OpenSpecificItem(int id)
     {
+        AudioManager.instance.Play(Sound);
         OverviewPage.SetActive(false);
         SpecificPage.SetActive(true);
         for (int i = 0; i < Item.Length; i++)
@@ -122,6 +125,7 @@ public class PageManager : MonoBehaviour
     }
     public void CloseSpecificItem()
     {
+        AudioManager.instance.Play(Sound);
         OverviewPage.SetActive(true);
         SpecificPage.SetActive(false);
         for (int i = 0; i < TPage; i++)

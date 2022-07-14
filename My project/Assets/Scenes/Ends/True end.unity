@@ -1258,6 +1258,34 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.a
       value: 0.78431374
       objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1193769290}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlaySoundEffect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9149919490664111214, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2086,6 +2114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006220104}
   - component: {fileID: 1006220103}
+  - component: {fileID: 1006220105}
   m_Layer: 0
   m_Name: image
   m_TagString: Untagged
@@ -2161,6 +2190,21 @@ Transform:
   m_Father: {fileID: 1044182759}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006220105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006220102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 1
+  name_of_effect: 10
 --- !u!1 &1034955052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,6 +2576,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1193769289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193769291}
+  - component: {fileID: 1193769290}
+  m_Layer: 0
+  m_Name: Button press (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1193769290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193769289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: a
+--- !u!4 &1193769291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193769289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7210155, y: -0.23036036, z: -0.0349604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1330800245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2819,6 +2910,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1408555935}
         m_TargetAssemblyTypeName: ReturnToTitle, Assembly-CSharp
         m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1193769290}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -6,6 +6,11 @@ using UnityEngine.UI;
 public class DialogueMode : MonoBehaviour
 {
     private bool curr_state;
+
+    void Awake()
+    {
+        curr_state = GetComponent<Button>().interactable;
+    }
     void Start()
     {
         GameEvents.current.onStartDialogue += OnStartDialogue;

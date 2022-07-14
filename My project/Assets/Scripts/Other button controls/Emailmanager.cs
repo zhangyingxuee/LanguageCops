@@ -5,6 +5,9 @@ using TMPro;
 
 public class Emailmanager : MonoBehaviour
 {
+    public string Sound = "a";
+    public string CorrectSound = "d";
+    public string IncorrectSound = "e";
     public TextMeshProUGUI CurrentSelected;
     public TextMeshProUGUI TotalToSelect;
     public TextMeshProUGUI DisplayCorrect;
@@ -87,8 +90,10 @@ public class Emailmanager : MonoBehaviour
 
     public void Submit()
     {
+        AudioManager.instance.Play(Sound);
         if (CurrentS > TotalS)
         {
+            AudioManager.instance.Play(IncorrectSound);
             QuestionPage.SetActive(false);
             IncorrectPage.SetActive(true);
             DisplayCorrect.text = correct.ToString();
@@ -99,6 +104,7 @@ public class Emailmanager : MonoBehaviour
 
         } else if (CurrentS < TotalS)
         {
+            AudioManager.instance.Play(IncorrectSound);
             QuestionPage.SetActive(false);
             IncorrectPage.SetActive(true);
             DisplayCorrect.text = correct.ToString();
@@ -111,12 +117,14 @@ public class Emailmanager : MonoBehaviour
         {
             if (correct == TotalS)
             {
+                AudioManager.instance.Play(CorrectSound);
                 QuestionPage.SetActive(false);
                 CorrectPage.SetActive(true);
                 DisplayCorrect.text = correct.ToString();
             }
             else
             {
+                AudioManager.instance.Play(IncorrectSound);
                 QuestionPage.SetActive(false);
                 IncorrectPage.SetActive(true);
                 DisplayCorrect.text = correct.ToString();
@@ -130,6 +138,7 @@ public class Emailmanager : MonoBehaviour
 
     public void Retry()
     {
+        AudioManager.instance.Play(Sound);
         LoadThisEmail();
     }
 

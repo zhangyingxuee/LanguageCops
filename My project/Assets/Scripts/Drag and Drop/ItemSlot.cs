@@ -42,6 +42,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
                     dataSO.CheckCorrectSet[slotName] = dataSO.ObjectSet;
                     Debug.Log("slotName "+ slotName + "store object of type " +  dataSO.ObjectSet);
+                    AudioManager.instance.Play("g");
 
                 }
                 else

@@ -7,6 +7,9 @@ using TMPro;
 
 public class LockerPasswordControl : MonoBehaviour
 {
+    public string Sound = "a";
+    public string CorrectSound = "d";
+    public string IncorrectSound = "e";
     public TextMeshProUGUI[] display;
     public Button[] button;
     public int[] password;
@@ -26,6 +29,7 @@ public class LockerPasswordControl : MonoBehaviour
 
     public void InputNumber(int num)
     {
+        AudioManager.instance.Play(Sound);
         display[pos].text = num.ToString();
         input[pos] = num;
         pos++;
@@ -41,6 +45,7 @@ public class LockerPasswordControl : MonoBehaviour
 
     public void Back()
     {
+        AudioManager.instance.Play(Sound);
         if(pos == 0)
         {
             LockerPage.SetActive(false);
@@ -82,6 +87,7 @@ public class LockerPasswordControl : MonoBehaviour
 
     public void Submit()
     {
+        AudioManager.instance.Play(Sound);
         bool is_correct = true;
         if(pos == display.Length)
         {
@@ -94,11 +100,13 @@ public class LockerPasswordControl : MonoBehaviour
             }
             if(is_correct)
             {
+                AudioManager.instance.Play(CorrectSound);
                 Correct.SetActive(true);
                 Invoke("AfterCorrect", 1f);
             }
             else
             {
+                AudioManager.instance.Play(IncorrectSound);
                 Incorrect.SetActive(true);
                 Invoke("ResetPage", 0.5f);
                 EventSystem.current.SetSelectedGameObject(null);

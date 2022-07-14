@@ -111,6 +111,7 @@ public class DialogueManagerInk : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON, int threshold)
     { 
+        popUp.SetActive(false);
         currentThreshold = threshold;
 
         // make the inkJSON file into a story 

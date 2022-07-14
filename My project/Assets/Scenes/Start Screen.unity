@@ -452,6 +452,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1836799363}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 678789833}
         m_TargetAssemblyTypeName: ReturnToTitle, Assembly-CSharp
         m_MethodName: LoadNextScene
@@ -764,16 +776,127 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: tryout
-    clip: {fileID: 8300000, guid: fc978059c6b61db49b3ffb5822935895, type: 3}
-    volume: 0.37
+  - name: 1
+    clip: {fileID: 8300000, guid: d2bd6c0cc98bd0b46b26625902aa644e, type: 3}
+    volume: 0.6
     source: {fileID: 0}
     loop: 1
-  - name: tryout
-    clip: {fileID: 8300000, guid: fc978059c6b61db49b3ffb5822935895, type: 3}
-    volume: 0.37
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 2
+    clip: {fileID: 8300000, guid: 69f4aa01d3dbd8a44965b1bce1f4d553, type: 3}
+    volume: 0.6
     source: {fileID: 0}
     loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 3
+    clip: {fileID: 8300000, guid: 92a24660713de2a4d895c256e1165a47, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 4
+    clip: {fileID: 8300000, guid: 90a2284df7e055c46964d97a7686fdb9, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 5
+    clip: {fileID: 8300000, guid: 423329101d807f9409ef2788a0fe32bc, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 6
+    clip: {fileID: 8300000, guid: 0d68c710d0581814d9ab2e31fb11d6ba, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 7
+    clip: {fileID: 8300000, guid: 85e659aaeeea8d24ba93e523f2c96b9c, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 8
+    clip: {fileID: 8300000, guid: 472d0a6d07521444a9c28f31e6f35ec1, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 9
+    clip: {fileID: 8300000, guid: 719cdeb1bce2e364f9aacb84a4da3f7a, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 10
+    clip: {fileID: 8300000, guid: c7d33a2de2649134e8298f9224dc9ab2, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: 11
+    clip: {fileID: 8300000, guid: 8135a4093d6dc9541bc51b40b2398685, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: a
+    clip: {fileID: 8300000, guid: 843e4f24167aff842acbc498d6815510, type: 3}
+    volume: 0.7
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: b
+    clip: {fileID: 8300000, guid: 6f416047f18bcf94aaada6e6280da6a3, type: 3}
+    volume: 0.64
+    source: {fileID: 0}
+    loop: 1
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: c
+    clip: {fileID: 8300000, guid: f1356a53b083a144c94da93222552aec, type: 3}
+    volume: 0.37
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: d
+    clip: {fileID: 8300000, guid: ea5c533771a2e6b46a41b399f4c48b7d, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: e
+    clip: {fileID: 8300000, guid: e89e2e5db3dd5a240a5c30038f92167a, type: 3}
+    volume: 0.6
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: f
+    clip: {fileID: 8300000, guid: 19c9ef2c37dd9c44899419055d288ffb, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: g
+    clip: {fileID: 8300000, guid: 585664c93879f3e4d81476b50176dea6, type: 3}
+    volume: 0.7
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: i
+    clip: {fileID: 8300000, guid: 8be7ef66c6c3417419485dc059cd4b71, type: 3}
+    volume: 0.8
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  - name: h
+    clip: {fileID: 8300000, guid: 48c6ec8e727559a4494d5c56eb319239, type: 3}
+    volume: 0.7
+    source: {fileID: 0}
+    loop: 0
+    output: {fileID: 24300002, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
+  audioMixer: {fileID: 24100000, guid: 6fb5c2a4654038b4289013168e8f628b, type: 2}
 --- !u!224 &1365481993
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1124,6 +1247,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1836799363}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1584018153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,6 +1310,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
+--- !u!1 &1836799362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1836799364}
+  - component: {fileID: 1836799363}
+  m_Layer: 0
+  m_Name: Button press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1836799363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836799362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: a
+--- !u!4 &1836799364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836799362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7210155, y: -0.23036036, z: -0.0349604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046787339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1486,34 @@ PrefabInstance:
     - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
       value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1836799363}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlaySoundEffect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149919490664111200, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9149919490664111214, guid: 13aed98be9f09a84a904141c3b049db5, type: 3}
       propertyPath: m_Pivot.x

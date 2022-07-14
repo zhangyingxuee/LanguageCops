@@ -33,6 +33,7 @@ public class CheckTrue : MonoBehaviour
                 dataSO.PlaceConflict = new bool[3];
                 dataSO.CheckCorrectSet = new int[] {8,8,8};
                 result.text = "Correct";
+                AudioManager.instance.Play("d");
                 if (dataSO.CorrectSetNumber == 3)
                 { 
                     Debug.Log("all true");
@@ -45,6 +46,7 @@ public class CheckTrue : MonoBehaviour
             }
             else
             {
+                AudioManager.instance.Play("e");
                 result.text = "Incorrect";
                 GameEvents.current.Submit(pos1);
                 if (pos1 == pos2)

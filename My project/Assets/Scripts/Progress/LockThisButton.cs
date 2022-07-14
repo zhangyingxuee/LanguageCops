@@ -15,25 +15,25 @@ public class LockThisButton : MonoBehaviour
     {
         if (progress < activate)
         {
-            Debug.Log(gameObject.name + " is now deactivated");
+           // Debug.Log(gameObject.name + " is now deactivated");
             GetComponent<Button>().interactable = false;
         }
         else if (progress == activate)
         {
-            Debug.Log(gameObject.name + " is activated");
+           // Debug.Log(gameObject.name + " is activated");
             GetComponent<Button>().interactable = true;
         } 
         else if (progress > activate & progress < disactivate)
         { 
-            Debug.Log(gameObject.name + " is activated");
+           // Debug.Log(gameObject.name + " is activated");
             GetComponent<Button>().interactable = true;
         }
         else if (progress >= disactivate)
         {
-            Debug.Log(gameObject.name + " is now deactivated");
+           // Debug.Log(gameObject.name + " is now deactivated");
             GetComponent<Button>().interactable = false;
         }
-        Debug.Log(gameObject.name + " is now in state: " + GetComponent<Button>().interactable);
+        //Debug.Log(gameObject.name + " is now in state: " + GetComponent<Button>().interactable);
     }
    
     private void OnDestroy()

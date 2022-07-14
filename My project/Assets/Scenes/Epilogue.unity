@@ -1156,6 +1156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1506872812}
   is_correct: 0
   is_selected: 0
@@ -2183,6 +2184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 606485888}
   is_correct: 0
   is_selected: 0
@@ -2469,6 +2471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1745507028}
   is_correct: 0
   is_selected: 0
@@ -3288,6 +3291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1559513430}
   is_correct: 0
   is_selected: 0
@@ -3513,6 +3517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e3384e8ab19a74a92ecd6711f5c8b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   indicator:
   - {fileID: 95251416}
   - {fileID: 134603079}
@@ -4751,6 +4756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 888378763}
   is_correct: 0
   is_selected: 0
@@ -4901,6 +4907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 14548136}
   is_correct: 0
   is_selected: 0
@@ -5270,6 +5277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1770048816}
   is_correct: 0
   is_selected: 0
@@ -5504,6 +5512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1432690766}
   is_correct: 0
   is_selected: 0
@@ -5873,6 +5882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1765066714}
   is_correct: 0
   is_selected: 0
@@ -6023,6 +6033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 814011818}
   is_correct: 0
   is_selected: 0
@@ -7027,9 +7038,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1736719511}
   - {fileID: 702062080}
   - {fileID: 1739289040}
-  - {fileID: 1736719511}
   - {fileID: 1271575596}
   - {fileID: 783635821}
   - {fileID: 1116053364}
@@ -7460,6 +7471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2031566403}
   is_correct: 0
   is_selected: 0
@@ -7947,6 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1977420344}
   is_correct: 0
   is_selected: 0
@@ -9126,6 +9139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1757875693}
   is_correct: 0
   is_selected: 0
@@ -9812,6 +9826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1201042174}
   is_correct: 0
   is_selected: 0
@@ -9962,6 +9977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 336353071}
   is_correct: 0
   is_selected: 0
@@ -10382,6 +10398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 470921723}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -10932,6 +10949,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &368396855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11244,6 +11273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1416762603}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -12330,6 +12360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1786481011}
   is_correct: 0
   is_selected: 0
@@ -14387,6 +14418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 865702728}
   is_correct: 0
   is_selected: 0
@@ -15692,6 +15724,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &528989853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528989855}
+  - component: {fileID: 528989854}
+  m_Layer: 0
+  m_Name: Button press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &528989854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528989853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809263cd9f01824993787135d0093f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  play_at_start: 0
+  play_BGM: 0
+  name_of_effect: a
+--- !u!4 &528989855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528989853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7210155, y: -0.23036036, z: -0.0349604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &532494043
 GameObject:
   m_ObjectHideFlags: 0
@@ -15745,6 +15824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1294444110}
   is_correct: 0
   is_selected: 0
@@ -15895,6 +15975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1668212814}
   is_correct: 0
   is_selected: 0
@@ -16222,6 +16303,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &540597058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16421,6 +16514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1069751255}
   is_correct: 0
   is_selected: 0
@@ -16571,6 +16665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 443682758}
   is_correct: 0
   is_selected: 0
@@ -16855,6 +16950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1065196914}
   is_correct: 0
   is_selected: 0
@@ -17546,6 +17642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 881269974}
   is_correct: 0
   is_selected: 0
@@ -17696,6 +17793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1607066160}
   is_correct: 0
   is_selected: 0
@@ -18618,6 +18716,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &595664174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18709,6 +18819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 34701983}
   is_correct: 0
   is_selected: 0
@@ -18860,6 +18971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 979906494}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -19449,6 +19561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 634794344}
   is_correct: 1
   is_selected: 0
@@ -19781,6 +19894,18 @@ MonoBehaviour:
       - m_Target: {fileID: 624970593}
         m_TargetAssemblyTypeName: CheckTrueEpilogue, Assembly-CSharp
         m_MethodName: CheckMatch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20496,6 +20621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1589136472}
   is_correct: 0
   is_selected: 0
@@ -20647,6 +20773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 387624133}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -21151,6 +21278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1824515258}
   is_correct: 0
   is_selected: 0
@@ -21792,6 +21920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 219653011}
   is_correct: 0
   is_selected: 0
@@ -22188,6 +22317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1502746200}
   is_correct: 0
   is_selected: 0
@@ -22523,6 +22653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2073841107}
   is_correct: 0
   is_selected: 0
@@ -22654,7 +22785,7 @@ RectTransform:
   m_Children:
   - {fileID: 1671301952}
   m_Father: {fileID: 246378462}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -22727,6 +22858,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1016580333}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
         m_MethodName: OpenPhoneHints
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24847,6 +24990,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &783635823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25160,6 +25315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2132064281}
   is_correct: 0
   is_selected: 0
@@ -25310,6 +25466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1242874934}
   is_correct: 0
   is_selected: 0
@@ -25460,6 +25617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 72458487}
   is_correct: 0
   is_selected: 0
@@ -25713,6 +25871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1435876032}
   is_correct: 0
   is_selected: 0
@@ -26083,6 +26242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1181377652}
   is_correct: 0
   is_selected: 0
@@ -26281,6 +26441,18 @@ MonoBehaviour:
       - m_Target: {fileID: 818677061}
         m_TargetAssemblyTypeName: ReturnToTitle, Assembly-CSharp
         m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26713,6 +26885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ed9727c7fff789439c27629da78cfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BGM: 
   dataSO: {fileID: 11400000, guid: f0369e628978df0418867dbecc76db88, type: 2}
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   checkpt: 11
@@ -27600,6 +27773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2115315220}
   is_correct: 0
   is_selected: 0
@@ -28356,6 +28530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1267976076}
   is_correct: 0
   is_selected: 0
@@ -28549,9 +28724,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1016580333}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
-        m_MethodName: OpenPhoneSetting
+        m_MethodName: OpenPhone
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28933,6 +29120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 137823206}
   is_correct: 0
   is_selected: 0
@@ -29219,6 +29407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 758111207}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -29370,6 +29559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 669179556}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -29520,6 +29710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1788366875}
   is_correct: 0
   is_selected: 0
@@ -30699,6 +30890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 175261279}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -30850,6 +31042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1275633191}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -31220,6 +31413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2136738957}
   is_correct: 0
   is_selected: 0
@@ -31799,6 +31993,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &950175117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32023,6 +32229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 225404460}
   is_correct: 0
   is_selected: 0
@@ -32307,6 +32514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1047353489}
   is_correct: 0
   is_selected: 0
@@ -32541,6 +32749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 920432454}
   is_correct: 0
   is_selected: 0
@@ -32775,6 +32984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1298663553}
   is_correct: 0
   is_selected: 0
@@ -33226,6 +33436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 469506440}
   is_correct: 0
   is_selected: 0
@@ -36001,6 +36212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 495327671}
   is_correct: 0
   is_selected: 0
@@ -36253,6 +36465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1907987222}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -36586,6 +36799,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1116053366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36677,6 +36902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 11715420}
   is_correct: 0
   is_selected: 0
@@ -36827,6 +37053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 984409990}
   is_correct: 0
   is_selected: 0
@@ -37916,6 +38143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1607550785}
   is_correct: 0
   is_selected: 0
@@ -38488,6 +38716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 582044050}
   is_correct: 0
   is_selected: 0
@@ -39058,6 +39287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1582937645}
   is_correct: 0
   is_selected: 0
@@ -39376,6 +39606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 452117193}
   is_correct: 0
   is_selected: 0
@@ -39829,6 +40060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 998259749}
   is_correct: 0
   is_selected: 0
@@ -40385,6 +40617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 489503405}
   is_correct: 0
   is_selected: 0
@@ -40725,6 +40958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1816127980}
   is_correct: 1
   is_selected: 0
@@ -40875,6 +41109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1142895367}
   is_correct: 0
   is_selected: 0
@@ -41025,6 +41260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1177994400}
   is_correct: 0
   is_selected: 0
@@ -41175,6 +41411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1951466754}
   is_correct: 0
   is_selected: 0
@@ -41952,6 +42189,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1271575594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42701,6 +42950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1317863815}
   is_correct: 0
   is_selected: 0
@@ -43284,6 +43534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2068689806}
   is_correct: 0
   is_selected: 0
@@ -45363,6 +45614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1341281958}
   is_correct: 0
   is_selected: 0
@@ -45513,6 +45765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1589351055}
   is_correct: 0
   is_selected: 0
@@ -45663,6 +45916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1879543681}
   is_correct: 0
   is_selected: 0
@@ -46088,6 +46342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 413601549}
   is_correct: 0
   is_selected: 0
@@ -46653,6 +46908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 976390754}
   is_correct: 0
   is_selected: 0
@@ -46803,6 +47059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 143693723}
   is_correct: 0
   is_selected: 0
@@ -47368,6 +47625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 631500651}
   is_correct: 0
   is_selected: 0
@@ -47737,6 +47995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2141288996}
   is_filled: 1
   manager: {fileID: 109048183}
@@ -49577,6 +49836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 63108939}
   is_correct: 0
   is_selected: 0
@@ -49727,6 +49987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 997136581}
   is_correct: 0
   is_selected: 0
@@ -50232,6 +50493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 435883246}
   is_correct: 0
   is_selected: 0
@@ -51090,6 +51352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1312385871}
   is_correct: 0
   is_selected: 0
@@ -52102,6 +52365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 445871696}
   is_correct: 1
   is_selected: 0
@@ -52564,6 +52828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1364596308}
   is_correct: 1
   is_selected: 0
@@ -52714,6 +52979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 711469792}
   is_correct: 0
   is_selected: 0
@@ -52840,6 +53106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8757e196bcabf4cb90cb47fc92ee34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
+  CorrectSound: d
+  IncorrectSound: e
   display:
   - {fileID: 1204388235}
   - {fileID: 506069285}
@@ -53706,6 +53975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1937758119}
   is_correct: 0
   is_selected: 0
@@ -54608,6 +54878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1274789700}
   is_correct: 0
   is_selected: 0
@@ -54892,6 +55163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 870349007}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -55177,6 +55449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1313923120}
   is_correct: 0
   is_selected: 0
@@ -55327,6 +55600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1291288792}
   is_correct: 0
   is_selected: 0
@@ -56223,6 +56497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e922eeb0c16d294dbf6f944873e9e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundName1: 8
+  soundName2: 8
   scene_num: 6
   sub_scene: []
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
@@ -56991,6 +57267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1886400334}
   is_correct: 0
   is_selected: 0
@@ -57301,6 +57578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1618878628}
   is_correct: 0
   is_selected: 0
@@ -57451,6 +57729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 659043300}
   is_correct: 0
   is_selected: 0
@@ -57905,6 +58184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1912868794}
   is_correct: 0
   is_selected: 0
@@ -58170,7 +58450,7 @@ RectTransform:
   m_Children:
   - {fileID: 1768544063}
   m_Father: {fileID: 246378462}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -58313,6 +58593,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 528989854}
+        m_TargetAssemblyTypeName: PlaySoundEffect, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1912296894}
         m_TargetAssemblyTypeName: PageManager, Assembly-CSharp
         m_MethodName: CheckPageNo
@@ -58401,7 +58693,7 @@ RectTransform:
   m_Children:
   - {fileID: 1258894951}
   m_Father: {fileID: 246378462}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -58764,6 +59056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 992012755}
   is_correct: 0
   is_selected: 0
@@ -59605,6 +59898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1829873791}
   is_correct: 0
   is_selected: 0
@@ -59863,6 +60157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1544143616}
   is_correct: 0
   is_selected: 0
@@ -60440,6 +60735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 603656573}
   is_correct: 0
   is_selected: 0
@@ -60797,6 +61093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1343080788}
   is_correct: 0
   is_selected: 0
@@ -60947,6 +61244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 135565079}
   is_correct: 0
   is_selected: 0
@@ -61231,6 +61529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 943503365}
   is_correct: 0
   is_selected: 0
@@ -61919,6 +62218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 577137738}
   is_correct: 0
   is_selected: 0
@@ -62069,6 +62369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1728705528}
   is_correct: 0
   is_selected: 0
@@ -62852,6 +63153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1422684386}
   is_correct: 0
   is_selected: 0
@@ -63408,6 +63710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d23cbab855e3a94cba482b840533eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 721361702}
   is_filled: 0
   manager: {fileID: 109048183}
@@ -63558,6 +63861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1386021520}
   is_correct: 0
   is_selected: 0
@@ -63708,6 +64012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1475463970}
   is_correct: 0
   is_selected: 0
@@ -63858,6 +64163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 466809762}
   is_correct: 0
   is_selected: 0
@@ -64547,6 +64853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1183928659}
   is_correct: 1
   is_selected: 0
@@ -64697,6 +65004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 284992898}
   is_correct: 0
   is_selected: 0
@@ -65250,6 +65558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 30775013}
   is_correct: 0
   is_selected: 0
@@ -65481,6 +65790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29531a52eac60c64b87d1bedcff25e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: 
   CurrPage: {fileID: 2113652859}
   TotalPage: {fileID: 2054706731}
   NextPage: {fileID: 1388778345}
@@ -65707,6 +66017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 738907689}
   is_correct: 0
   is_selected: 0
@@ -66076,6 +66387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 105624369}
   is_correct: 0
   is_selected: 0
@@ -66854,6 +67166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 325943460}
   is_correct: 0
   is_selected: 0
@@ -67004,6 +67317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 164962818}
   is_correct: 0
   is_selected: 0
@@ -68573,6 +68887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 947839273}
   is_correct: 0
   is_selected: 0
@@ -68684,7 +68999,6 @@ GameObject:
   - component: {fileID: 2011448053}
   - component: {fileID: 2011448056}
   - component: {fileID: 2011448057}
-  - component: {fileID: 2011448058}
   m_Layer: 5
   m_Name: Phone
   m_TagString: Untagged
@@ -68839,19 +69153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2011448051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2011448058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011448051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fda4c1d42fba1df4cac17777cb6e0452, type: 3}
+  m_Script: {fileID: 11500000, guid: 042178513e1f46347909159af3f61101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2011519688
@@ -69093,6 +69395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 942074298}
   is_correct: 1
   is_selected: 0
@@ -69996,6 +70299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 691150611}
   is_correct: 0
   is_selected: 0
@@ -70465,6 +70769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 949032495}
   is_correct: 0
   is_selected: 0
@@ -70699,6 +71004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 450582566}
   is_correct: 0
   is_selected: 0
@@ -70933,6 +71239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 372445304}
   is_correct: 0
   is_selected: 0
@@ -71167,6 +71474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 2124001204}
   is_correct: 0
   is_selected: 0
@@ -71642,6 +71950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fea12a8de496274a971c7a061faef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: a
   selected: {fileID: 1208497840}
   is_correct: 0
   is_selected: 0

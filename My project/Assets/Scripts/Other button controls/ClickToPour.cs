@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClickToPour : MonoBehaviour
 {
+    public string Sound = "a";
     public GameObject selected;
     public bool is_filled;
     private bool is_selected;
@@ -16,6 +17,7 @@ public class ClickToPour : MonoBehaviour
     }
     public void Pour()
     {
+        AudioManager.instance.Play(Sound);
         is_selected = !is_selected;
         selected.SetActive(is_selected);
 

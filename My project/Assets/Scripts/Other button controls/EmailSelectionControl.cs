@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class EmailSelectionControl : MonoBehaviour
 {
+    public string Sound = "a";
     public GameObject selected;
     public bool is_correct;
     public bool is_selected = false;
@@ -21,6 +22,7 @@ public class EmailSelectionControl : MonoBehaviour
     }
     public void ToggleSelection()
     {
+        AudioManager.instance.Play(Sound);
         is_selected = !is_selected;
         selected.SetActive(is_selected);
         if (is_selected)
