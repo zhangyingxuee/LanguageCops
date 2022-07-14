@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 637.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 255.33337
     height: 587.3333
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 71
+  controlID: 24
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 29
+  controlID: 25
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -268,16 +268,16 @@ MonoBehaviour:
     y: 331.33334
     width: 1024.6666
     height: 255.99997
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 12}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -753,9 +753,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dafaffff
-      m_LastClickedID: -1318
-      m_ExpandedIDs: 5ef4feffc6fdfeff8608fffff410ffff881dffff0234ffffd05bffff1664ffff9899ffffba99ffffda99ffff149cffff1aafffff86b0ffffdafaffffdcfaffffdefaffffe0faffffe2faffffe4faffffe6fafffff4ffffff887a0000609f0000a6a00000d6b300009cfe0000c4ff0000c6010100d001010000020100820c010080170100aa180100de660100fea60100a8a7010082140200f01f0200f2270200024e0200daa10200b2b00200b0260300323d0300c66603001e690300706b0300c86d030060880300c2880300928e0300b88e0300f48e030056a203002ea4030086e10300a8e703002eec03003cee03008841040044650400aa660400b8110500de11050030350500603705001c38050084a10500f6ad0500120d06006a0f060046150600d01c06002c2506009c2706007e28060030340600be4b06008cb306004ec30600e0cb0600c4ce060098f506000af9060086120700c2230700028c0700268c070022fd07005c27080072490800ca4a080046500800d0540800d2800800d2b80800c2bd0800f0ea0800d86a0900849109003e9909004cb3090050ec0900242a0a002e630a006a740a0096820a000c8b0a00f2a10a0064a50a00e6be0a0022d00a0080050b00f60d0b00f6110b0068150b007c430b0018470b00ba5a0b0052610b00d0bb0b00a8dc0b00c4e40b0036f00b00004f0c009a0b0d0082140d00407e0d0010820d00828d0d000e1d0e00
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dedeffff24dffffface0ffffcce0ffffece0ffff0ce1ffff20e1ffff3ee1ffff66e1ffff70e1ffffa8e1ffffc2e1ffffe0e1ffffe2e3ffff2ce4fffface5ffffcce5ffffece5ffff0ce6ffff20e6ffff3ee6ffff66e6ffff70e6ffffa8e6ffffc2e6ffffe0e6fffff4ecffff3aedffffbaeeffffdaeefffffaeeffff1aefffff2eefffff4cefffff74efffff7eefffffb6efffffd0efffffeeefffffe2f1ffff2cf2ffff6ef2ffff92f2ffffb6f2ffffdaf2ffffeaf2fffffaf2ffff0af3ffff16f3ffff22f3ffff2af3ffff4cf3ffffc6f5ffff0cf6ffff94f7ffffb4f7ffffd4f7fffff4f7ffff08f8ffff26f8ffff4ef8ffff5af8ffff92f8ffffacf8ffffcaf8ffff1efbffff3c9f0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1147,22 +1147,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/SaveNLoad
+    - Assets/Backgrounds/Endings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/SaveNLoad
+  - Assets/Backgrounds/Endings
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Y1 2021\Y1S2\Orbital\Github\LanguageCops\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 495}
-    m_SelectedIDs: 2a7a0000
-    m_LastClickedID: 31274
-    m_ExpandedIDs: 00000000be790000c0790000c2790000c4790000c6790000c8790000ca790000cc790000ce790000d0790000d2790000d4790000d6790000d8790000da790000dc790000de790000e0790000e2790000e4790000e6790000e8790000187a00000c7b000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: e26a0000
+    m_LastClickedID: 27362
+    m_ExpandedIDs: 0000000046630000486300004a6300004c6300004e63000050630000526300005463000056630000586300005a6300005c6300005e63000060630000626300006463000066630000686300006a6300006c6300006e6300007063000072630000746300009a7b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1190,7 +1190,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be790000c0790000c2790000c4790000c6790000c8790000ca790000cc790000ce790000d0790000d2790000d4790000d6790000d8790000da790000dc790000de790000e0790000e2790000e4790000e6790000e8790000
+    m_ExpandedIDs: 0000000046630000486300004a6300004c6300004e63000050630000526300005463000056630000586300005a6300005c6300005e63000060630000626300006463000066630000686300006a6300006c6300006e630000706300007263000074630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1215,8 +1215,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ba260e00
-    m_LastClickedInstanceID: 927418
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000082600000ac660000e06500003a740000147000001676000000000000227c0000
     m_RenameOverlay:
