@@ -32,9 +32,9 @@ What can I help you, detective {player_name}?
 
 = answer1
 I came here to grab a cup of coffee. 
-    * which table did you sit at? 
+    * [which table did you sit at?] 
         Oh, the leftmost one. 
-        ** so you sit at the same table as the victim? 
+        ** [so you sit at the same table as the victim?] 
             Did I? 
             I probably did see him taking that table when I was leaving. 
             -> question1 

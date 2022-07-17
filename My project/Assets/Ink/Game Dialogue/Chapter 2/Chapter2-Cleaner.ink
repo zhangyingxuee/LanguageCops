@@ -13,7 +13,7 @@ Detective {player_name}, need me to clean something?
 
 === question1 ===
 I will try my best to help, detective {player_name}?
-    * [Why is the vending machine under maintenance?] 
+    * [Why is the vending machine under maintenance?]
         -> answer.answer1
         
     * {answer.answer1}  [Thank you for your cooperation.]

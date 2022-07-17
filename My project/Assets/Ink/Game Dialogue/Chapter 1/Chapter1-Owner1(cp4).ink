@@ -34,10 +34,10 @@ What do you want to know?
 Yo, what kind of question is this? 
 Can't you see I am the owner here? 
 Do the others look like they can manage a shop?
-    * What are you in charge of? 
+    * [What are you in charge of?] 
         I am the only one who can make good coffee here. 
         I mean, can you trust those dumb kids? 
-        ** Is there anything else that you do? 
+        ** [Is there anything else that you do?]
             Huh? I do everything here! Buying the ingredients, managing the stock, cleaning the storeroom...
             Those kids are definitely getting more salary than they deserved!
             -> question1

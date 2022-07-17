@@ -19117,8 +19117,6 @@ GameObject:
   - component: {fileID: 1620418149}
   - component: {fileID: 1620418152}
   - component: {fileID: 1620418153}
-  - component: {fileID: 1620418154}
-  - component: {fileID: 1620418155}
   m_Layer: 5
   m_Name: Pop-up ( ! )
   m_TagString: Untagged
@@ -19288,30 +19286,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cda40e97b308f448906f31dddf90d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1620418154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620418146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1620418155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620418146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82e60995a58d31429be4dffc2559256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1626317384

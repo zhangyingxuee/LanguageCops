@@ -25183,7 +25183,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'By clicking continue, you will confirm the amount of antidote you wish
-    to dispose.
+    to disperse.
 
     Do you wish to continue?'
   m_isRightToLeft: 0
@@ -65790,7 +65790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29531a52eac60c64b87d1bedcff25e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sound: 
+  Sound: a
   CurrPage: {fileID: 2113652859}
   TotalPage: {fileID: 2054706731}
   NextPage: {fileID: 1388778345}

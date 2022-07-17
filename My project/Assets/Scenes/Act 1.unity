@@ -17732,8 +17732,6 @@ GameObject:
   - component: {fileID: 584515670}
   - component: {fileID: 584515669}
   - component: {fileID: 584515673}
-  - component: {fileID: 584515674}
-  - component: {fileID: 584515675}
   m_Layer: 5
   m_Name: Pop up ( ! )
   m_TagString: Untagged
@@ -17903,30 +17901,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cda40e97b308f448906f31dddf90d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &584515674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584515667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &584515675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584515667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82e60995a58d31429be4dffc2559256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &584522067
@@ -29799,7 +29773,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 408117240}
+      - m_Target: {fileID: 2015078780}
         m_TargetAssemblyTypeName: UpdateCheckpoint, Assembly-CSharp
         m_MethodName: All_Items_Clicked
         m_Mode: 3

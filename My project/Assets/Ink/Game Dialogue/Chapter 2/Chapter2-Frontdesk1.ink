@@ -14,7 +14,7 @@ Would you like a room?
 
 === question1 ===
 Why are you here, detective {player_name}?
-    * [Tell me something about this hotel.] 
+    * [Tell me something about this hotel.]
         -> answer.answer1
         
     * [What is your duty?]
@@ -29,7 +29,7 @@ Why are you here, detective {player_name}?
 
 = answer1
 Ha, is this some old trick to pick up girls? Good try.
-I really don't know why you come here only to ask weird questions like this. Isn't detective a real job? 
+I really don't know why you come here only to ask weird question like this. Are you really doing your job? 
 This hotel is the same as every other hotel you have been to: People can find places to stay here. It has a lot of rooms with beds, get it? 
 
 -> question1
@@ -37,7 +37,8 @@ This hotel is the same as every other hotel you have been to: People can find pl
 = answer2
 Just sit here all day. Help people check-in and out. The usual stuff. 
 It is pretty boring to sit here by myself all day long. I had nobody to talk to. 
-Detective...{player_name}? That is a cute name. Do you want to stay here to keep me company? I am more than happy to have you, as long as you stop asking these weird questions. 
+Detective...{player_name}? That is a cute name. Do you want to stay here to keep me company? 
+I am more than happy to have you, as long as you stop asking these weird questions. 
 
 -> question1
 

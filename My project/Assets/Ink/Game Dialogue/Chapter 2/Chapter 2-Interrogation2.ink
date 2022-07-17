@@ -12,9 +12,9 @@ Fine, fine! You caught me!
 I will tell the truth now, okay?
 The client did insist on communicating online, but I was curious.
 Why would someone as clumsy want to kill some other guy?
-Then, I sneaked a peak when he was delivering my down payment to our transaction place. 
+Then, I sneaked a peek when he was delivering my down payment to our transaction place. 
 He looked weird. He was just like one of those mad scientists.  
-Bald, green hair, goggles, lab coat...You know the stereotypical look. 
+Green hair, balding, goggles, lab coat...You know the stereotypical look. 
 That's all I noticed. 
 It was risky, after all, to take a bold move just to satisfy my curiosity, so I didn't stay long. 
 -> question2

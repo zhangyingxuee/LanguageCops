@@ -10077,9 +10077,10 @@ MonoBehaviour:
   dialogue:
     name: Detective
     sentences:
-    - Wow! There sure are a lot of grammar errors in these emails.
+    - Wow! There sure are a lot of spelling errors in these emails.
     - Time for me to identify them all!
-    - (Select all the words with mistake in them before clicking the submit button)
+    - (Select all the words with spelling mistake in them before clicking the submit
+      button)
 --- !u!114 &136588694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39317,8 +39318,6 @@ GameObject:
   - component: {fileID: 584515670}
   - component: {fileID: 584515669}
   - component: {fileID: 584515673}
-  - component: {fileID: 584515674}
-  - component: {fileID: 584515675}
   m_Layer: 5
   m_Name: Pop up ( ! )
   m_TagString: Untagged
@@ -39488,30 +39487,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cda40e97b308f448906f31dddf90d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &584515674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584515667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &584515675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584515667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82e60995a58d31429be4dffc2559256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &584522067
@@ -48112,12 +48087,12 @@ MonoBehaviour:
     name: Detective
     sentences:
     - That's all the information I could get from this place.
-    - It is now time for me to find the entrence to that lab Ressard was working
+    - It is now time for me to find the entrance to that lab Ressard was working
       at.
-    - I am pretty confident that it is in the Hotel Ressard visits everyday.
+    - I am pretty confident that it is in the hotel Ressard visits everyday.
     - But I also remember hearing him complain about how complicated it is to get
       in there.
-    - After I reachl, I should pay extra attention for possible regions where a secret
+    - After I reach, I should pay extra attention for possible regions where a secret
       passage can be.
     - There's no time to waste, I should get going now.
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
@@ -67749,8 +67724,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: According to Christian, the person who hired him had green, slightly bold
-    hair and was wearing the same lab coat as the victim.
+  m_text: According to Christian, the person who hired him had green, slightly balding
+    and was wearing the same lab coat as the victim.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -81024,7 +80999,7 @@ MonoBehaviour:
   dialogue:
     name: Detective
     sentences:
-    - That's all the items in this room checked.
+    - I have checked all the items in this room checked.
     - It's now time for me to turn on that computer and look at those emails.
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   progress_update: 6
@@ -96118,7 +96093,7 @@ MonoBehaviour:
     name: Detective
     sentences:
     - These are some dog food labeled for Leon.
-    - I always wonder what they testes like, but is also always affraid to try it.
+    - I always wonder what they taste like, but am always afraid to try it.
 --- !u!1 &1531765278
 GameObject:
   m_ObjectHideFlags: 0
@@ -96947,7 +96922,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546786456}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -102381,7 +102356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Congradulations! \nYou have select all the incorrect words."
+  m_text: "Congratulations! \nYou have select all the incorrect words."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -108454,7 +108429,7 @@ SpriteRenderer:
   m_SortingLayerID: 1042147579
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 977eeec9f69ec7944b0feb31a87441d8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b93b1452554cd2409906e9ec871b83e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108523,7 +108498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Congradulations! \nYou have select all the incorrect words."
+  m_text: "Congratulations! \nYou have select all the incorrect words."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -129350,7 +129325,7 @@ MonoBehaviour:
     name: Detective
     sentences:
     - I feel like there will be some important information hidden in this computer.
-    - So let me save it for the last.
+    - So let me save it for later.
     - I should check out the other items in this room first.
 --- !u!114 &2071067404
 MonoBehaviour:

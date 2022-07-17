@@ -14,12 +14,11 @@ I...I will answer your question if my boss allows it. It is allowed, right?
 
 === question1 ===
 What do you want to know, detective {player_name}?
-    * [What is your duty?] 
-        -> answer.answer1
+    * [What is your duty?]
+        ->answer.answer1
         
     * [Did you notice anything weird in the hotel?]
         -> answer.answer2
-    
         
     * {answer.answer1&&answer.answer2}  [Thank you for your cooperation.]
         -> answer.answer3
@@ -39,7 +38,6 @@ There are always customers saying weird stuff to the front desk lady.
 But she said I was daydreaming when I asked her about it during lunch. 
 How could she? I couldn't be more serious about my job! 
 Oh...Did I answer your question, detective {player_name}? I hope I did...
-
 -> question1
 
 = answer3

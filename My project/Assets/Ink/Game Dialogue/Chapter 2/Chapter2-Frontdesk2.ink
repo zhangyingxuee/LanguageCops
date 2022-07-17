@@ -36,7 +36,7 @@ Have a nice day, professor.
 -> DONE
 
 === post ===
-What happened, detective {player_name}?
+Have a nice day, professor {player_name}.
 
 -> DONE
 
