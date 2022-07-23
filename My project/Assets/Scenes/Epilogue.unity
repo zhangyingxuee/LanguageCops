@@ -23783,7 +23783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 118.45, y: -60.536987}
+  m_AnchoredPosition: {x: 118.45, y: -60.536995}
   m_SizeDelta: {x: 1379.86, y: -328.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &726971416
@@ -28738,7 +28738,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1016580333}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
-        m_MethodName: OpenPhone
+        m_MethodName: OpenPhoneSetting
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -8571,7 +8571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 536.1201, y: 64.82005}
+  m_AnchoredPosition: {x: 525.1202, y: 64.82005}
   m_SizeDelta: {x: 9.51, y: 6.8828}
   m_Pivot: {x: 0.49999955, y: 0.5}
 --- !u!61 &116526842
@@ -9402,7 +9402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 893, y: 64}
+  m_AnchoredPosition: {x: 882, y: 64}
   m_SizeDelta: {x: 7.6, y: 7.8555}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &122788037
@@ -15936,8 +15936,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -11.64, y: 0}
+  m_SizeDelta: {x: 0.99, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &252256383
 SpriteRenderer:
@@ -21459,8 +21459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322731394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 692.56, y: -106.23, z: -6293.216}
-  m_LocalScale: {x: 22.161482, y: 31.449482, z: 69.92462}
+  m_LocalPosition: {x: 683.87, y: -106.23, z: -6293.216}
+  m_LocalScale: {x: 21.718252, y: 31.449482, z: 69.92462}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 429390160}
@@ -47443,7 +47443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 118.45, y: -60.536987}
+  m_AnchoredPosition: {x: 118.45, y: -60.536995}
   m_SizeDelta: {x: 1379.86, y: -328.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &726971416
@@ -57966,7 +57966,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1016580333}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
-        m_MethodName: OpenPhone
+        m_MethodName: OpenPhoneSetting
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -60347,7 +60347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 535, y: -344}
+  m_AnchoredPosition: {x: 524.00006, y: -344}
   m_SizeDelta: {x: 6.02, y: 7.02}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &929024775
@@ -61688,7 +61688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 893, y: -136}
+  m_AnchoredPosition: {x: 882.00006, y: -136}
   m_SizeDelta: {x: 5.07, y: 8.07}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &954035166
@@ -63295,7 +63295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 720, y: -138}
+  m_AnchoredPosition: {x: 709.00006, y: -138}
   m_SizeDelta: {x: 7.1, y: 7.92}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &986520985
@@ -83946,7 +83946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 892, y: -334}
+  m_AnchoredPosition: {x: 881.00006, y: -334}
   m_SizeDelta: {x: 7.37, y: 8.52}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &1298627196
@@ -85984,7 +85984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1330930429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90620,7 +90620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 731, y: 65}
+  m_AnchoredPosition: {x: 720.00006, y: 65}
   m_SizeDelta: {x: 7.6, y: 7.8555}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &1436687389
@@ -105482,7 +105482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670074201}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1030, y: -14, z: -6293.216}
+  m_LocalPosition: {x: 1036, y: -14, z: -6293.216}
   m_LocalScale: {x: 98.39093, y: 1032.1636, z: 69.92462}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -116002,7 +116002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 708, y: -338}
+  m_AnchoredPosition: {x: 697.00006, y: -338}
   m_SizeDelta: {x: 6.96, y: 7.47}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &1833827299
@@ -116328,7 +116328,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: These rainbow-coloured coins is placed all over the shelves, by checking
-    the level of dusk above them, it seems like they are constantly used.
+    the level of dust above them, it seems like they are constantly used.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -120143,7 +120143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 536, y: -139}
+  m_AnchoredPosition: {x: 525.00006, y: -139}
   m_SizeDelta: {x: 4.93, y: 7.92}
   m_Pivot: {x: 0.50000024, y: 0.5}
 --- !u!61 &1905494051

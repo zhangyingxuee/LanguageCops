@@ -6,7 +6,7 @@ Hi.
 -> DONE
 
 === main === 
-# Front Desk
+# Cleaner
 # No special 
 Detective {player_name}, need me to clean something?
 -> question1

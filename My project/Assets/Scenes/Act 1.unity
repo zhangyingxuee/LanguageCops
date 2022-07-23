@@ -1230,7 +1230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33662334
@@ -11167,7 +11167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &387232988
@@ -15039,7 +15039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511494504
@@ -16763,7 +16763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555279800
@@ -17519,7 +17519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581578025
@@ -21598,7 +21598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 118.45, y: -60.536987}
+  m_AnchoredPosition: {x: 118.45, y: -60.536995}
   m_SizeDelta: {x: 1379.86, y: -328.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &726971416
@@ -21986,7 +21986,7 @@ MonoBehaviour:
     name: Detective
     sentences:
     - With everything I've heard and everything I've seen.
-    - I think now I'm ready to submit my Solution and reveal the criminal amone them.
+    - I think now I'm ready to submit my Solution and reveal the criminal among them.
   InfoSO: {fileID: 11400000, guid: c7bc2fe004710a14ca2d8d8b5cbc8b9a, type: 2}
   progress_update: 12
   AddItemAfterFinish: 0
@@ -26122,7 +26122,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1016580333}
         m_TargetAssemblyTypeName: PhoneButtonUI, Assembly-CSharp
-        m_MethodName: OpenPhone
+        m_MethodName: OpenPhoneSetting
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27760,8 +27760,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This coffee machine seems to have some age, but is recently used by an
-    amateur, the coffee is spilling everywhere.
+  m_text: This coffee machine seems used, but is recently used by an amateur, the
+    coffee is spilling everywhere.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
   m_sharedMaterial: {fileID: 8977877987270090433, guid: 64fa9941a44d1994a8e10ee27e99d979, type: 2}
@@ -33207,8 +33207,8 @@ MonoBehaviour:
   - "You can press \u201CD\u201D or the right arrow key to move to the right. Go
     and talk to more people."
   - NA
-  - Are you sure you have clicked on all the items? Evidence is always required to
-    prove that someone is lying.
+  - Are you sure you have clicked on all the items (including the coffee machine)?
+    Evidence is always required to prove that someone is lying.
   - "Who\u2019s that man and why is he here? You should go and talk to him."
   - NA
   - "It\u2019s time for the second round of questions, be sure to talk with everyone."
@@ -36638,7 +36638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211838233
@@ -37861,7 +37861,7 @@ MonoBehaviour:
     name: Detective
     sentences:
     - 'Everyone here is lying about something. '
-    - I wonder if I find the truth behind these lies if I mix up the questions.
+    - I wonder if I can find the truth behind these lies if I ask the correct questions.
     - Wait, I just got a message that the autopsy report and the results of all the
       things I sent for analysis are done.
     - I should check them in the Notes app before going on another round of questioning.
@@ -38449,6 +38449,8 @@ GameObject:
   - component: {fileID: 1266251353}
   - component: {fileID: 1266251357}
   - component: {fileID: 1266251356}
+  - component: {fileID: 1266251359}
+  - component: {fileID: 1266251358}
   m_Layer: 5
   m_Name: Female
   m_TagString: Untagged
@@ -38615,6 +38617,30 @@ MonoBehaviour:
     name: Detective
     sentences:
     - No.
+--- !u!114 &1266251358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266251351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1266251359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266251351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda4c1d42fba1df4cac17777cb6e0452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1267218494
 GameObject:
   m_ObjectHideFlags: 0
@@ -56613,6 +56639,7 @@ GameObject:
   - component: {fileID: 1919530227}
   - component: {fileID: 1919530228}
   - component: {fileID: 1919530229}
+  - component: {fileID: 1919530230}
   m_Layer: 5
   m_Name: Male
   m_TagString: Untagged
@@ -56794,6 +56821,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27262b40ee866634abd812f5de21bf48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1919530230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919530222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda4c1d42fba1df4cac17777cb6e0452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1920938068
@@ -62912,7 +62951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960.00006, y: 540}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2118460198
